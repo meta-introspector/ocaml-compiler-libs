@@ -1,0 +1,7 @@
+0.016s 33.9MB 3.10MB 3.10MB src/shadow/ocaml_shadow.ml
+  0.003s 5.09MB 1.72MB 1.72MB parsing
+    0.003s 5.09MB 1.72MB 1.72MB parser
+  0.005s 4.61MB 0.71MB 2.44MB typing
+  0.001s ------ ------ ------ generate
+  0.007s 24.2MB 0.65MB 3.10MB other
+0.004s ------ ------ ------ other

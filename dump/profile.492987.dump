@@ -1,0 +1,7 @@
+0.006s 6.08MB 1.21MB 3.05MB src/read_cma/read_cma.ml
+  0.002s 3.76MB 1.06MB 2.89MB typing
+  0.003s 2.00MB 0.15MB 3.05MB generate
+    0.002s ------ ------ ------ assemble
+    ------ 2.00MB 0.15MB 3.05MB other
+  0.001s 0.31MB ------ ------ other
+0.006s 3.11MB 1.83MB ------ other

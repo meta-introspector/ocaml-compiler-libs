@@ -1,0 +1,4 @@
+0.010s - - - src/ocaml_optcomp/ocaml_optcomp.cmxs
+  0.002s - - - assemble
+  0.008s - - - c-linker
+0.003s - - - other

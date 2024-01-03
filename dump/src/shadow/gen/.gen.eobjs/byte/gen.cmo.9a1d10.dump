@@ -1,0 +1,2320 @@
+[
+  structure_item (src/shadow/gen/gen.ml[1,0+0]..[1,0+24])
+    Pstr_module
+    "List" (src/shadow/gen/gen.ml[1,0+7]..[1,0+11])
+      module_expr (src/shadow/gen/gen.ml[1,0+14]..[1,0+24])
+        Pmod_ident "ListLabels" (src/shadow/gen/gen.ml[1,0+14]..[1,0+24])
+  structure_item (src/shadow/gen/gen.ml[2,25+0]..[2,25+15])
+    Pstr_open Fresh
+    module_expr (src/shadow/gen/gen.ml[2,25+5]..[2,25+15])
+      Pmod_ident "MoreLabels" (src/shadow/gen/gen.ml[2,25+5]..[2,25+15])
+  structure_item (src/shadow/gen/gen.ml[4,42+0]..[4,42+30])
+    Pstr_module
+    "Smap" (src/shadow/gen/gen.ml[4,42+7]..[4,42+11])
+      module_expr (src/shadow/gen/gen.ml[4,42+14]..[4,42+30])
+        Pmod_apply
+        module_expr (src/shadow/gen/gen.ml[4,42+14]..[4,42+22])
+          Pmod_ident "Map.Make" (src/shadow/gen/gen.ml[4,42+14]..[4,42+22])
+        module_expr (src/shadow/gen/gen.ml[4,42+23]..[4,42+29])
+          Pmod_ident "String" (src/shadow/gen/gen.ml[4,42+23]..[4,42+29])
+  structure_item (src/shadow/gen/gen.ml[6,74+0]..[61,1878+13])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (src/shadow/gen/gen.ml[6,74+4]..[6,74+6])
+          Ppat_construct "()" (src/shadow/gen/gen.ml[6,74+4]..[6,74+6])
+          None
+        expression (src/shadow/gen/gen.ml[7,83+2]..[61,1878+13])
+          Pexp_let Nonrec
+          [
+            <def>
+              pattern (src/shadow/gen/gen.ml[7,83+6]..[7,83+13])
+                Ppat_tuple
+                [
+                  pattern (src/shadow/gen/gen.ml[7,83+6]..[7,83+9])
+                    Ppat_var "dir" (src/shadow/gen/gen.ml[7,83+6]..[7,83+9])
+                  pattern (src/shadow/gen/gen.ml[7,83+11]..[7,83+13])
+                    Ppat_var "oc" (src/shadow/gen/gen.ml[7,83+11]..[7,83+13])
+                ]
+              expression (src/shadow/gen/gen.ml[8,99+4]..[12,197+43])
+                Pexp_match
+                expression (src/shadow/gen/gen.ml[8,99+10]..[8,99+18])
+                  Pexp_ident "Sys.argv" (src/shadow/gen/gen.ml[8,99+10]..[8,99+18])
+                [
+                  <case>
+                    pattern (src/shadow/gen/gen.ml[9,123+6]..[9,123+34])
+                      Ppat_array
+                      [
+                        pattern (src/shadow/gen/gen.ml[9,123+8]..[9,123+9])
+                          Ppat_any
+                        pattern (src/shadow/gen/gen.ml[9,123+11]..[9,123+17])
+                          Ppat_constant PConst_string("-dir",(src/shadow/gen/gen.ml[9,123+12]..[9,123+16]),None)
+                        pattern (src/shadow/gen/gen.ml[9,123+19]..[9,123+22])
+                          Ppat_var "dir" (src/shadow/gen/gen.ml[9,123+19]..[9,123+22])
+                        pattern (src/shadow/gen/gen.ml[9,123+24]..[9,123+28])
+                          Ppat_constant PConst_string("-o",(src/shadow/gen/gen.ml[9,123+25]..[9,123+27]),None)
+                        pattern (src/shadow/gen/gen.ml[9,123+30]..[9,123+32])
+                          Ppat_var "fn" (src/shadow/gen/gen.ml[9,123+30]..[9,123+32])
+                      ]
+                    expression (src/shadow/gen/gen.ml[10,161+6]..[10,161+24])
+                      Pexp_tuple
+                      [
+                        expression (src/shadow/gen/gen.ml[10,161+7]..[10,161+10])
+                          Pexp_ident "dir" (src/shadow/gen/gen.ml[10,161+7]..[10,161+10])
+                        expression (src/shadow/gen/gen.ml[10,161+12]..[10,161+23])
+                          Pexp_apply
+                          expression (src/shadow/gen/gen.ml[10,161+12]..[10,161+20])
+                            Pexp_ident "open_out" (src/shadow/gen/gen.ml[10,161+12]..[10,161+20])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/shadow/gen/gen.ml[10,161+21]..[10,161+23])
+                                Pexp_ident "fn" (src/shadow/gen/gen.ml[10,161+21]..[10,161+23])
+                          ]
+                      ]
+                  <case>
+                    pattern (src/shadow/gen/gen.ml[11,186+6]..[11,186+7])
+                      Ppat_any
+                    expression (src/shadow/gen/gen.ml[12,197+6]..[12,197+43])
+                      Pexp_apply
+                      expression (src/shadow/gen/gen.ml[12,197+6]..[12,197+14])
+                        Pexp_ident "failwith" (src/shadow/gen/gen.ml[12,197+6]..[12,197+14])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (src/shadow/gen/gen.ml[12,197+15]..[12,197+43])
+                            Pexp_constant PConst_string("bad command line arguments",(src/shadow/gen/gen.ml[12,197+16]..[12,197+42]),None)
+                      ]
+                ]
+          ]
+          expression (src/shadow/gen/gen.ml[15,247+2]..[61,1878+13])
+            Pexp_let Nonrec
+            [
+              <def>
+                pattern (src/shadow/gen/gen.ml[15,247+6]..[15,247+11])
+                  Ppat_var "files" (src/shadow/gen/gen.ml[15,247+6]..[15,247+11])
+                expression (src/shadow/gen/gen.ml[16,261+4]..[18,302+36])
+                  Pexp_apply
+                  expression (src/shadow/gen/gen.ml[18,302+4]..[18,302+6])
+                    Pexp_ident "|>" (src/shadow/gen/gen.ml[18,302+4]..[18,302+6])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (src/shadow/gen/gen.ml[16,261+4]..[17,281+20])
+                        Pexp_apply
+                        expression (src/shadow/gen/gen.ml[17,281+4]..[17,281+6])
+                          Pexp_ident "|>" (src/shadow/gen/gen.ml[17,281+4]..[17,281+6])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (src/shadow/gen/gen.ml[16,261+4]..[16,261+19])
+                              Pexp_apply
+                              expression (src/shadow/gen/gen.ml[16,261+4]..[16,261+15])
+                                Pexp_ident "Sys.readdir" (src/shadow/gen/gen.ml[16,261+4]..[16,261+15])
+                              [
+                                <arg>
+                                Nolabel
+                                  expression (src/shadow/gen/gen.ml[16,261+16]..[16,261+19])
+                                    Pexp_ident "dir" (src/shadow/gen/gen.ml[16,261+16]..[16,261+19])
+                              ]
+                          <arg>
+                          Nolabel
+                            expression (src/shadow/gen/gen.ml[17,281+7]..[17,281+20])
+                              Pexp_ident "Array.to_list" (src/shadow/gen/gen.ml[17,281+7]..[17,281+20])
+                        ]
+                    <arg>
+                    Nolabel
+                      expression (src/shadow/gen/gen.ml[18,302+7]..[18,302+36])
+                        Pexp_apply
+                        expression (src/shadow/gen/gen.ml[18,302+7]..[18,302+16])
+                          Pexp_ident "List.sort" (src/shadow/gen/gen.ml[18,302+7]..[18,302+16])
+                        [
+                          <arg>
+                          Labelled "cmp"
+                            expression (src/shadow/gen/gen.ml[18,302+22]..[18,302+36])
+                              Pexp_ident "String.compare" (src/shadow/gen/gen.ml[18,302+22]..[18,302+36])
+                        ]
+                  ]
+            ]
+            expression (src/shadow/gen/gen.ml[21,345+2]..[61,1878+13])
+              Pexp_let Nonrec
+              [
+                <def>
+                  pattern (src/shadow/gen/gen.ml[21,345+6]..[21,345+25])
+                    Ppat_var "all_exposed_modules" (src/shadow/gen/gen.ml[21,345+6]..[21,345+25])
+                  expression (src/shadow/gen/gen.ml[22,373+4]..[23,442+83])
+                    Pexp_apply
+                    expression (src/shadow/gen/gen.ml[23,442+4]..[23,442+6])
+                      Pexp_ident "|>" (src/shadow/gen/gen.ml[23,442+4]..[23,442+6])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[22,373+4]..[22,373+68])
+                          Pexp_apply
+                          expression (src/shadow/gen/gen.ml[22,373+4]..[22,373+15])
+                            Pexp_ident "List.filter" (src/shadow/gen/gen.ml[22,373+4]..[22,373+15])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/shadow/gen/gen.ml[22,373+16]..[22,373+21])
+                                Pexp_ident "files" (src/shadow/gen/gen.ml[22,373+16]..[22,373+21])
+                            <arg>
+                            Labelled "f"
+                              expression (src/shadow/gen/gen.ml[22,373+25]..[22,373+68])
+                                Pexp_function
+                                [
+                                  Pparam_val (src/shadow/gen/gen.ml[22,373+30]..[22,373+32])
+                                    Nolabel
+                                    None
+                                    pattern (src/shadow/gen/gen.ml[22,373+30]..[22,373+32])
+                                      Ppat_var "fn" (src/shadow/gen/gen.ml[22,373+30]..[22,373+32])
+                                ]
+                                None
+                                Pfunction_body
+                                  expression (src/shadow/gen/gen.ml[22,373+36]..[22,373+67])
+                                    Pexp_apply
+                                    expression (src/shadow/gen/gen.ml[22,373+36]..[22,373+57])
+                                      Pexp_ident "Filename.check_suffix" (src/shadow/gen/gen.ml[22,373+36]..[22,373+57])
+                                    [
+                                      <arg>
+                                      Nolabel
+                                        expression (src/shadow/gen/gen.ml[22,373+58]..[22,373+60])
+                                          Pexp_ident "fn" (src/shadow/gen/gen.ml[22,373+58]..[22,373+60])
+                                      <arg>
+                                      Nolabel
+                                        expression (src/shadow/gen/gen.ml[22,373+61]..[22,373+67])
+                                          Pexp_constant PConst_string(".cmi",(src/shadow/gen/gen.ml[22,373+62]..[22,373+66]),None)
+                                    ]
+                          ]
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[23,442+7]..[23,442+83])
+                          Pexp_apply
+                          expression (src/shadow/gen/gen.ml[23,442+7]..[23,442+15])
+                            Pexp_ident "List.map" (src/shadow/gen/gen.ml[23,442+7]..[23,442+15])
+                          [
+                            <arg>
+                            Labelled "f"
+                              expression (src/shadow/gen/gen.ml[23,442+19]..[23,442+83])
+                                Pexp_function
+                                [
+                                  Pparam_val (src/shadow/gen/gen.ml[23,442+24]..[23,442+26])
+                                    Nolabel
+                                    None
+                                    pattern (src/shadow/gen/gen.ml[23,442+24]..[23,442+26])
+                                      Ppat_var "fn" (src/shadow/gen/gen.ml[23,442+24]..[23,442+26])
+                                ]
+                                None
+                                Pfunction_body
+                                  expression (src/shadow/gen/gen.ml[23,442+30]..[23,442+82])
+                                    Pexp_apply
+                                    expression (src/shadow/gen/gen.ml[23,442+30]..[23,442+53])
+                                      Pexp_ident "String.capitalize_ascii" (src/shadow/gen/gen.ml[23,442+30]..[23,442+53])
+                                    [
+                                      <arg>
+                                      Nolabel
+                                        expression (src/shadow/gen/gen.ml[23,442+54]..[23,442+82])
+                                          Pexp_apply
+                                          expression (src/shadow/gen/gen.ml[23,442+55]..[23,442+78])
+                                            Pexp_ident "Filename.chop_extension" (src/shadow/gen/gen.ml[23,442+55]..[23,442+78])
+                                          [
+                                            <arg>
+                                            Nolabel
+                                              expression (src/shadow/gen/gen.ml[23,442+79]..[23,442+81])
+                                                Pexp_ident "fn" (src/shadow/gen/gen.ml[23,442+79]..[23,442+81])
+                                          ]
+                                    ]
+                          ]
+                    ]
+              ]
+              expression (src/shadow/gen/gen.ml[26,532+2]..[61,1878+13])
+                Pexp_let Nonrec
+                [
+                  <def>
+                    pattern (src/shadow/gen/gen.ml[26,532+6]..[26,532+19])
+                      Ppat_var "module_to_lib" (src/shadow/gen/gen.ml[26,532+6]..[26,532+19])
+                    expression (src/shadow/gen/gen.ml[27,554+4]..[37,984+46])
+                      Pexp_apply
+                      expression (src/shadow/gen/gen.ml[28,623+4]..[28,623+6])
+                        Pexp_ident "|>" (src/shadow/gen/gen.ml[28,623+4]..[28,623+6])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (src/shadow/gen/gen.ml[27,554+4]..[27,554+68])
+                            Pexp_apply
+                            expression (src/shadow/gen/gen.ml[27,554+4]..[27,554+15])
+                              Pexp_ident "List.filter" (src/shadow/gen/gen.ml[27,554+4]..[27,554+15])
+                            [
+                              <arg>
+                              Nolabel
+                                expression (src/shadow/gen/gen.ml[27,554+16]..[27,554+21])
+                                  Pexp_ident "files" (src/shadow/gen/gen.ml[27,554+16]..[27,554+21])
+                              <arg>
+                              Labelled "f"
+                                expression (src/shadow/gen/gen.ml[27,554+25]..[27,554+68])
+                                  Pexp_function
+                                  [
+                                    Pparam_val (src/shadow/gen/gen.ml[27,554+30]..[27,554+32])
+                                      Nolabel
+                                      None
+                                      pattern (src/shadow/gen/gen.ml[27,554+30]..[27,554+32])
+                                        Ppat_var "fn" (src/shadow/gen/gen.ml[27,554+30]..[27,554+32])
+                                  ]
+                                  None
+                                  Pfunction_body
+                                    expression (src/shadow/gen/gen.ml[27,554+36]..[27,554+67])
+                                      Pexp_apply
+                                      expression (src/shadow/gen/gen.ml[27,554+36]..[27,554+57])
+                                        Pexp_ident "Filename.check_suffix" (src/shadow/gen/gen.ml[27,554+36]..[27,554+57])
+                                      [
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[27,554+58]..[27,554+60])
+                                            Pexp_ident "fn" (src/shadow/gen/gen.ml[27,554+58]..[27,554+60])
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[27,554+61]..[27,554+67])
+                                            Pexp_constant PConst_string(".cma",(src/shadow/gen/gen.ml[27,554+62]..[27,554+66]),None)
+                                      ]
+                            ]
+                        <arg>
+                        Nolabel
+                          expression (src/shadow/gen/gen.ml[28,623+7]..[37,984+46])
+                            Pexp_apply
+                            expression (src/shadow/gen/gen.ml[28,623+7]..[28,623+21])
+                              Pexp_ident "List.fold_left" (src/shadow/gen/gen.ml[28,623+7]..[28,623+21])
+                            [
+                              <arg>
+                              Labelled "init"
+                                expression (src/shadow/gen/gen.ml[28,623+28]..[28,623+38])
+                                  Pexp_ident "Smap.empty" (src/shadow/gen/gen.ml[28,623+28]..[28,623+38])
+                              <arg>
+                              Labelled "f"
+                                expression (src/shadow/gen/gen.ml[28,623+42]..[37,984+46])
+                                  Pexp_function
+                                  [
+                                    Pparam_val (src/shadow/gen/gen.ml[28,623+47]..[28,623+50])
+                                      Nolabel
+                                      None
+                                      pattern (src/shadow/gen/gen.ml[28,623+47]..[28,623+50])
+                                        Ppat_var "acc" (src/shadow/gen/gen.ml[28,623+47]..[28,623+50])
+                                    Pparam_val (src/shadow/gen/gen.ml[28,623+51]..[28,623+53])
+                                      Nolabel
+                                      None
+                                      pattern (src/shadow/gen/gen.ml[28,623+51]..[28,623+53])
+                                        Ppat_var "fn" (src/shadow/gen/gen.ml[28,623+51]..[28,623+53])
+                                  ]
+                                  None
+                                  Pfunction_body
+                                    expression (src/shadow/gen/gen.ml[29,680+6]..[37,984+45])
+                                      Pexp_let Nonrec
+                                      [
+                                        <def>
+                                          pattern (src/shadow/gen/gen.ml[29,680+10]..[29,680+17])
+                                            Ppat_var "lib_mod" (src/shadow/gen/gen.ml[29,680+10]..[29,680+17])
+                                          expression (src/shadow/gen/gen.ml[30,700+8]..[33,794+62])
+                                            Pexp_try
+                                            expression (src/shadow/gen/gen.ml[31,712+10]..[31,712+63])
+                                              Pexp_apply
+                                              expression (src/shadow/gen/gen.ml[31,712+10]..[31,712+22])
+                                                Pexp_ident "Scanf.sscanf" (src/shadow/gen/gen.ml[31,712+10]..[31,712+22])
+                                              [
+                                                <arg>
+                                                Nolabel
+                                                  expression (src/shadow/gen/gen.ml[31,712+23]..[31,712+25])
+                                                    Pexp_ident "fn" (src/shadow/gen/gen.ml[31,712+23]..[31,712+25])
+                                                <arg>
+                                                Nolabel
+                                                  expression (src/shadow/gen/gen.ml[31,712+26]..[31,712+39])
+                                                    Pexp_constant PConst_string("ocaml%s.cma",(src/shadow/gen/gen.ml[31,712+27]..[31,712+38]),None)
+                                                <arg>
+                                                Nolabel
+                                                  expression (src/shadow/gen/gen.ml[31,712+40]..[31,712+63])
+                                                    Pexp_function
+                                                    [
+                                                      Pparam_val (src/shadow/gen/gen.ml[31,712+45]..[31,712+46])
+                                                        Nolabel
+                                                        None
+                                                        pattern (src/shadow/gen/gen.ml[31,712+45]..[31,712+46])
+                                                          Ppat_var "s" (src/shadow/gen/gen.ml[31,712+45]..[31,712+46])
+                                                    ]
+                                                    None
+                                                    Pfunction_body
+                                                      expression (src/shadow/gen/gen.ml[31,712+50]..[31,712+62])
+                                                        Pexp_apply
+                                                        expression (src/shadow/gen/gen.ml[31,712+59]..[31,712+60])
+                                                          Pexp_ident "^" (src/shadow/gen/gen.ml[31,712+59]..[31,712+60])
+                                                        [
+                                                          <arg>
+                                                          Nolabel
+                                                            expression (src/shadow/gen/gen.ml[31,712+50]..[31,712+58])
+                                                              Pexp_constant PConst_string("Ocaml_",(src/shadow/gen/gen.ml[31,712+51]..[31,712+57]),None)
+                                                          <arg>
+                                                          Nolabel
+                                                            expression (src/shadow/gen/gen.ml[31,712+61]..[31,712+62])
+                                                              Pexp_ident "s" (src/shadow/gen/gen.ml[31,712+61]..[31,712+62])
+                                                        ]
+                                              ]
+                                            [
+                                              <case>
+                                                pattern (src/shadow/gen/gen.ml[32,776+13]..[32,776+14])
+                                                  Ppat_any
+                                                expression (src/shadow/gen/gen.ml[33,794+10]..[33,794+62])
+                                                  Pexp_apply
+                                                  expression (src/shadow/gen/gen.ml[33,794+10]..[33,794+33])
+                                                    Pexp_ident "String.capitalize_ascii" (src/shadow/gen/gen.ml[33,794+10]..[33,794+33])
+                                                  [
+                                                    <arg>
+                                                    Nolabel
+                                                      expression (src/shadow/gen/gen.ml[33,794+34]..[33,794+62])
+                                                        Pexp_apply
+                                                        expression (src/shadow/gen/gen.ml[33,794+35]..[33,794+58])
+                                                          Pexp_ident "Filename.chop_extension" (src/shadow/gen/gen.ml[33,794+35]..[33,794+58])
+                                                        [
+                                                          <arg>
+                                                          Nolabel
+                                                            expression (src/shadow/gen/gen.ml[33,794+59]..[33,794+61])
+                                                              Pexp_ident "fn" (src/shadow/gen/gen.ml[33,794+59]..[33,794+61])
+                                                        ]
+                                                  ]
+                                            ]
+                                      ]
+                                      expression (src/shadow/gen/gen.ml[35,866+6]..[37,984+45])
+                                        Pexp_let Nonrec
+                                        [
+                                          <def>
+                                            pattern (src/shadow/gen/gen.ml[35,866+10]..[35,866+15])
+                                              Ppat_var "units" (src/shadow/gen/gen.ml[35,866+10]..[35,866+15])
+                                            expression (src/shadow/gen/gen.ml[35,866+18]..[35,866+57])
+                                              Pexp_apply
+                                              expression (src/shadow/gen/gen.ml[35,866+18]..[35,866+32])
+                                                Pexp_ident "Read_cma.units" (src/shadow/gen/gen.ml[35,866+18]..[35,866+32])
+                                              [
+                                                <arg>
+                                                Nolabel
+                                                  expression (src/shadow/gen/gen.ml[35,866+33]..[35,866+57])
+                                                    Pexp_apply
+                                                    expression (src/shadow/gen/gen.ml[35,866+34]..[35,866+49])
+                                                      Pexp_ident "Filename.concat" (src/shadow/gen/gen.ml[35,866+34]..[35,866+49])
+                                                    [
+                                                      <arg>
+                                                      Nolabel
+                                                        expression (src/shadow/gen/gen.ml[35,866+50]..[35,866+53])
+                                                          Pexp_ident "dir" (src/shadow/gen/gen.ml[35,866+50]..[35,866+53])
+                                                      <arg>
+                                                      Nolabel
+                                                        expression (src/shadow/gen/gen.ml[35,866+54]..[35,866+56])
+                                                          Pexp_ident "fn" (src/shadow/gen/gen.ml[35,866+54]..[35,866+56])
+                                                    ]
+                                              ]
+                                        ]
+                                        expression (src/shadow/gen/gen.ml[36,927+6]..[37,984+45])
+                                          Pexp_apply
+                                          expression (src/shadow/gen/gen.ml[36,927+6]..[36,927+20])
+                                            Pexp_ident "List.fold_left" (src/shadow/gen/gen.ml[36,927+6]..[36,927+20])
+                                          [
+                                            <arg>
+                                            Nolabel
+                                              expression (src/shadow/gen/gen.ml[36,927+21]..[36,927+26])
+                                                Pexp_ident "units" (src/shadow/gen/gen.ml[36,927+21]..[36,927+26])
+                                            <arg>
+                                            Labelled "init"
+                                              expression (src/shadow/gen/gen.ml[36,927+33]..[36,927+36])
+                                                Pexp_ident "acc" (src/shadow/gen/gen.ml[36,927+33]..[36,927+36])
+                                            <arg>
+                                            Labelled "f"
+                                              expression (src/shadow/gen/gen.ml[36,927+40]..[37,984+45])
+                                                Pexp_function
+                                                [
+                                                  Pparam_val (src/shadow/gen/gen.ml[36,927+45]..[36,927+48])
+                                                    Nolabel
+                                                    None
+                                                    pattern (src/shadow/gen/gen.ml[36,927+45]..[36,927+48])
+                                                      Ppat_var "acc" (src/shadow/gen/gen.ml[36,927+45]..[36,927+48])
+                                                  Pparam_val (src/shadow/gen/gen.ml[36,927+49]..[36,927+53])
+                                                    Nolabel
+                                                    None
+                                                    pattern (src/shadow/gen/gen.ml[36,927+49]..[36,927+53])
+                                                      Ppat_var "unit" (src/shadow/gen/gen.ml[36,927+49]..[36,927+53])
+                                                ]
+                                                None
+                                                Pfunction_body
+                                                  expression (src/shadow/gen/gen.ml[37,984+8]..[37,984+44])
+                                                    Pexp_apply
+                                                    expression (src/shadow/gen/gen.ml[37,984+8]..[37,984+16])
+                                                      Pexp_ident "Smap.add" (src/shadow/gen/gen.ml[37,984+8]..[37,984+16])
+                                                    [
+                                                      <arg>
+                                                      Nolabel
+                                                        expression (src/shadow/gen/gen.ml[37,984+17]..[37,984+20])
+                                                          Pexp_ident "acc" (src/shadow/gen/gen.ml[37,984+17]..[37,984+20])
+                                                      <arg>
+                                                      Labelled "key"
+                                                        expression (src/shadow/gen/gen.ml[37,984+26]..[37,984+30])
+                                                          Pexp_ident "unit" (src/shadow/gen/gen.ml[37,984+26]..[37,984+30])
+                                                      <arg>
+                                                      Labelled "data"
+                                                        expression (src/shadow/gen/gen.ml[37,984+37]..[37,984+44])
+                                                          Pexp_ident "lib_mod" (src/shadow/gen/gen.ml[37,984+37]..[37,984+44])
+                                                    ]
+                                          ]
+                            ]
+                      ]
+                ]
+                expression (src/shadow/gen/gen.ml[41,1092+2]..[61,1878+13])
+                  Pexp_sequence
+                  expression (src/shadow/gen/gen.ml[41,1092+2]..[41,1092+63])
+                    Pexp_apply
+                    expression (src/shadow/gen/gen.ml[41,1092+2]..[41,1092+16])
+                      Pexp_ident "Printf.fprintf" (src/shadow/gen/gen.ml[41,1092+2]..[41,1092+16])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[41,1092+17]..[41,1092+19])
+                          Pexp_ident "oc" (src/shadow/gen/gen.ml[41,1092+17]..[41,1092+19])
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[41,1092+20]..[41,1092+63])
+                          Pexp_constant PConst_string("module Do_not_use_directly = struct end\n",(src/shadow/gen/gen.ml[41,1092+21]..[41,1092+62]),None)
+                    ]
+                  expression (src/shadow/gen/gen.ml[42,1157+2]..[61,1878+13])
+                    Pexp_apply
+                    expression (src/shadow/gen/gen.ml[43,1209+2]..[43,1209+4])
+                      Pexp_ident "|>" (src/shadow/gen/gen.ml[43,1209+2]..[43,1209+4])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[42,1157+2]..[42,1157+51])
+                          Pexp_apply
+                          expression (src/shadow/gen/gen.ml[42,1157+2]..[42,1157+11])
+                            Pexp_ident "List.sort" (src/shadow/gen/gen.ml[42,1157+2]..[42,1157+11])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/shadow/gen/gen.ml[42,1157+12]..[42,1157+31])
+                                Pexp_ident "all_exposed_modules" (src/shadow/gen/gen.ml[42,1157+12]..[42,1157+31])
+                            <arg>
+                            Labelled "cmp"
+                              expression (src/shadow/gen/gen.ml[42,1157+37]..[42,1157+51])
+                                Pexp_ident "String.compare" (src/shadow/gen/gen.ml[42,1157+37]..[42,1157+51])
+                          ]
+                      <arg>
+                      Nolabel
+                        expression (src/shadow/gen/gen.ml[43,1209+5]..[61,1878+13])
+                          Pexp_apply
+                          expression (src/shadow/gen/gen.ml[43,1209+5]..[43,1209+14])
+                            Pexp_ident "List.iter" (src/shadow/gen/gen.ml[43,1209+5]..[43,1209+14])
+                          [
+                            <arg>
+                            Labelled "f"
+                              expression (src/shadow/gen/gen.ml[43,1209+18]..[61,1878+13])
+                                Pexp_function
+                                [
+                                  Pparam_val (src/shadow/gen/gen.ml[43,1209+23]..[43,1209+24])
+                                    Nolabel
+                                    None
+                                    pattern (src/shadow/gen/gen.ml[43,1209+23]..[43,1209+24])
+                                      Ppat_var "m" (src/shadow/gen/gen.ml[43,1209+23]..[43,1209+24])
+                                ]
+                                None
+                                Pfunction_body
+                                  expression (src/shadow/gen/gen.ml[44,1237+4]..[61,1878+12])
+                                    Pexp_let Nonrec
+                                    [
+                                      <def>
+                                        pattern (src/shadow/gen/gen.ml[44,1237+8]..[44,1237+12])
+                                          Ppat_var "repl" (src/shadow/gen/gen.ml[44,1237+8]..[44,1237+12])
+                                        expression (src/shadow/gen/gen.ml[45,1252+6]..[57,1707+33])
+                                          Pexp_match
+                                          expression (src/shadow/gen/gen.ml[45,1252+12]..[45,1252+37])
+                                            Pexp_apply
+                                            expression (src/shadow/gen/gen.ml[45,1252+12]..[45,1252+21])
+                                              Pexp_ident "Smap.find" (src/shadow/gen/gen.ml[45,1252+12]..[45,1252+21])
+                                            [
+                                              <arg>
+                                              Nolabel
+                                                expression (src/shadow/gen/gen.ml[45,1252+22]..[45,1252+23])
+                                                  Pexp_ident "m" (src/shadow/gen/gen.ml[45,1252+22]..[45,1252+23])
+                                              <arg>
+                                              Nolabel
+                                                expression (src/shadow/gen/gen.ml[45,1252+24]..[45,1252+37])
+                                                  Pexp_ident "module_to_lib" (src/shadow/gen/gen.ml[45,1252+24]..[45,1252+37])
+                                            ]
+                                          [
+                                            <case>
+                                              pattern (src/shadow/gen/gen.ml[46,1295+8]..[46,1295+11])
+                                                Ppat_var "lib" (src/shadow/gen/gen.ml[46,1295+8]..[46,1295+11])
+                                              expression (src/shadow/gen/gen.ml[47,1310+8]..[56,1656+50])
+                                                Pexp_let Nonrec
+                                                [
+                                                  <def>
+                                                    pattern (src/shadow/gen/gen.ml[47,1310+12]..[47,1310+15])
+                                                      Ppat_var "lib" (src/shadow/gen/gen.ml[47,1310+12]..[47,1310+15])
+                                                    expression (src/shadow/gen/gen.ml[48,1328+10]..[54,1629+15])
+                                                      Pexp_let Nonrec
+                                                      [
+                                                        <def>
+                                                          pattern (src/shadow/gen/gen.ml[48,1328+14]..[48,1328+20])
+                                                            Ppat_var "prefix" (src/shadow/gen/gen.ml[48,1328+14]..[48,1328+20])
+                                                          expression (src/shadow/gen/gen.ml[48,1328+23]..[48,1328+30])
+                                                            Pexp_constant PConst_string("Ocaml",(src/shadow/gen/gen.ml[48,1328+24]..[48,1328+29]),None)
+                                                      ]
+                                                      expression (src/shadow/gen/gen.ml[49,1362+10]..[54,1629+15])
+                                                        Pexp_let Nonrec
+                                                        [
+                                                          <def>
+                                                            pattern (src/shadow/gen/gen.ml[49,1362+14]..[49,1362+24])
+                                                              Ppat_var "prefix_len" (src/shadow/gen/gen.ml[49,1362+14]..[49,1362+24])
+                                                            expression (src/shadow/gen/gen.ml[49,1362+27]..[49,1362+47])
+                                                              Pexp_apply
+                                                              expression (src/shadow/gen/gen.ml[49,1362+27]..[49,1362+40])
+                                                                Pexp_ident "String.length" (src/shadow/gen/gen.ml[49,1362+27]..[49,1362+40])
+                                                              [
+                                                                <arg>
+                                                                Nolabel
+                                                                  expression (src/shadow/gen/gen.ml[49,1362+41]..[49,1362+47])
+                                                                    Pexp_ident "prefix" (src/shadow/gen/gen.ml[49,1362+41]..[49,1362+47])
+                                                              ]
+                                                        ]
+                                                        expression (src/shadow/gen/gen.ml[50,1413+10]..[54,1629+15])
+                                                          Pexp_let Nonrec
+                                                          [
+                                                            <def>
+                                                              pattern (src/shadow/gen/gen.ml[50,1413+14]..[50,1413+21])
+                                                                Ppat_var "lib_len" (src/shadow/gen/gen.ml[50,1413+14]..[50,1413+21])
+                                                              expression (src/shadow/gen/gen.ml[50,1413+24]..[50,1413+41])
+                                                                Pexp_apply
+                                                                expression (src/shadow/gen/gen.ml[50,1413+24]..[50,1413+37])
+                                                                  Pexp_ident "String.length" (src/shadow/gen/gen.ml[50,1413+24]..[50,1413+37])
+                                                                [
+                                                                  <arg>
+                                                                  Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[50,1413+38]..[50,1413+41])
+                                                                      Pexp_ident "lib" (src/shadow/gen/gen.ml[50,1413+38]..[50,1413+41])
+                                                                ]
+                                                          ]
+                                                          expression (src/shadow/gen/gen.ml[51,1458+10]..[54,1629+15])
+                                                            Pexp_ifthenelse
+                                                            expression (src/shadow/gen/gen.ml[51,1458+13]..[51,1458+74])
+                                                              Pexp_apply
+                                                              expression (src/shadow/gen/gen.ml[51,1458+35]..[51,1458+37])
+                                                                Pexp_ident "&&" (src/shadow/gen/gen.ml[51,1458+35]..[51,1458+37])
+                                                              [
+                                                                <arg>
+                                                                Nolabel
+                                                                  expression (src/shadow/gen/gen.ml[51,1458+13]..[51,1458+34])
+                                                                    Pexp_apply
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+21]..[51,1458+23])
+                                                                      Pexp_ident ">=" (src/shadow/gen/gen.ml[51,1458+21]..[51,1458+23])
+                                                                    [
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[51,1458+13]..[51,1458+20])
+  Pexp_ident "lib_len" (src/shadow/gen/gen.ml[51,1458+13]..[51,1458+20])
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[51,1458+24]..[51,1458+34])
+  Pexp_ident "prefix_len" (src/shadow/gen/gen.ml[51,1458+24]..[51,1458+34])
+                                                                    ]
+                                                                <arg>
+                                                                Nolabel
+                                                                  expression (src/shadow/gen/gen.ml[51,1458+38]..[51,1458+74])
+                                                                    Pexp_apply
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+66]..[51,1458+67])
+                                                                      Pexp_ident "=" (src/shadow/gen/gen.ml[51,1458+66]..[51,1458+67])
+                                                                    [
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[51,1458+38]..[51,1458+65])
+  Pexp_apply
+  expression (src/shadow/gen/gen.ml[51,1458+38]..[51,1458+48])
+    Pexp_ident "String.sub" (src/shadow/gen/gen.ml[51,1458+38]..[51,1458+48])
+  [
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[51,1458+49]..[51,1458+52])
+        Pexp_ident "lib" (src/shadow/gen/gen.ml[51,1458+49]..[51,1458+52])
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[51,1458+53]..[51,1458+54])
+        Pexp_constant PConst_int (0,None)
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[51,1458+55]..[51,1458+65])
+        Pexp_ident "prefix_len" (src/shadow/gen/gen.ml[51,1458+55]..[51,1458+65])
+  ]
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[51,1458+68]..[51,1458+74])
+  Pexp_ident "prefix" (src/shadow/gen/gen.ml[51,1458+68]..[51,1458+74])
+                                                                    ]
+                                                              ]
+                                                            expression (src/shadow/gen/gen.ml[52,1538+12]..[52,1538+75])
+                                                              Pexp_apply
+                                                              expression (src/shadow/gen/gen.ml[52,1538+19]..[52,1538+20])
+                                                                Pexp_ident "^" (src/shadow/gen/gen.ml[52,1538+19]..[52,1538+20])
+                                                              [
+                                                                <arg>
+                                                                Nolabel
+                                                                  expression (src/shadow/gen/gen.ml[52,1538+12]..[52,1538+18])
+                                                                    Pexp_ident "prefix" (src/shadow/gen/gen.ml[52,1538+12]..[52,1538+18])
+                                                                <arg>
+                                                                Nolabel
+                                                                  expression (src/shadow/gen/gen.ml[52,1538+21]..[52,1538+75])
+                                                                    Pexp_apply
+                                                                    expression (src/shadow/gen/gen.ml[52,1538+25]..[52,1538+26])
+                                                                      Pexp_ident "^" (src/shadow/gen/gen.ml[52,1538+25]..[52,1538+26])
+                                                                    [
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[52,1538+21]..[52,1538+24])
+  Pexp_constant PConst_string("_",(src/shadow/gen/gen.ml[52,1538+22]..[52,1538+23]),None)
+                                                                      <arg>
+                                                                      Nolabel
+expression (src/shadow/gen/gen.ml[52,1538+27]..[52,1538+75])
+  Pexp_apply
+  expression (src/shadow/gen/gen.ml[52,1538+27]..[52,1538+37])
+    Pexp_ident "String.sub" (src/shadow/gen/gen.ml[52,1538+27]..[52,1538+37])
+  [
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[52,1538+38]..[52,1538+41])
+        Pexp_ident "lib" (src/shadow/gen/gen.ml[52,1538+38]..[52,1538+41])
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[52,1538+42]..[52,1538+52])
+        Pexp_ident "prefix_len" (src/shadow/gen/gen.ml[52,1538+42]..[52,1538+52])
+    <arg>
+    Nolabel
+      expression (src/shadow/gen/gen.ml[52,1538+53]..[52,1538+75])
+        Pexp_apply
+        expression (src/shadow/gen/gen.ml[52,1538+62]..[52,1538+63])
+          Pexp_ident "-" (src/shadow/gen/gen.ml[52,1538+62]..[52,1538+63])
+        [
+          <arg>
+          Nolabel
+            expression (src/shadow/gen/gen.ml[52,1538+54]..[52,1538+61])
+              Pexp_ident "lib_len" (src/shadow/gen/gen.ml[52,1538+54]..[52,1538+61])
+          <arg>
+          Nolabel
+            expression (src/shadow/gen/gen.ml[52,1538+64]..[52,1538+74])
+              Pexp_ident "prefix_len" (src/shadow/gen/gen.ml[52,1538+64]..[52,1538+74])
+        ]
+  ]
+                                                                    ]
+                                                              ]
+                                                            Some
+                                                              expression (src/shadow/gen/gen.ml[54,1629+12]..[54,1629+15])
+                                                                Pexp_ident "lib" (src/shadow/gen/gen.ml[54,1629+12]..[54,1629+15])
+                                                ]
+                                                expression (src/shadow/gen/gen.ml[56,1656+8]..[56,1656+50])
+                                                  Pexp_apply
+                                                  expression (src/shadow/gen/gen.ml[56,1656+8]..[56,1656+22])
+                                                    Pexp_ident "Printf.sprintf" (src/shadow/gen/gen.ml[56,1656+8]..[56,1656+22])
+                                                  [
+                                                    <arg>
+                                                    Nolabel
+                                                      expression (src/shadow/gen/gen.ml[56,1656+23]..[56,1656+44])
+                                                        Pexp_constant PConst_string(", use %s.%s instead",(src/shadow/gen/gen.ml[56,1656+24]..[56,1656+43]),None)
+                                                    <arg>
+                                                    Nolabel
+                                                      expression (src/shadow/gen/gen.ml[56,1656+45]..[56,1656+48])
+                                                        Pexp_ident "lib" (src/shadow/gen/gen.ml[56,1656+45]..[56,1656+48])
+                                                    <arg>
+                                                    Nolabel
+                                                      expression (src/shadow/gen/gen.ml[56,1656+49]..[56,1656+50])
+                                                        Pexp_ident "m" (src/shadow/gen/gen.ml[56,1656+49]..[56,1656+50])
+                                                  ]
+                                            <case>
+                                              pattern (src/shadow/gen/gen.ml[57,1707+8]..[57,1707+27])
+                                                Ppat_exception
+                                                pattern (src/shadow/gen/gen.ml[57,1707+18]..[57,1707+27])
+                                                  Ppat_construct "Not_found" (src/shadow/gen/gen.ml[57,1707+18]..[57,1707+27])
+                                                  None
+                                              expression (src/shadow/gen/gen.ml[57,1707+31]..[57,1707+33])
+                                                Pexp_constant PConst_string("",(src/shadow/gen/gen.ml[57,1707+32]..[57,1707+32]),None)
+                                          ]
+                                    ]
+                                    expression (src/shadow/gen/gen.ml[59,1748+4]..[61,1878+12])
+                                      Pexp_apply
+                                      expression (src/shadow/gen/gen.ml[59,1748+4]..[59,1748+18])
+                                        Pexp_ident "Printf.fprintf" (src/shadow/gen/gen.ml[59,1748+4]..[59,1748+18])
+                                      [
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[59,1748+19]..[59,1748+21])
+                                            Pexp_ident "oc" (src/shadow/gen/gen.ml[59,1748+19]..[59,1748+21])
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[60,1770+6]..[60,1770+107])
+                                            Pexp_constant PConst_string("module %s = Do_not_use_directly [@@deprecated \"Accessing this module directly is deprecated%s\"]\n",(src/shadow/gen/gen.ml[60,1770+7]..[60,1770+106]),None)
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[61,1878+6]..[61,1878+7])
+                                            Pexp_ident "m" (src/shadow/gen/gen.ml[61,1878+6]..[61,1878+7])
+                                        <arg>
+                                        Nolabel
+                                          expression (src/shadow/gen/gen.ml[61,1878+8]..[61,1878+12])
+                                            Pexp_ident "repl" (src/shadow/gen/gen.ml[61,1878+8]..[61,1878+12])
+                                      ]
+                          ]
+                    ]
+    ]
+]
+
+module List = ListLabels
+open MoreLabels
+module Smap = (Map.Make)(String)
+let () =
+  let (dir, oc) =
+    match Sys.argv with
+    | [|_;"-dir";dir;"-o";fn|] -> (dir, (open_out fn))
+    | _ -> failwith "bad command line arguments" in
+  let files =
+    ((Sys.readdir dir) |> Array.to_list) |> (List.sort ~cmp:String.compare) in
+  let all_exposed_modules =
+    (List.filter files ~f:(fun fn -> Filename.check_suffix fn ".cmi")) |>
+      (List.map
+         ~f:(fun fn -> String.capitalize_ascii (Filename.chop_extension fn))) in
+  let module_to_lib =
+    (List.filter files ~f:(fun fn -> Filename.check_suffix fn ".cma")) |>
+      (List.fold_left ~init:Smap.empty
+         ~f:(fun acc fn ->
+               let lib_mod =
+                 try Scanf.sscanf fn "ocaml%s.cma" (fun s -> "Ocaml_" ^ s)
+                 with
+                 | _ -> String.capitalize_ascii (Filename.chop_extension fn) in
+               let units = Read_cma.units (Filename.concat dir fn) in
+               List.fold_left units ~init:acc
+                 ~f:(fun acc unit -> Smap.add acc ~key:unit ~data:lib_mod))) in
+  Printf.fprintf oc "module Do_not_use_directly = struct end\n";
+  (List.sort all_exposed_modules ~cmp:String.compare) |>
+    (List.iter
+       ~f:(fun m ->
+             let repl =
+               match Smap.find m module_to_lib with
+               | lib ->
+                   let lib =
+                     let prefix = "Ocaml" in
+                     let prefix_len = String.length prefix in
+                     let lib_len = String.length lib in
+                     if
+                       (lib_len >= prefix_len) &&
+                         ((String.sub lib 0 prefix_len) = prefix)
+                     then
+                       prefix ^
+                         ("_" ^
+                            (String.sub lib prefix_len (lib_len - prefix_len)))
+                     else lib in
+                   Printf.sprintf ", use %s.%s instead" lib m
+               | exception Not_found -> "" in
+             Printf.fprintf oc
+               "module %s = Do_not_use_directly [@@deprecated \"Accessing this module directly is deprecated%s\"]\n"
+               m repl))
+[
+  structure_item (src/shadow/gen/gen.ml[1,0+0]..src/shadow/gen/gen.ml[1,0+24])
+    Tstr_module
+    List/270
+      module_expr (src/shadow/gen/gen.ml[1,0+14]..src/shadow/gen/gen.ml[1,0+24])
+        Tmod_ident "Stdlib!.ListLabels"
+  structure_item (src/shadow/gen/gen.ml[2,25+0]..src/shadow/gen/gen.ml[2,25+15])
+    Tstr_open Fresh
+    module_expr (src/shadow/gen/gen.ml[2,25+5]..src/shadow/gen/gen.ml[2,25+15])
+      Tmod_ident "Stdlib!.MoreLabels"
+  structure_item (src/shadow/gen/gen.ml[4,42+0]..src/shadow/gen/gen.ml[4,42+30])
+    Tstr_module
+    Smap/447
+      module_expr (src/shadow/gen/gen.ml[4,42+14]..src/shadow/gen/gen.ml[4,42+30])
+        Tmod_apply
+        module_expr (src/shadow/gen/gen.ml[4,42+14]..src/shadow/gen/gen.ml[4,42+22])
+          module_expr (src/shadow/gen/gen.ml[4,42+14]..src/shadow/gen/gen.ml[4,42+22])
+            Tmod_ident "Stdlib!.MoreLabels.Map.Make"
+        module_expr (src/shadow/gen/gen.ml[4,42+23]..src/shadow/gen/gen.ml[4,42+29])
+          module_expr (src/shadow/gen/gen.ml[4,42+23]..src/shadow/gen/gen.ml[4,42+29])
+            Tmod_ident "Stdlib!.String"
+  structure_item (src/shadow/gen/gen.ml[6,74+0]..src/shadow/gen/gen.ml[61,1878+13])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (src/shadow/gen/gen.ml[6,74+4]..src/shadow/gen/gen.ml[6,74+6])
+          Tpat_construct "()"
+          []
+          None
+        expression (src/shadow/gen/gen.ml[7,83+2]..src/shadow/gen/gen.ml[61,1878+13])
+          Texp_let Nonrec
+          [
+            <def>
+              pattern (src/shadow/gen/gen.ml[7,83+6]..src/shadow/gen/gen.ml[7,83+13])
+                Tpat_tuple
+                [
+                  pattern (src/shadow/gen/gen.ml[7,83+6]..src/shadow/gen/gen.ml[7,83+9])
+                    Tpat_var "dir/448"
+                  pattern (src/shadow/gen/gen.ml[7,83+11]..src/shadow/gen/gen.ml[7,83+13])
+                    Tpat_var "oc/449"
+                ]
+              expression (src/shadow/gen/gen.ml[8,99+4]..src/shadow/gen/gen.ml[12,197+43])
+                Texp_match
+                expression (src/shadow/gen/gen.ml[8,99+10]..src/shadow/gen/gen.ml[8,99+18])
+                  Texp_ident "Stdlib!.Sys.argv"
+                [
+                  <case>
+                    pattern (src/shadow/gen/gen.ml[9,123+6]..src/shadow/gen/gen.ml[9,123+34])
+                      Tpat_value
+                      pattern (src/shadow/gen/gen.ml[9,123+6]..src/shadow/gen/gen.ml[9,123+34])
+                        Tpat_array
+                        [
+                          pattern (src/shadow/gen/gen.ml[9,123+8]..src/shadow/gen/gen.ml[9,123+9])
+                            Tpat_any
+                          pattern (src/shadow/gen/gen.ml[9,123+11]..src/shadow/gen/gen.ml[9,123+17])
+                            Tpat_constant Const_string("-dir",(src/shadow/gen/gen.ml[9,123+12]..src/shadow/gen/gen.ml[9,123+16]),None)
+                          pattern (src/shadow/gen/gen.ml[9,123+19]..src/shadow/gen/gen.ml[9,123+22])
+                            Tpat_var "dir/524"
+                          pattern (src/shadow/gen/gen.ml[9,123+24]..src/shadow/gen/gen.ml[9,123+28])
+                            Tpat_constant Const_string("-o",(src/shadow/gen/gen.ml[9,123+25]..src/shadow/gen/gen.ml[9,123+27]),None)
+                          pattern (src/shadow/gen/gen.ml[9,123+30]..src/shadow/gen/gen.ml[9,123+32])
+                            Tpat_var "fn/525"
+                        ]
+                    expression (src/shadow/gen/gen.ml[10,161+6]..src/shadow/gen/gen.ml[10,161+24])
+                      Texp_tuple
+                      [
+                        expression (src/shadow/gen/gen.ml[10,161+7]..src/shadow/gen/gen.ml[10,161+10])
+                          Texp_ident "dir/524"
+                        expression (src/shadow/gen/gen.ml[10,161+12]..src/shadow/gen/gen.ml[10,161+23])
+                          Texp_apply
+                          expression (src/shadow/gen/gen.ml[10,161+12]..src/shadow/gen/gen.ml[10,161+20])
+                            Texp_ident "Stdlib!.open_out"
+                          [
+                            <arg>
+                              Nolabel
+                              expression (src/shadow/gen/gen.ml[10,161+21]..src/shadow/gen/gen.ml[10,161+23])
+                                Texp_ident "fn/525"
+                          ]
+                      ]
+                  <case>
+                    pattern (src/shadow/gen/gen.ml[11,186+6]..src/shadow/gen/gen.ml[11,186+7])
+                      Tpat_value
+                      pattern (src/shadow/gen/gen.ml[11,186+6]..src/shadow/gen/gen.ml[11,186+7])
+                        Tpat_any
+                    expression (src/shadow/gen/gen.ml[12,197+6]..src/shadow/gen/gen.ml[12,197+43])
+                      Texp_apply
+                      expression (src/shadow/gen/gen.ml[12,197+6]..src/shadow/gen/gen.ml[12,197+14])
+                        Texp_ident "Stdlib!.failwith"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (src/shadow/gen/gen.ml[12,197+15]..src/shadow/gen/gen.ml[12,197+43])
+                            Texp_constant Const_string("bad command line arguments",(src/shadow/gen/gen.ml[12,197+16]..src/shadow/gen/gen.ml[12,197+42]),None)
+                      ]
+                ]
+          ]
+          expression (src/shadow/gen/gen.ml[15,247+2]..src/shadow/gen/gen.ml[61,1878+13])
+            Texp_let Nonrec
+            [
+              <def>
+                pattern (src/shadow/gen/gen.ml[15,247+6]..src/shadow/gen/gen.ml[15,247+11])
+                  Tpat_var "files/526"
+                expression (src/shadow/gen/gen.ml[16,261+4]..src/shadow/gen/gen.ml[18,302+36])
+                  Texp_apply
+                  expression (src/shadow/gen/gen.ml[18,302+7]..src/shadow/gen/gen.ml[18,302+36])
+                    Texp_apply
+                    expression (src/shadow/gen/gen.ml[18,302+7]..src/shadow/gen/gen.ml[18,302+16])
+                      Texp_ident "List/270.sort"
+                    [
+                      <arg>
+                        Labelled "cmp"
+                        expression (src/shadow/gen/gen.ml[18,302+22]..src/shadow/gen/gen.ml[18,302+36])
+                          Texp_ident "Stdlib!.String.compare"
+                    ]
+                  [
+                    <arg>
+                      Nolabel
+                      expression (src/shadow/gen/gen.ml[16,261+4]..src/shadow/gen/gen.ml[17,281+20])
+                        Texp_apply
+                        expression (src/shadow/gen/gen.ml[17,281+7]..src/shadow/gen/gen.ml[17,281+20])
+                          Texp_ident "Stdlib!.Array.to_list"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (src/shadow/gen/gen.ml[16,261+4]..src/shadow/gen/gen.ml[16,261+19])
+                              Texp_apply
+                              expression (src/shadow/gen/gen.ml[16,261+4]..src/shadow/gen/gen.ml[16,261+15])
+                                Texp_ident "Stdlib!.Sys.readdir"
+                              [
+                                <arg>
+                                  Nolabel
+                                  expression (src/shadow/gen/gen.ml[16,261+16]..src/shadow/gen/gen.ml[16,261+19])
+                                    Texp_ident "dir/448"
+                              ]
+                        ]
+                  ]
+            ]
+            expression (src/shadow/gen/gen.ml[21,345+2]..src/shadow/gen/gen.ml[61,1878+13])
+              Texp_let Nonrec
+              [
+                <def>
+                  pattern (src/shadow/gen/gen.ml[21,345+6]..src/shadow/gen/gen.ml[21,345+25])
+                    Tpat_var "all_exposed_modules/643"
+                  expression (src/shadow/gen/gen.ml[22,373+4]..src/shadow/gen/gen.ml[23,442+83])
+                    Texp_apply
+                    expression (src/shadow/gen/gen.ml[23,442+7]..src/shadow/gen/gen.ml[23,442+83])
+                      Texp_apply
+                      expression (src/shadow/gen/gen.ml[23,442+7]..src/shadow/gen/gen.ml[23,442+15])
+                        Texp_ident "List/270.map"
+                      [
+                        <arg>
+                          Labelled "f"
+                          expression (src/shadow/gen/gen.ml[23,442+19]..src/shadow/gen/gen.ml[23,442+83])
+                            Texp_function
+                            [
+                              Nolabel
+                              Param_pat
+                                pattern (src/shadow/gen/gen.ml[23,442+24]..src/shadow/gen/gen.ml[23,442+26])
+                                  Tpat_var "fn/644"
+                            ]
+                            Tfunction_body
+                              expression (src/shadow/gen/gen.ml[23,442+30]..src/shadow/gen/gen.ml[23,442+82])
+                                Texp_apply
+                                expression (src/shadow/gen/gen.ml[23,442+30]..src/shadow/gen/gen.ml[23,442+53])
+                                  Texp_ident "Stdlib!.String.capitalize_ascii"
+                                [
+                                  <arg>
+                                    Nolabel
+                                    expression (src/shadow/gen/gen.ml[23,442+54]..src/shadow/gen/gen.ml[23,442+82])
+                                      Texp_apply
+                                      expression (src/shadow/gen/gen.ml[23,442+55]..src/shadow/gen/gen.ml[23,442+78])
+                                        Texp_ident "Stdlib!.Filename.chop_extension"
+                                      [
+                                        <arg>
+                                          Nolabel
+                                          expression (src/shadow/gen/gen.ml[23,442+79]..src/shadow/gen/gen.ml[23,442+81])
+                                            Texp_ident "fn/644"
+                                      ]
+                                ]
+                      ]
+                    [
+                      <arg>
+                        Nolabel
+                        expression (src/shadow/gen/gen.ml[22,373+4]..src/shadow/gen/gen.ml[22,373+68])
+                          Texp_apply
+                          expression (src/shadow/gen/gen.ml[22,373+4]..src/shadow/gen/gen.ml[22,373+15])
+                            Texp_ident "List/270.filter"
+                          [
+                            <arg>
+                              Labelled "f"
+                              expression (src/shadow/gen/gen.ml[22,373+25]..src/shadow/gen/gen.ml[22,373+68])
+                                Texp_function
+                                [
+                                  Nolabel
+                                  Param_pat
+                                    pattern (src/shadow/gen/gen.ml[22,373+30]..src/shadow/gen/gen.ml[22,373+32])
+                                      Tpat_var "fn/667"
+                                ]
+                                Tfunction_body
+                                  expression (src/shadow/gen/gen.ml[22,373+36]..src/shadow/gen/gen.ml[22,373+67])
+                                    Texp_apply
+                                    expression (src/shadow/gen/gen.ml[22,373+36]..src/shadow/gen/gen.ml[22,373+57])
+                                      Texp_ident "Stdlib!.Filename.check_suffix"
+                                    [
+                                      <arg>
+                                        Nolabel
+                                        expression (src/shadow/gen/gen.ml[22,373+58]..src/shadow/gen/gen.ml[22,373+60])
+                                          Texp_ident "fn/667"
+                                      <arg>
+                                        Nolabel
+                                        expression (src/shadow/gen/gen.ml[22,373+61]..src/shadow/gen/gen.ml[22,373+67])
+                                          Texp_constant Const_string(".cmi",(src/shadow/gen/gen.ml[22,373+62]..src/shadow/gen/gen.ml[22,373+66]),None)
+                                    ]
+                            <arg>
+                              Nolabel
+                              expression (src/shadow/gen/gen.ml[22,373+16]..src/shadow/gen/gen.ml[22,373+21])
+                                Texp_ident "files/526"
+                          ]
+                    ]
+              ]
+              expression (src/shadow/gen/gen.ml[26,532+2]..src/shadow/gen/gen.ml[61,1878+13])
+                Texp_let Nonrec
+                [
+                  <def>
+                    pattern (src/shadow/gen/gen.ml[26,532+6]..src/shadow/gen/gen.ml[26,532+19])
+                      Tpat_var "module_to_lib/668"
+                    expression (src/shadow/gen/gen.ml[27,554+4]..src/shadow/gen/gen.ml[37,984+46])
+                      Texp_apply
+                      expression (src/shadow/gen/gen.ml[28,623+7]..src/shadow/gen/gen.ml[37,984+46])
+                        Texp_apply
+                        expression (src/shadow/gen/gen.ml[28,623+7]..src/shadow/gen/gen.ml[28,623+21])
+                          Texp_ident "List/270.fold_left"
+                        [
+                          <arg>
+                            Labelled "f"
+                            expression (src/shadow/gen/gen.ml[28,623+42]..src/shadow/gen/gen.ml[37,984+46])
+                              Texp_function
+                              [
+                                Nolabel
+                                Param_pat
+                                  pattern (src/shadow/gen/gen.ml[28,623+47]..src/shadow/gen/gen.ml[28,623+50])
+                                    Tpat_var "acc/669"
+                                Nolabel
+                                Param_pat
+                                  pattern (src/shadow/gen/gen.ml[28,623+51]..src/shadow/gen/gen.ml[28,623+53])
+                                    Tpat_var "fn/670"
+                              ]
+                              Tfunction_body
+                                expression (src/shadow/gen/gen.ml[29,680+6]..src/shadow/gen/gen.ml[37,984+45])
+                                  Texp_let Nonrec
+                                  [
+                                    <def>
+                                      pattern (src/shadow/gen/gen.ml[29,680+10]..src/shadow/gen/gen.ml[29,680+17])
+                                        Tpat_var "lib_mod/671"
+                                      expression (src/shadow/gen/gen.ml[30,700+8]..src/shadow/gen/gen.ml[33,794+62])
+                                        Texp_try
+                                        expression (src/shadow/gen/gen.ml[31,712+10]..src/shadow/gen/gen.ml[31,712+63])
+                                          Texp_apply
+                                          expression (src/shadow/gen/gen.ml[31,712+10]..src/shadow/gen/gen.ml[31,712+22])
+                                            Texp_ident "Stdlib!.Scanf.sscanf"
+                                          [
+                                            <arg>
+                                              Nolabel
+                                              expression (src/shadow/gen/gen.ml[31,712+23]..src/shadow/gen/gen.ml[31,712+25])
+                                                Texp_ident "fn/670"
+                                            <arg>
+                                              Nolabel
+                                              expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39])
+                                                Texp_construct "CamlinternalFormatBasics.Format"
+                                                [
+                                                  expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                    Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                    [
+                                                      expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                        Texp_constant Const_string("ocaml",(src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost,None)
+                                                      expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                        Texp_construct "CamlinternalFormatBasics.String"
+                                                        [
+                                                          expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                            Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                            []
+                                                          expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                            Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                            [
+                                                              expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                                Texp_constant Const_string(".cma",(src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost,None)
+                                                              expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                                Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                                                []
+                                                            ]
+                                                        ]
+                                                    ]
+                                                  expression (src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost
+                                                    Texp_constant Const_string("ocaml%s.cma",(src/shadow/gen/gen.ml[31,712+26]..src/shadow/gen/gen.ml[31,712+39]) ghost,None)
+                                                ]
+                                            <arg>
+                                              Nolabel
+                                              expression (src/shadow/gen/gen.ml[31,712+40]..src/shadow/gen/gen.ml[31,712+63])
+                                                Texp_function
+                                                [
+                                                  Nolabel
+                                                  Param_pat
+                                                    pattern (src/shadow/gen/gen.ml[31,712+45]..src/shadow/gen/gen.ml[31,712+46])
+                                                      Tpat_var "s/711"
+                                                ]
+                                                Tfunction_body
+                                                  expression (src/shadow/gen/gen.ml[31,712+50]..src/shadow/gen/gen.ml[31,712+62])
+                                                    Texp_apply
+                                                    expression (src/shadow/gen/gen.ml[31,712+59]..src/shadow/gen/gen.ml[31,712+60])
+                                                      Texp_ident "Stdlib!.^"
+                                                    [
+                                                      <arg>
+                                                        Nolabel
+                                                        expression (src/shadow/gen/gen.ml[31,712+50]..src/shadow/gen/gen.ml[31,712+58])
+                                                          Texp_constant Const_string("Ocaml_",(src/shadow/gen/gen.ml[31,712+51]..src/shadow/gen/gen.ml[31,712+57]),None)
+                                                      <arg>
+                                                        Nolabel
+                                                        expression (src/shadow/gen/gen.ml[31,712+61]..src/shadow/gen/gen.ml[31,712+62])
+                                                          Texp_ident "s/711"
+                                                    ]
+                                          ]
+                                        [
+                                          <case>
+                                            pattern (src/shadow/gen/gen.ml[32,776+13]..src/shadow/gen/gen.ml[32,776+14])
+                                              Tpat_any
+                                            expression (src/shadow/gen/gen.ml[33,794+10]..src/shadow/gen/gen.ml[33,794+62])
+                                              Texp_apply
+                                              expression (src/shadow/gen/gen.ml[33,794+10]..src/shadow/gen/gen.ml[33,794+33])
+                                                Texp_ident "Stdlib!.String.capitalize_ascii"
+                                              [
+                                                <arg>
+                                                  Nolabel
+                                                  expression (src/shadow/gen/gen.ml[33,794+34]..src/shadow/gen/gen.ml[33,794+62])
+                                                    Texp_apply
+                                                    expression (src/shadow/gen/gen.ml[33,794+35]..src/shadow/gen/gen.ml[33,794+58])
+                                                      Texp_ident "Stdlib!.Filename.chop_extension"
+                                                    [
+                                                      <arg>
+                                                        Nolabel
+                                                        expression (src/shadow/gen/gen.ml[33,794+59]..src/shadow/gen/gen.ml[33,794+61])
+                                                          Texp_ident "fn/670"
+                                                    ]
+                                              ]
+                                        ]
+                                  ]
+                                  expression (src/shadow/gen/gen.ml[35,866+6]..src/shadow/gen/gen.ml[37,984+45])
+                                    Texp_let Nonrec
+                                    [
+                                      <def>
+                                        pattern (src/shadow/gen/gen.ml[35,866+10]..src/shadow/gen/gen.ml[35,866+15])
+                                          Tpat_var "units/712"
+                                        expression (src/shadow/gen/gen.ml[35,866+18]..src/shadow/gen/gen.ml[35,866+57])
+                                          Texp_apply
+                                          expression (src/shadow/gen/gen.ml[35,866+18]..src/shadow/gen/gen.ml[35,866+32])
+                                            Texp_ident "Read_cma!.units"
+                                          [
+                                            <arg>
+                                              Nolabel
+                                              expression (src/shadow/gen/gen.ml[35,866+33]..src/shadow/gen/gen.ml[35,866+57])
+                                                Texp_apply
+                                                expression (src/shadow/gen/gen.ml[35,866+34]..src/shadow/gen/gen.ml[35,866+49])
+                                                  Texp_ident "Stdlib!.Filename.concat"
+                                                [
+                                                  <arg>
+                                                    Nolabel
+                                                    expression (src/shadow/gen/gen.ml[35,866+50]..src/shadow/gen/gen.ml[35,866+53])
+                                                      Texp_ident "dir/448"
+                                                  <arg>
+                                                    Nolabel
+                                                    expression (src/shadow/gen/gen.ml[35,866+54]..src/shadow/gen/gen.ml[35,866+56])
+                                                      Texp_ident "fn/670"
+                                                ]
+                                          ]
+                                    ]
+                                    expression (src/shadow/gen/gen.ml[36,927+6]..src/shadow/gen/gen.ml[37,984+45])
+                                      Texp_apply
+                                      expression (src/shadow/gen/gen.ml[36,927+6]..src/shadow/gen/gen.ml[36,927+20])
+                                        Texp_ident "List/270.fold_left"
+                                      [
+                                        <arg>
+                                          Labelled "f"
+                                          expression (src/shadow/gen/gen.ml[36,927+40]..src/shadow/gen/gen.ml[37,984+45])
+                                            Texp_function
+                                            [
+                                              Nolabel
+                                              Param_pat
+                                                pattern (src/shadow/gen/gen.ml[36,927+45]..src/shadow/gen/gen.ml[36,927+48])
+                                                  Tpat_var "acc/714"
+                                              Nolabel
+                                              Param_pat
+                                                pattern (src/shadow/gen/gen.ml[36,927+49]..src/shadow/gen/gen.ml[36,927+53])
+                                                  Tpat_var "unit/715"
+                                            ]
+                                            Tfunction_body
+                                              expression (src/shadow/gen/gen.ml[37,984+8]..src/shadow/gen/gen.ml[37,984+44])
+                                                Texp_apply
+                                                expression (src/shadow/gen/gen.ml[37,984+8]..src/shadow/gen/gen.ml[37,984+16])
+                                                  Texp_ident "Smap/447.add"
+                                                [
+                                                  <arg>
+                                                    Labelled "key"
+                                                    expression (src/shadow/gen/gen.ml[37,984+26]..src/shadow/gen/gen.ml[37,984+30])
+                                                      Texp_ident "unit/715"
+                                                  <arg>
+                                                    Labelled "data"
+                                                    expression (src/shadow/gen/gen.ml[37,984+37]..src/shadow/gen/gen.ml[37,984+44])
+                                                      Texp_ident "lib_mod/671"
+                                                  <arg>
+                                                    Nolabel
+                                                    expression (src/shadow/gen/gen.ml[37,984+17]..src/shadow/gen/gen.ml[37,984+20])
+                                                      Texp_ident "acc/714"
+                                                ]
+                                        <arg>
+                                          Labelled "init"
+                                          expression (src/shadow/gen/gen.ml[36,927+33]..src/shadow/gen/gen.ml[36,927+36])
+                                            Texp_ident "acc/669"
+                                        <arg>
+                                          Nolabel
+                                          expression (src/shadow/gen/gen.ml[36,927+21]..src/shadow/gen/gen.ml[36,927+26])
+                                            Texp_ident "units/712"
+                                      ]
+                          <arg>
+                            Labelled "init"
+                            expression (src/shadow/gen/gen.ml[28,623+28]..src/shadow/gen/gen.ml[28,623+38])
+                              Texp_ident "Smap/447.empty"
+                        ]
+                      [
+                        <arg>
+                          Nolabel
+                          expression (src/shadow/gen/gen.ml[27,554+4]..src/shadow/gen/gen.ml[27,554+68])
+                            Texp_apply
+                            expression (src/shadow/gen/gen.ml[27,554+4]..src/shadow/gen/gen.ml[27,554+15])
+                              Texp_ident "List/270.filter"
+                            [
+                              <arg>
+                                Labelled "f"
+                                expression (src/shadow/gen/gen.ml[27,554+25]..src/shadow/gen/gen.ml[27,554+68])
+                                  Texp_function
+                                  [
+                                    Nolabel
+                                    Param_pat
+                                      pattern (src/shadow/gen/gen.ml[27,554+30]..src/shadow/gen/gen.ml[27,554+32])
+                                        Tpat_var "fn/995"
+                                  ]
+                                  Tfunction_body
+                                    expression (src/shadow/gen/gen.ml[27,554+36]..src/shadow/gen/gen.ml[27,554+67])
+                                      Texp_apply
+                                      expression (src/shadow/gen/gen.ml[27,554+36]..src/shadow/gen/gen.ml[27,554+57])
+                                        Texp_ident "Stdlib!.Filename.check_suffix"
+                                      [
+                                        <arg>
+                                          Nolabel
+                                          expression (src/shadow/gen/gen.ml[27,554+58]..src/shadow/gen/gen.ml[27,554+60])
+                                            Texp_ident "fn/995"
+                                        <arg>
+                                          Nolabel
+                                          expression (src/shadow/gen/gen.ml[27,554+61]..src/shadow/gen/gen.ml[27,554+67])
+                                            Texp_constant Const_string(".cma",(src/shadow/gen/gen.ml[27,554+62]..src/shadow/gen/gen.ml[27,554+66]),None)
+                                      ]
+                              <arg>
+                                Nolabel
+                                expression (src/shadow/gen/gen.ml[27,554+16]..src/shadow/gen/gen.ml[27,554+21])
+                                  Texp_ident "files/526"
+                            ]
+                      ]
+                ]
+                expression (src/shadow/gen/gen.ml[41,1092+2]..src/shadow/gen/gen.ml[61,1878+13])
+                  Texp_sequence
+                  expression (src/shadow/gen/gen.ml[41,1092+2]..src/shadow/gen/gen.ml[41,1092+63])
+                    Texp_apply
+                    expression (src/shadow/gen/gen.ml[41,1092+2]..src/shadow/gen/gen.ml[41,1092+16])
+                      Texp_ident "Stdlib!.Printf.fprintf"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (src/shadow/gen/gen.ml[41,1092+17]..src/shadow/gen/gen.ml[41,1092+19])
+                          Texp_ident "oc/449"
+                      <arg>
+                        Nolabel
+                        expression (src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63])
+                          Texp_construct "CamlinternalFormatBasics.Format"
+                          [
+                            expression (src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost
+                              Texp_construct "CamlinternalFormatBasics.String_literal"
+                              [
+                                expression (src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost
+                                  Texp_constant Const_string("module Do_not_use_directly = struct end\n",(src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost,None)
+                                expression (src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost
+                                  Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                  []
+                              ]
+                            expression (src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost
+                              Texp_constant Const_string("module Do_not_use_directly = struct end\n",(src/shadow/gen/gen.ml[41,1092+20]..src/shadow/gen/gen.ml[41,1092+63]) ghost,None)
+                          ]
+                    ]
+                  expression (src/shadow/gen/gen.ml[42,1157+2]..src/shadow/gen/gen.ml[61,1878+13])
+                    Texp_apply
+                    expression (src/shadow/gen/gen.ml[43,1209+5]..src/shadow/gen/gen.ml[61,1878+13])
+                      Texp_apply
+                      expression (src/shadow/gen/gen.ml[43,1209+5]..src/shadow/gen/gen.ml[43,1209+14])
+                        Texp_ident "List/270.iter"
+                      [
+                        <arg>
+                          Labelled "f"
+                          expression (src/shadow/gen/gen.ml[43,1209+18]..src/shadow/gen/gen.ml[61,1878+13])
+                            Texp_function
+                            [
+                              Nolabel
+                              Param_pat
+                                pattern (src/shadow/gen/gen.ml[43,1209+23]..src/shadow/gen/gen.ml[43,1209+24])
+                                  Tpat_var "m/1009"
+                            ]
+                            Tfunction_body
+                              expression (src/shadow/gen/gen.ml[44,1237+4]..src/shadow/gen/gen.ml[61,1878+12])
+                                Texp_let Nonrec
+                                [
+                                  <def>
+                                    pattern (src/shadow/gen/gen.ml[44,1237+8]..src/shadow/gen/gen.ml[44,1237+12])
+                                      Tpat_var "repl/1010"
+                                    expression (src/shadow/gen/gen.ml[45,1252+6]..src/shadow/gen/gen.ml[57,1707+33])
+                                      Texp_match
+                                      expression (src/shadow/gen/gen.ml[45,1252+12]..src/shadow/gen/gen.ml[45,1252+37])
+                                        Texp_apply
+                                        expression (src/shadow/gen/gen.ml[45,1252+12]..src/shadow/gen/gen.ml[45,1252+21])
+                                          Texp_ident "Smap/447.find"
+                                        [
+                                          <arg>
+                                            Nolabel
+                                            expression (src/shadow/gen/gen.ml[45,1252+22]..src/shadow/gen/gen.ml[45,1252+23])
+                                              Texp_ident "m/1009"
+                                          <arg>
+                                            Nolabel
+                                            expression (src/shadow/gen/gen.ml[45,1252+24]..src/shadow/gen/gen.ml[45,1252+37])
+                                              Texp_ident "module_to_lib/668"
+                                        ]
+                                      [
+                                        <case>
+                                          pattern (src/shadow/gen/gen.ml[46,1295+8]..src/shadow/gen/gen.ml[46,1295+11])
+                                            Tpat_value
+                                            pattern (src/shadow/gen/gen.ml[46,1295+8]..src/shadow/gen/gen.ml[46,1295+11])
+                                              Tpat_var "lib/1011"
+                                          expression (src/shadow/gen/gen.ml[47,1310+8]..src/shadow/gen/gen.ml[56,1656+50])
+                                            Texp_let Nonrec
+                                            [
+                                              <def>
+                                                pattern (src/shadow/gen/gen.ml[47,1310+12]..src/shadow/gen/gen.ml[47,1310+15])
+                                                  Tpat_var "lib/1012"
+                                                expression (src/shadow/gen/gen.ml[48,1328+10]..src/shadow/gen/gen.ml[54,1629+15])
+                                                  Texp_let Nonrec
+                                                  [
+                                                    <def>
+                                                      pattern (src/shadow/gen/gen.ml[48,1328+14]..src/shadow/gen/gen.ml[48,1328+20])
+                                                        Tpat_var "prefix/1013"
+                                                      expression (src/shadow/gen/gen.ml[48,1328+23]..src/shadow/gen/gen.ml[48,1328+30])
+                                                        Texp_constant Const_string("Ocaml",(src/shadow/gen/gen.ml[48,1328+24]..src/shadow/gen/gen.ml[48,1328+29]),None)
+                                                  ]
+                                                  expression (src/shadow/gen/gen.ml[49,1362+10]..src/shadow/gen/gen.ml[54,1629+15])
+                                                    Texp_let Nonrec
+                                                    [
+                                                      <def>
+                                                        pattern (src/shadow/gen/gen.ml[49,1362+14]..src/shadow/gen/gen.ml[49,1362+24])
+                                                          Tpat_var "prefix_len/1014"
+                                                        expression (src/shadow/gen/gen.ml[49,1362+27]..src/shadow/gen/gen.ml[49,1362+47])
+                                                          Texp_apply
+                                                          expression (src/shadow/gen/gen.ml[49,1362+27]..src/shadow/gen/gen.ml[49,1362+40])
+                                                            Texp_ident "Stdlib!.String.length"
+                                                          [
+                                                            <arg>
+                                                              Nolabel
+                                                              expression (src/shadow/gen/gen.ml[49,1362+41]..src/shadow/gen/gen.ml[49,1362+47])
+                                                                Texp_ident "prefix/1013"
+                                                          ]
+                                                    ]
+                                                    expression (src/shadow/gen/gen.ml[50,1413+10]..src/shadow/gen/gen.ml[54,1629+15])
+                                                      Texp_let Nonrec
+                                                      [
+                                                        <def>
+                                                          pattern (src/shadow/gen/gen.ml[50,1413+14]..src/shadow/gen/gen.ml[50,1413+21])
+                                                            Tpat_var "lib_len/1015"
+                                                          expression (src/shadow/gen/gen.ml[50,1413+24]..src/shadow/gen/gen.ml[50,1413+41])
+                                                            Texp_apply
+                                                            expression (src/shadow/gen/gen.ml[50,1413+24]..src/shadow/gen/gen.ml[50,1413+37])
+                                                              Texp_ident "Stdlib!.String.length"
+                                                            [
+                                                              <arg>
+                                                                Nolabel
+                                                                expression (src/shadow/gen/gen.ml[50,1413+38]..src/shadow/gen/gen.ml[50,1413+41])
+                                                                  Texp_ident "lib/1011"
+                                                            ]
+                                                      ]
+                                                      expression (src/shadow/gen/gen.ml[51,1458+10]..src/shadow/gen/gen.ml[54,1629+15])
+                                                        Texp_ifthenelse
+                                                        expression (src/shadow/gen/gen.ml[51,1458+13]..src/shadow/gen/gen.ml[51,1458+74])
+                                                          Texp_apply
+                                                          expression (src/shadow/gen/gen.ml[51,1458+35]..src/shadow/gen/gen.ml[51,1458+37])
+                                                            Texp_ident "Stdlib!.&&"
+                                                          [
+                                                            <arg>
+                                                              Nolabel
+                                                              expression (src/shadow/gen/gen.ml[51,1458+13]..src/shadow/gen/gen.ml[51,1458+34])
+                                                                Texp_apply
+                                                                expression (src/shadow/gen/gen.ml[51,1458+21]..src/shadow/gen/gen.ml[51,1458+23])
+                                                                  Texp_ident "Stdlib!.>="
+                                                                [
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+13]..src/shadow/gen/gen.ml[51,1458+20])
+                                                                      Texp_ident "lib_len/1015"
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+24]..src/shadow/gen/gen.ml[51,1458+34])
+                                                                      Texp_ident "prefix_len/1014"
+                                                                ]
+                                                            <arg>
+                                                              Nolabel
+                                                              expression (src/shadow/gen/gen.ml[51,1458+38]..src/shadow/gen/gen.ml[51,1458+74])
+                                                                Texp_apply
+                                                                expression (src/shadow/gen/gen.ml[51,1458+66]..src/shadow/gen/gen.ml[51,1458+67])
+                                                                  Texp_ident "Stdlib!.="
+                                                                [
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+38]..src/shadow/gen/gen.ml[51,1458+65])
+                                                                      Texp_apply
+                                                                      expression (src/shadow/gen/gen.ml[51,1458+38]..src/shadow/gen/gen.ml[51,1458+48])
+                                                                        Texp_ident "Stdlib!.String.sub"
+                                                                      [
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[51,1458+49]..src/shadow/gen/gen.ml[51,1458+52])
+                                                                            Texp_ident "lib/1011"
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[51,1458+53]..src/shadow/gen/gen.ml[51,1458+54])
+                                                                            Texp_constant Const_int 0
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[51,1458+55]..src/shadow/gen/gen.ml[51,1458+65])
+                                                                            Texp_ident "prefix_len/1014"
+                                                                      ]
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[51,1458+68]..src/shadow/gen/gen.ml[51,1458+74])
+                                                                      Texp_ident "prefix/1013"
+                                                                ]
+                                                          ]
+                                                        expression (src/shadow/gen/gen.ml[52,1538+12]..src/shadow/gen/gen.ml[52,1538+75])
+                                                          Texp_apply
+                                                          expression (src/shadow/gen/gen.ml[52,1538+19]..src/shadow/gen/gen.ml[52,1538+20])
+                                                            Texp_ident "Stdlib!.^"
+                                                          [
+                                                            <arg>
+                                                              Nolabel
+                                                              expression (src/shadow/gen/gen.ml[52,1538+12]..src/shadow/gen/gen.ml[52,1538+18])
+                                                                Texp_ident "prefix/1013"
+                                                            <arg>
+                                                              Nolabel
+                                                              expression (src/shadow/gen/gen.ml[52,1538+21]..src/shadow/gen/gen.ml[52,1538+75])
+                                                                Texp_apply
+                                                                expression (src/shadow/gen/gen.ml[52,1538+25]..src/shadow/gen/gen.ml[52,1538+26])
+                                                                  Texp_ident "Stdlib!.^"
+                                                                [
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[52,1538+21]..src/shadow/gen/gen.ml[52,1538+24])
+                                                                      Texp_constant Const_string("_",(src/shadow/gen/gen.ml[52,1538+22]..src/shadow/gen/gen.ml[52,1538+23]),None)
+                                                                  <arg>
+                                                                    Nolabel
+                                                                    expression (src/shadow/gen/gen.ml[52,1538+27]..src/shadow/gen/gen.ml[52,1538+75])
+                                                                      Texp_apply
+                                                                      expression (src/shadow/gen/gen.ml[52,1538+27]..src/shadow/gen/gen.ml[52,1538+37])
+                                                                        Texp_ident "Stdlib!.String.sub"
+                                                                      [
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[52,1538+38]..src/shadow/gen/gen.ml[52,1538+41])
+                                                                            Texp_ident "lib/1011"
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[52,1538+42]..src/shadow/gen/gen.ml[52,1538+52])
+                                                                            Texp_ident "prefix_len/1014"
+                                                                        <arg>
+                                                                          Nolabel
+                                                                          expression (src/shadow/gen/gen.ml[52,1538+53]..src/shadow/gen/gen.ml[52,1538+75])
+                                                                            Texp_apply
+                                                                            expression (src/shadow/gen/gen.ml[52,1538+62]..src/shadow/gen/gen.ml[52,1538+63])
+                                                                              Texp_ident "Stdlib!.-"
+                                                                            [
+                                                                              <arg>
+                                                                                Nolabel
+                                                                                expression (src/shadow/gen/gen.ml[52,1538+54]..src/shadow/gen/gen.ml[52,1538+61])
+                                                                                  Texp_ident "lib_len/1015"
+                                                                              <arg>
+                                                                                Nolabel
+                                                                                expression (src/shadow/gen/gen.ml[52,1538+64]..src/shadow/gen/gen.ml[52,1538+74])
+                                                                                  Texp_ident "prefix_len/1014"
+                                                                            ]
+                                                                      ]
+                                                                ]
+                                                          ]
+                                                        Some
+                                                          expression (src/shadow/gen/gen.ml[54,1629+12]..src/shadow/gen/gen.ml[54,1629+15])
+                                                            Texp_ident "lib/1011"
+                                            ]
+                                            expression (src/shadow/gen/gen.ml[56,1656+8]..src/shadow/gen/gen.ml[56,1656+50])
+                                              Texp_apply
+                                              expression (src/shadow/gen/gen.ml[56,1656+8]..src/shadow/gen/gen.ml[56,1656+22])
+                                                Texp_ident "Stdlib!.Printf.sprintf"
+                                              [
+                                                <arg>
+                                                  Nolabel
+                                                  expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44])
+                                                    Texp_construct "CamlinternalFormatBasics.Format"
+                                                    [
+                                                      expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                        Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                        [
+                                                          expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                            Texp_constant Const_string(", use ",(src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost,None)
+                                                          expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                            Texp_construct "CamlinternalFormatBasics.String"
+                                                            [
+                                                              expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                                []
+                                                              expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                Texp_construct "CamlinternalFormatBasics.Char_literal"
+                                                                [
+                                                                  expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                    Texp_constant Const_char 2e
+                                                                  expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                    Texp_construct "CamlinternalFormatBasics.String"
+                                                                    [
+                                                                      expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                        Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                                        []
+                                                                      expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                        Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                                        [
+                                                                          expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                            Texp_constant Const_string(" instead",(src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost,None)
+                                                                          expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                                            Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                                                            []
+                                                                        ]
+                                                                    ]
+                                                                ]
+                                                            ]
+                                                        ]
+                                                      expression (src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost
+                                                        Texp_constant Const_string(", use %s.%s instead",(src/shadow/gen/gen.ml[56,1656+23]..src/shadow/gen/gen.ml[56,1656+44]) ghost,None)
+                                                    ]
+                                                <arg>
+                                                  Nolabel
+                                                  expression (src/shadow/gen/gen.ml[56,1656+45]..src/shadow/gen/gen.ml[56,1656+48])
+                                                    Texp_ident "lib/1012"
+                                                <arg>
+                                                  Nolabel
+                                                  expression (src/shadow/gen/gen.ml[56,1656+49]..src/shadow/gen/gen.ml[56,1656+50])
+                                                    Texp_ident "m/1009"
+                                              ]
+                                        <case>
+                                          pattern (src/shadow/gen/gen.ml[57,1707+8]..src/shadow/gen/gen.ml[57,1707+27])
+                                            Tpat_exception
+                                            pattern (src/shadow/gen/gen.ml[57,1707+18]..src/shadow/gen/gen.ml[57,1707+27])
+                                              Tpat_construct "Not_found"
+                                              []
+                                              None
+                                          expression (src/shadow/gen/gen.ml[57,1707+31]..src/shadow/gen/gen.ml[57,1707+33])
+                                            Texp_constant Const_string("",(src/shadow/gen/gen.ml[57,1707+32]..src/shadow/gen/gen.ml[57,1707+32]),None)
+                                      ]
+                                ]
+                                expression (src/shadow/gen/gen.ml[59,1748+4]..src/shadow/gen/gen.ml[61,1878+12])
+                                  Texp_apply
+                                  expression (src/shadow/gen/gen.ml[59,1748+4]..src/shadow/gen/gen.ml[59,1748+18])
+                                    Texp_ident "Stdlib!.Printf.fprintf"
+                                  [
+                                    <arg>
+                                      Nolabel
+                                      expression (src/shadow/gen/gen.ml[59,1748+19]..src/shadow/gen/gen.ml[59,1748+21])
+                                        Texp_ident "oc/449"
+                                    <arg>
+                                      Nolabel
+                                      expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107])
+                                        Texp_construct "CamlinternalFormatBasics.Format"
+                                        [
+                                          expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                            Texp_construct "CamlinternalFormatBasics.String_literal"
+                                            [
+                                              expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                Texp_constant Const_string("module ",(src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost,None)
+                                              expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                Texp_construct "CamlinternalFormatBasics.String"
+                                                [
+                                                  expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                    Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                    []
+                                                  expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                    Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                    [
+                                                      expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                        Texp_constant Const_string(" = Do_not_use_directly [",(src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost,None)
+                                                      expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                        Texp_construct "CamlinternalFormatBasics.Formatting_lit"
+                                                        [
+                                                          expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                            Texp_construct "CamlinternalFormatBasics.Escaped_at"
+                                                            []
+                                                          expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                            Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                            [
+                                                              expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                Texp_constant Const_string("deprecated \"Accessing this module directly is deprecated",(src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost,None)
+                                                              expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                Texp_construct "CamlinternalFormatBasics.String"
+                                                                [
+                                                                  expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                    Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                                    []
+                                                                  expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                    Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                                    [
+                                                                      expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                        Texp_constant Const_string("\"]\n",(src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost,None)
+                                                                      expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                                                        Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                                                        []
+                                                                    ]
+                                                                ]
+                                                            ]
+                                                        ]
+                                                    ]
+                                                ]
+                                            ]
+                                          expression (src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost
+                                            Texp_constant Const_string("module %s = Do_not_use_directly [@@deprecated \"Accessing this module directly is deprecated%s\"]\n",(src/shadow/gen/gen.ml[60,1770+6]..src/shadow/gen/gen.ml[60,1770+107]) ghost,None)
+                                        ]
+                                    <arg>
+                                      Nolabel
+                                      expression (src/shadow/gen/gen.ml[61,1878+6]..src/shadow/gen/gen.ml[61,1878+7])
+                                        Texp_ident "m/1009"
+                                    <arg>
+                                      Nolabel
+                                      expression (src/shadow/gen/gen.ml[61,1878+8]..src/shadow/gen/gen.ml[61,1878+12])
+                                        Texp_ident "repl/1010"
+                                  ]
+                      ]
+                    [
+                      <arg>
+                        Nolabel
+                        expression (src/shadow/gen/gen.ml[42,1157+2]..src/shadow/gen/gen.ml[42,1157+51])
+                          Texp_apply
+                          expression (src/shadow/gen/gen.ml[42,1157+2]..src/shadow/gen/gen.ml[42,1157+11])
+                            Texp_ident "List/270.sort"
+                          [
+                            <arg>
+                              Labelled "cmp"
+                              expression (src/shadow/gen/gen.ml[42,1157+37]..src/shadow/gen/gen.ml[42,1157+51])
+                                Texp_ident "Stdlib!.String.compare"
+                            <arg>
+                              Nolabel
+                              expression (src/shadow/gen/gen.ml[42,1157+12]..src/shadow/gen/gen.ml[42,1157+31])
+                                Texp_ident "all_exposed_modules/643"
+                          ]
+                    ]
+    ]
+]
+
+{<Gen>
+ "List"[module] -> (CU Stdlib . "ListLabels"[module])<Gen.0>;
+ "Smap"[module] ->
+   CU Stdlib . "MoreLabels"[module] . "Map"[module] . "Make"[module](
+   CU Stdlib . "String"[module])<Gen.1>;
+ }
+
+(setglobal Gen!
+  (let
+    (Smap/447 =
+       (apply
+         (let
+           (let/2158 =
+              (field_imm 0 (field_imm 1 (global Stdlib__MoreLabels!))))
+           (field_imm 0 (field_imm 1 (global Stdlib__MoreLabels!))))
+         (let
+           (let/2156 = (global Stdlib__String!)
+            let/2157 =a (global Stdlib__String!))
+           (makeblock 0 (field_mut 9 let/2157))))
+     *match*/2172 =
+       (catch
+         (let (*match*/2161 = (caml_sys_argv 0))
+           (catch
+             (let (len/2165 =a (array.length[addr] *match*/2161))
+               (if (!= len/2165 5) (exit 4)
+                 (let
+                   (*match*/2162 =o (array.unsafe_get[addr] *match*/2161 0)
+                    *match*/2163 =o (array.unsafe_get[addr] *match*/2161 1))
+                   (stringswitch *match*/2163
+                    case "-dir":
+                     (let
+                       (dir/524 =o (array.unsafe_get[addr] *match*/2161 2)
+                        *match*/2164 =o
+                          (array.unsafe_get[addr] *match*/2161 3))
+                       (stringswitch *match*/2164
+                        case "-o":
+                         (let
+                           (fn/525 =o (array.unsafe_get[addr] *match*/2161 4))
+                           (before Gen src/shadow/gen/gen.ml(10):167-185
+                             (let
+                               (oc/2170 =
+                                  (after Gen src/shadow/gen/gen.ml(10):173-184
+                                    (apply (field_imm 59 (global Stdlib!))
+                                      fn/525))
+                                dir/2169 =a dir/524)
+                               (exit 5 dir/2169 oc/2170))))
+                        default: (exit 4)))
+                    default: (exit 4)))))
+            with (4)
+             (before Gen src/shadow/gen/gen.ml(12):203-240
+               (after Gen src/shadow/gen/gen.ml(12):203-240
+                 (let
+                   (*match*/2168 =
+                      (apply (field_imm 1 (global Stdlib!))
+                        "bad command line arguments")
+                    oc/2167 =a (field_imm 1 *match*/2168)
+                    dir/2166 =a (field_imm 0 *match*/2168))
+                   (exit 5 dir/2166 oc/2167))))))
+        with (5 dir/448 oc/449)
+         (before Gen src/shadow/gen/gen.ml(15):249-1891
+           (let
+             (files/526 =
+                (after Gen src/shadow/gen/gen.ml(16):265-338
+                  (apply
+                    (after Gen src/shadow/gen/gen.ml(18):309-338
+                      (apply (field_imm 58 (global Stdlib__ListLabels!))
+                        (field_imm 9 (global Stdlib__String!))))
+                    (after Gen src/shadow/gen/gen.ml(16):265-301
+                      (apply (field_imm 9 (global Stdlib__Array!))
+                        (after Gen src/shadow/gen/gen.ml(16):265-280
+                          (caml_sys_read_directory dir/448)))))))
+             (before Gen src/shadow/gen/gen.ml(21):347-1891
+               (let
+                 (all_exposed_modules/643 =
+                    (after Gen src/shadow/gen/gen.ml(22):377-525
+                      (apply
+                        (after Gen src/shadow/gen/gen.ml(23):449-525
+                          (apply (field_imm 19 (global Stdlib__ListLabels!))
+                            (function fn/644
+                              (funct-body Gen.(fun) src/shadow/gen/gen.ml(23):461-525
+                                (before Gen.(fun) src/shadow/gen/gen.ml(23):472-524
+                                  (after Gen.(fun) src/shadow/gen/gen.ml(23):472-524
+                                    (apply
+                                      (field_imm 27 (global Stdlib__String!))
+                                      (after Gen.(fun) src/shadow/gen/gen.ml(23):496-524
+                                        (apply
+                                          (field_imm 11
+                                            (global Stdlib__Filename!))
+                                          fn/644)))))))))
+                        (after Gen src/shadow/gen/gen.ml(22):377-441
+                          (apply (field_imm 43 (global Stdlib__ListLabels!))
+                            (function fn/667 : int
+                              (funct-body Gen.(fun) src/shadow/gen/gen.ml(22):398-441
+                                (before Gen.(fun) src/shadow/gen/gen.ml(22):409-440
+                                  (after Gen.(fun) src/shadow/gen/gen.ml(22):409-440
+                                    (apply
+                                      (field_imm 6
+                                        (global Stdlib__Filename!))
+                                      fn/667 ".cmi")))))
+                            files/526)))))
+                 (before Gen src/shadow/gen/gen.ml(26):534-1891
+                   (let
+                     (module_to_lib/668 =
+                        (after Gen src/shadow/gen/gen.ml(27):558-1030
+                          (apply
+                            (after Gen src/shadow/gen/gen.ml(28):630-1030
+                              (apply
+                                (field_imm 25 (global Stdlib__ListLabels!))
+                                (function acc/669 fn/670
+                                  (funct-body Gen.(fun) src/shadow/gen/gen.ml(28):665-1030
+                                    (before Gen.(fun) src/shadow/gen/gen.ml(29):686-1029
+                                      (let
+                                        (lib_mod/671 =
+                                           (try
+                                             (after Gen.(fun) src/shadow/gen/gen.ml(31):722-775
+                                               (apply
+                                                 (field_imm 4
+                                                   (global Stdlib__Scanf!))
+                                                 fn/670
+                                                 [0:
+                                                  [11:
+                                                   "ocaml"
+                                                   [2: 0 [11: ".cma" 0]]]
+                                                  "ocaml%s.cma"]
+                                                 (function s/711
+                                                   (funct-body Gen.(fun) src/shadow/gen/gen.ml(31):752-775
+                                                     (before Gen.(fun) src/shadow/gen/gen.ml(31):762-774
+                                                       (after Gen.(fun) src/shadow/gen/gen.ml(31):762-774
+                                                         (apply
+                                                           (field_imm 27
+                                                             (global Stdlib!))
+                                                           "Ocaml_" s/711)))))))
+                                            with exn/2160
+                                             (before Gen.(fun) src/shadow/gen/gen.ml(33):804-856
+                                               (after Gen.(fun) src/shadow/gen/gen.ml(33):804-856
+                                                 (apply
+                                                   (field_imm 27
+                                                     (global Stdlib__String!))
+                                                   (after Gen.(fun) src/shadow/gen/gen.ml(33):828-856
+                                                     (apply
+                                                       (field_imm 11
+                                                         (global Stdlib__Filename!))
+                                                       fn/670)))))))
+                                        (before Gen.(fun) src/shadow/gen/gen.ml(35):872-1029
+                                          (let
+                                            (units/712 =
+                                               (after Gen.(fun) src/shadow/gen/gen.ml(35):884-923
+                                                 (apply
+                                                   (field_imm 0
+                                                     (global Read_cma!))
+                                                   (after Gen.(fun) src/shadow/gen/gen.ml(35):899-923
+                                                     (apply
+                                                       (field_imm 3
+                                                         (global Stdlib__Filename!))
+                                                       dir/448 fn/670)))))
+                                            (before Gen.(fun) src/shadow/gen/gen.ml(36):933-1029
+                                              (after Gen.(fun) src/shadow/gen/gen.ml(36):933-1029
+                                                (apply
+                                                  (field_imm 25
+                                                    (global Stdlib__ListLabels!))
+                                                  (function acc/714 unit/715
+                                                    (funct-body Gen.(fun) src/shadow/gen/gen.ml(36):967-1029
+                                                      (before Gen.(fun) src/shadow/gen/gen.ml(37):992-1028
+                                                        (after Gen.(fun) src/shadow/gen/gen.ml(37):992-1028
+                                                          (apply
+                                                            (field_imm 1
+                                                              Smap/447)
+                                                            unit/715
+                                                            lib_mod/671
+                                                            acc/714)))))
+                                                  acc/669 units/712)))))))))
+                                (field_imm 0 Smap/447)))
+                            (after Gen src/shadow/gen/gen.ml(27):558-622
+                              (apply
+                                (field_imm 43 (global Stdlib__ListLabels!))
+                                (function fn/995 : int
+                                  (funct-body Gen.(fun) src/shadow/gen/gen.ml(27):579-622
+                                    (before Gen.(fun) src/shadow/gen/gen.ml(27):590-621
+                                      (after Gen.(fun) src/shadow/gen/gen.ml(27):590-621
+                                        (apply
+                                          (field_imm 6
+                                            (global Stdlib__Filename!))
+                                          fn/995 ".cma")))))
+                                files/526)))))
+                     (before Gen src/shadow/gen/gen.ml(41):1094-1891
+                       (seq
+                         (after Gen src/shadow/gen/gen.ml(41):1094-1155
+                           (apply (field_imm 0 (global Stdlib__Printf!))
+                             oc/449
+                             [0:
+                              [11:
+                               "module Do_not_use_directly = struct end\n" 0]
+                              "module Do_not_use_directly = struct end\n"]))
+                         (before Gen src/shadow/gen/gen.ml(42):1159-1891
+                           (after Gen src/shadow/gen/gen.ml(42):1159-1891
+                             (apply
+                               (after Gen src/shadow/gen/gen.ml(43):1214-1891
+                                 (apply
+                                   (field_imm 17
+                                     (global Stdlib__ListLabels!))
+                                   (function m/1009 : int
+                                     (funct-body Gen.(fun) src/shadow/gen/gen.ml(43):1227-1891
+                                       (before Gen.(fun) src/shadow/gen/gen.ml(44):1241-1890
+                                         (let
+                                           (repl/1010 =
+                                              (catch
+                                                (try
+                                                  (exit 1
+                                                    (after Gen.(fun) src/shadow/gen/gen.ml(45):1264-1289
+                                                      (apply
+                                                        (field_imm 16
+                                                          Smap/447)
+                                                        m/1009
+                                                        module_to_lib/668)))
+                                                 with exn/2159
+                                                  (catch
+                                                    (if
+                                                      (== exn/2159
+                                                        (field_imm 7
+                                                          (global Stdlib!)))
+                                                      (before Gen.(fun) src/shadow/gen/gen.ml(57):1738-1740
+                                                        "")
+                                                      (exit 2))
+                                                   with (2)
+                                                    (reraise exn/2159)))
+                                               with (1 lib/1011)
+                                                (before Gen.(fun) src/shadow/gen/gen.ml(47):1318-1706
+                                                  (let
+                                                    (lib/1012 =
+                                                       (let
+                                                         (prefix/1013 =
+                                                            "Ocaml")
+                                                         (before Gen.(fun) src/shadow/gen/gen.ml(49):1372-1644
+                                                           (let
+                                                             (prefix_len/1014 =[int]
+                                                                (string.length
+                                                                  prefix/1013))
+                                                             (before Gen.(fun) src/shadow/gen/gen.ml(50):1423-1644
+                                                               (let
+                                                                 (lib_len/1015 =[int]
+                                                                    (string.length
+                                                                    lib/1011))
+                                                                 (before Gen.(fun) src/shadow/gen/gen.ml(51):1468-1644
+                                                                   (if
+                                                                    (&&
+                                                                    (>=
+                                                                    lib_len/1015
+                                                                    prefix_len/1014)
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(51):1496-1532
+                                                                    (caml_string_equal
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(51):1496-1523
+                                                                    (apply
+                                                                    (field_imm 15
+                                                                    (global Stdlib__String!))
+                                                                    lib/1011
+                                                                    0
+                                                                    prefix_len/1014))
+                                                                    prefix/1013)))
+                                                                    (before Gen.(fun) src/shadow/gen/gen.ml(52):1550-1613
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1550-1613
+                                                                    (apply
+                                                                    (field_imm 27
+                                                                    (global Stdlib!))
+                                                                    prefix/1013
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1559-1613
+                                                                    (apply
+                                                                    (field_imm 27
+                                                                    (global Stdlib!))
+                                                                    "_"
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1565-1613
+                                                                    (apply
+                                                                    (field_imm 15
+                                                                    (global Stdlib__String!))
+                                                                    lib/1011
+                                                                    prefix_len/1014
+                                                                    (-
+                                                                    lib_len/1015
+                                                                    prefix_len/1014))))))))
+                                                                    (before Gen.(fun) src/shadow/gen/gen.ml(54):1641-1644
+                                                                    lib/1011)))))))))
+                                                    (before Gen.(fun) src/shadow/gen/gen.ml(56):1664-1706
+                                                      (after Gen.(fun) src/shadow/gen/gen.ml(56):1664-1706
+                                                        (apply
+                                                          (field_imm 3
+                                                            (global Stdlib__Printf!))
+                                                          [0:
+                                                           [11:
+                                                            ", use "
+                                                            [2:
+                                                             0
+                                                             [12:
+                                                              '.'
+                                                              [2:
+                                                               0
+                                                               [11:
+                                                                " instead" 0]]]]]
+                                                           ", use %s.%s instead"]
+                                                          lib/1012 m/1009)))))))
+                                           (before Gen.(fun) src/shadow/gen/gen.ml(59):1752-1890
+                                             (after Gen.(fun) src/shadow/gen/gen.ml(59):1752-1890
+                                               (apply
+                                                 (field_imm 0
+                                                   (global Stdlib__Printf!))
+                                                 oc/449
+                                                 [0:
+                                                  [11:
+                                                   "module "
+                                                   [2:
+                                                    0
+                                                    [11:
+                                                     " = Do_not_use_directly ["
+                                                     [17:
+                                                      5
+                                                      [11:
+                                                       "deprecated \"Accessing this module directly is deprecated"
+                                                       [2: 0 [11: "\"]\n" 0]]]]]]]
+                                                  "module %s = Do_not_use_directly [@@deprecated \"Accessing this module directly is deprecated%s\"]\n"]
+                                                 m/1009 repl/1010)))))))))
+                               (after Gen src/shadow/gen/gen.ml(42):1159-1208
+                                 (apply
+                                   (field_imm 58
+                                     (global Stdlib__ListLabels!))
+                                   (field_imm 9 (global Stdlib__String!))
+                                   all_exposed_modules/643)))))))))))))))
+    (pseudo <unknown location> (makeblock 0 Smap/447))))
+(setglobal Gen!
+  (let
+    (Smap/447 =
+       (apply
+         (let
+           (let/2158 =
+              (field_imm 0 (field_imm 1 (global Stdlib__MoreLabels!))))
+           (field_imm 0 (field_imm 1 (global Stdlib__MoreLabels!))))
+         (let
+           (let/2156 = (global Stdlib__String!)
+            let/2157 =a (global Stdlib__String!))
+           (makeblock 0 (field_mut 9 let/2157))))
+     *match*/2172 =
+       (catch
+         (let (*match*/2161 = (caml_sys_argv 0))
+           (catch
+             (let (len/2165 =a (array.length[addr] *match*/2161))
+               (if (!= len/2165 5) (exit 4)
+                 (let
+                   (*match*/2163 =o (array.unsafe_get[addr] *match*/2161 1))
+                   (stringswitch *match*/2163
+                    case "-dir":
+                     (let
+                       (dir/524 =o (array.unsafe_get[addr] *match*/2161 2)
+                        *match*/2164 =o
+                          (array.unsafe_get[addr] *match*/2161 3))
+                       (stringswitch *match*/2164
+                        case "-o":
+                         (let
+                           (fn/525 =o (array.unsafe_get[addr] *match*/2161 4))
+                           (before Gen src/shadow/gen/gen.ml(10):167-185
+                             (let
+                               (oc/2170 =
+                                  (after Gen src/shadow/gen/gen.ml(10):173-184
+                                    (apply (field_imm 59 (global Stdlib!))
+                                      fn/525))
+                                dir/2169 =a dir/524)
+                               (exit 5 dir/2169 oc/2170))))
+                        default: (exit 4)))
+                    default: (exit 4)))))
+            with (4)
+             (before Gen src/shadow/gen/gen.ml(12):203-240
+               (after Gen src/shadow/gen/gen.ml(12):203-240
+                 (let
+                   (*match*/2168 =
+                      (apply (field_imm 1 (global Stdlib!))
+                        "bad command line arguments")
+                    oc/2167 =a (field_imm 1 *match*/2168)
+                    dir/2166 =a (field_imm 0 *match*/2168))
+                   (exit 5 dir/2166 oc/2167))))))
+        with (5 dir/448 oc/449)
+         (before Gen src/shadow/gen/gen.ml(15):249-1891
+           (let
+             (files/526 =
+                (after Gen src/shadow/gen/gen.ml(16):265-338
+                  (apply
+                    (after Gen src/shadow/gen/gen.ml(18):309-338
+                      (apply (field_imm 58 (global Stdlib__ListLabels!))
+                        (field_imm 9 (global Stdlib__String!))))
+                    (after Gen src/shadow/gen/gen.ml(16):265-301
+                      (apply (field_imm 9 (global Stdlib__Array!))
+                        (after Gen src/shadow/gen/gen.ml(16):265-280
+                          (caml_sys_read_directory dir/448)))))))
+             (before Gen src/shadow/gen/gen.ml(21):347-1891
+               (let
+                 (all_exposed_modules/643 =
+                    (after Gen src/shadow/gen/gen.ml(22):377-525
+                      (apply
+                        (after Gen src/shadow/gen/gen.ml(23):449-525
+                          (apply (field_imm 19 (global Stdlib__ListLabels!))
+                            (function fn/644
+                              (funct-body Gen.(fun) src/shadow/gen/gen.ml(23):461-525
+                                (before Gen.(fun) src/shadow/gen/gen.ml(23):472-524
+                                  (after Gen.(fun) src/shadow/gen/gen.ml(23):472-524
+                                    (apply
+                                      (field_imm 27 (global Stdlib__String!))
+                                      (after Gen.(fun) src/shadow/gen/gen.ml(23):496-524
+                                        (apply
+                                          (field_imm 11
+                                            (global Stdlib__Filename!))
+                                          fn/644)))))))))
+                        (after Gen src/shadow/gen/gen.ml(22):377-441
+                          (apply (field_imm 43 (global Stdlib__ListLabels!))
+                            (function fn/667 : int
+                              (funct-body Gen.(fun) src/shadow/gen/gen.ml(22):398-441
+                                (before Gen.(fun) src/shadow/gen/gen.ml(22):409-440
+                                  (after Gen.(fun) src/shadow/gen/gen.ml(22):409-440
+                                    (apply
+                                      (field_imm 6
+                                        (global Stdlib__Filename!))
+                                      fn/667 ".cmi")))))
+                            files/526)))))
+                 (before Gen src/shadow/gen/gen.ml(26):534-1891
+                   (let
+                     (module_to_lib/668 =
+                        (after Gen src/shadow/gen/gen.ml(27):558-1030
+                          (apply
+                            (after Gen src/shadow/gen/gen.ml(28):630-1030
+                              (apply
+                                (field_imm 25 (global Stdlib__ListLabels!))
+                                (function acc/669 fn/670
+                                  (funct-body Gen.(fun) src/shadow/gen/gen.ml(28):665-1030
+                                    (before Gen.(fun) src/shadow/gen/gen.ml(29):686-1029
+                                      (let
+                                        (lib_mod/671 =
+                                           (try
+                                             (after Gen.(fun) src/shadow/gen/gen.ml(31):722-775
+                                               (apply
+                                                 (field_imm 4
+                                                   (global Stdlib__Scanf!))
+                                                 fn/670
+                                                 [0:
+                                                  [11:
+                                                   "ocaml"
+                                                   [2: 0 [11: ".cma" 0]]]
+                                                  "ocaml%s.cma"]
+                                                 (function s/711
+                                                   (funct-body Gen.(fun) src/shadow/gen/gen.ml(31):752-775
+                                                     (before Gen.(fun) src/shadow/gen/gen.ml(31):762-774
+                                                       (after Gen.(fun) src/shadow/gen/gen.ml(31):762-774
+                                                         (apply
+                                                           (field_imm 27
+                                                             (global Stdlib!))
+                                                           "Ocaml_" s/711)))))))
+                                            with exn/2160
+                                             (before Gen.(fun) src/shadow/gen/gen.ml(33):804-856
+                                               (after Gen.(fun) src/shadow/gen/gen.ml(33):804-856
+                                                 (apply
+                                                   (field_imm 27
+                                                     (global Stdlib__String!))
+                                                   (after Gen.(fun) src/shadow/gen/gen.ml(33):828-856
+                                                     (apply
+                                                       (field_imm 11
+                                                         (global Stdlib__Filename!))
+                                                       fn/670)))))))
+                                        (before Gen.(fun) src/shadow/gen/gen.ml(35):872-1029
+                                          (let
+                                            (units/712 =
+                                               (after Gen.(fun) src/shadow/gen/gen.ml(35):884-923
+                                                 (apply
+                                                   (field_imm 0
+                                                     (global Read_cma!))
+                                                   (after Gen.(fun) src/shadow/gen/gen.ml(35):899-923
+                                                     (apply
+                                                       (field_imm 3
+                                                         (global Stdlib__Filename!))
+                                                       dir/448 fn/670)))))
+                                            (before Gen.(fun) src/shadow/gen/gen.ml(36):933-1029
+                                              (after Gen.(fun) src/shadow/gen/gen.ml(36):933-1029
+                                                (apply
+                                                  (field_imm 25
+                                                    (global Stdlib__ListLabels!))
+                                                  (function acc/714 unit/715
+                                                    (funct-body Gen.(fun) src/shadow/gen/gen.ml(36):967-1029
+                                                      (before Gen.(fun) src/shadow/gen/gen.ml(37):992-1028
+                                                        (after Gen.(fun) src/shadow/gen/gen.ml(37):992-1028
+                                                          (apply
+                                                            (field_imm 1
+                                                              Smap/447)
+                                                            unit/715
+                                                            lib_mod/671
+                                                            acc/714)))))
+                                                  acc/669 units/712)))))))))
+                                (field_imm 0 Smap/447)))
+                            (after Gen src/shadow/gen/gen.ml(27):558-622
+                              (apply
+                                (field_imm 43 (global Stdlib__ListLabels!))
+                                (function fn/995 : int
+                                  (funct-body Gen.(fun) src/shadow/gen/gen.ml(27):579-622
+                                    (before Gen.(fun) src/shadow/gen/gen.ml(27):590-621
+                                      (after Gen.(fun) src/shadow/gen/gen.ml(27):590-621
+                                        (apply
+                                          (field_imm 6
+                                            (global Stdlib__Filename!))
+                                          fn/995 ".cma")))))
+                                files/526)))))
+                     (before Gen src/shadow/gen/gen.ml(41):1094-1891
+                       (seq
+                         (after Gen src/shadow/gen/gen.ml(41):1094-1155
+                           (apply (field_imm 0 (global Stdlib__Printf!))
+                             oc/449
+                             [0:
+                              [11:
+                               "module Do_not_use_directly = struct end\n" 0]
+                              "module Do_not_use_directly = struct end\n"]))
+                         (before Gen src/shadow/gen/gen.ml(42):1159-1891
+                           (after Gen src/shadow/gen/gen.ml(42):1159-1891
+                             (apply
+                               (after Gen src/shadow/gen/gen.ml(43):1214-1891
+                                 (apply
+                                   (field_imm 17
+                                     (global Stdlib__ListLabels!))
+                                   (function m/1009 : int
+                                     (funct-body Gen.(fun) src/shadow/gen/gen.ml(43):1227-1891
+                                       (before Gen.(fun) src/shadow/gen/gen.ml(44):1241-1890
+                                         (let
+                                           (repl/1010 =
+                                              (catch
+                                                (try
+                                                  (exit 1
+                                                    (after Gen.(fun) src/shadow/gen/gen.ml(45):1264-1289
+                                                      (apply
+                                                        (field_imm 16
+                                                          Smap/447)
+                                                        m/1009
+                                                        module_to_lib/668)))
+                                                 with exn/2159
+                                                  (if
+                                                    (== exn/2159
+                                                      (field_imm 7
+                                                        (global Stdlib!)))
+                                                    (before Gen.(fun) src/shadow/gen/gen.ml(57):1738-1740
+                                                      "")
+                                                    (reraise exn/2159)))
+                                               with (1 lib/1011)
+                                                (before Gen.(fun) src/shadow/gen/gen.ml(47):1318-1706
+                                                  (let
+                                                    (lib/1012 =
+                                                       (let
+                                                         (prefix/1013 =
+                                                            "Ocaml")
+                                                         (before Gen.(fun) src/shadow/gen/gen.ml(49):1372-1644
+                                                           (let
+                                                             (prefix_len/1014 =[int]
+                                                                (string.length
+                                                                  prefix/1013))
+                                                             (before Gen.(fun) src/shadow/gen/gen.ml(50):1423-1644
+                                                               (let
+                                                                 (lib_len/1015 =[int]
+                                                                    (string.length
+                                                                    lib/1011))
+                                                                 (before Gen.(fun) src/shadow/gen/gen.ml(51):1468-1644
+                                                                   (if
+                                                                    (&&
+                                                                    (>=
+                                                                    lib_len/1015
+                                                                    prefix_len/1014)
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(51):1496-1532
+                                                                    (caml_string_equal
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(51):1496-1523
+                                                                    (apply
+                                                                    (field_imm 15
+                                                                    (global Stdlib__String!))
+                                                                    lib/1011
+                                                                    0
+                                                                    prefix_len/1014))
+                                                                    prefix/1013)))
+                                                                    (before Gen.(fun) src/shadow/gen/gen.ml(52):1550-1613
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1550-1613
+                                                                    (apply
+                                                                    (field_imm 27
+                                                                    (global Stdlib!))
+                                                                    prefix/1013
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1559-1613
+                                                                    (apply
+                                                                    (field_imm 27
+                                                                    (global Stdlib!))
+                                                                    "_"
+                                                                    (after Gen.(fun) src/shadow/gen/gen.ml(52):1565-1613
+                                                                    (apply
+                                                                    (field_imm 15
+                                                                    (global Stdlib__String!))
+                                                                    lib/1011
+                                                                    prefix_len/1014
+                                                                    (-
+                                                                    lib_len/1015
+                                                                    prefix_len/1014))))))))
+                                                                    (before Gen.(fun) src/shadow/gen/gen.ml(54):1641-1644
+                                                                    lib/1011)))))))))
+                                                    (before Gen.(fun) src/shadow/gen/gen.ml(56):1664-1706
+                                                      (after Gen.(fun) src/shadow/gen/gen.ml(56):1664-1706
+                                                        (apply
+                                                          (field_imm 3
+                                                            (global Stdlib__Printf!))
+                                                          [0:
+                                                           [11:
+                                                            ", use "
+                                                            [2:
+                                                             0
+                                                             [12:
+                                                              '.'
+                                                              [2:
+                                                               0
+                                                               [11:
+                                                                " instead" 0]]]]]
+                                                           ", use %s.%s instead"]
+                                                          lib/1012 m/1009)))))))
+                                           (before Gen.(fun) src/shadow/gen/gen.ml(59):1752-1890
+                                             (after Gen.(fun) src/shadow/gen/gen.ml(59):1752-1890
+                                               (apply
+                                                 (field_imm 0
+                                                   (global Stdlib__Printf!))
+                                                 oc/449
+                                                 [0:
+                                                  [11:
+                                                   "module "
+                                                   [2:
+                                                    0
+                                                    [11:
+                                                     " = Do_not_use_directly ["
+                                                     [17:
+                                                      5
+                                                      [11:
+                                                       "deprecated \"Accessing this module directly is deprecated"
+                                                       [2: 0 [11: "\"]\n" 0]]]]]]]
+                                                  "module %s = Do_not_use_directly [@@deprecated \"Accessing this module directly is deprecated%s\"]\n"]
+                                                 m/1009 repl/1010)))))))))
+                               (after Gen src/shadow/gen/gen.ml(42):1159-1208
+                                 (apply
+                                   (field_imm 58
+                                     (global Stdlib__ListLabels!))
+                                   (field_imm 9 (global Stdlib__String!))
+                                   all_exposed_modules/643)))))))))))))))
+    (pseudo <unknown location> (makeblock 0 Smap/447))))

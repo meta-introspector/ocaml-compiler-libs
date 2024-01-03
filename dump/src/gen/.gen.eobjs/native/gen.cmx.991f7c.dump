@@ -1,0 +1,751 @@
+[
+  structure_item (src/gen/gen.ml[10,362+0]..[10,362+14])
+    Pstr_open Fresh
+    module_expr (src/gen/gen.ml[10,362+5]..[10,362+14])
+      Pmod_ident "StdLabels" (src/gen/gen.ml[10,362+5]..[10,362+14])
+  structure_item (src/gen/gen.ml[12,378+0]..[30,840+66])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (src/gen/gen.ml[12,378+4]..[12,378+6])
+          Ppat_construct "()" (src/gen/gen.ml[12,378+4]..[12,378+6])
+          None
+        expression (src/gen/gen.ml[13,387+2]..[30,840+66])
+          Pexp_let Nonrec
+          [
+            <def>
+              pattern (src/gen/gen.ml[13,387+6]..[13,387+20])
+                Ppat_tuple
+                [
+                  pattern (src/gen/gen.ml[13,387+6]..[13,387+16])
+                    Ppat_var "archive_fn" (src/gen/gen.ml[13,387+6]..[13,387+16])
+                  pattern (src/gen/gen.ml[13,387+18]..[13,387+20])
+                    Ppat_var "oc" (src/gen/gen.ml[13,387+18]..[13,387+20])
+                ]
+              expression (src/gen/gen.ml[14,410+4]..[18,526+43])
+                Pexp_match
+                expression (src/gen/gen.ml[14,410+10]..[14,410+18])
+                  Pexp_ident "Sys.argv" (src/gen/gen.ml[14,410+10]..[14,410+18])
+                [
+                  <case>
+                    pattern (src/gen/gen.ml[15,434+6]..[15,434+45])
+                      Ppat_array
+                      [
+                        pattern (src/gen/gen.ml[15,434+8]..[15,434+9])
+                          Ppat_any
+                        pattern (src/gen/gen.ml[15,434+11]..[15,434+21])
+                          Ppat_constant PConst_string("-archive",(src/gen/gen.ml[15,434+12]..[15,434+20]),None)
+                        pattern (src/gen/gen.ml[15,434+23]..[15,434+33])
+                          Ppat_var "archive_fn" (src/gen/gen.ml[15,434+23]..[15,434+33])
+                        pattern (src/gen/gen.ml[15,434+35]..[15,434+39])
+                          Ppat_constant PConst_string("-o",(src/gen/gen.ml[15,434+36]..[15,434+38]),None)
+                        pattern (src/gen/gen.ml[15,434+41]..[15,434+43])
+                          Ppat_var "fn" (src/gen/gen.ml[15,434+41]..[15,434+43])
+                      ]
+                    expression (src/gen/gen.ml[16,483+6]..[16,483+31])
+                      Pexp_tuple
+                      [
+                        expression (src/gen/gen.ml[16,483+7]..[16,483+17])
+                          Pexp_ident "archive_fn" (src/gen/gen.ml[16,483+7]..[16,483+17])
+                        expression (src/gen/gen.ml[16,483+19]..[16,483+30])
+                          Pexp_apply
+                          expression (src/gen/gen.ml[16,483+19]..[16,483+27])
+                            Pexp_ident "open_out" (src/gen/gen.ml[16,483+19]..[16,483+27])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/gen/gen.ml[16,483+28]..[16,483+30])
+                                Pexp_ident "fn" (src/gen/gen.ml[16,483+28]..[16,483+30])
+                          ]
+                      ]
+                  <case>
+                    pattern (src/gen/gen.ml[17,515+6]..[17,515+7])
+                      Ppat_any
+                    expression (src/gen/gen.ml[18,526+6]..[18,526+43])
+                      Pexp_apply
+                      expression (src/gen/gen.ml[18,526+6]..[18,526+14])
+                        Pexp_ident "failwith" (src/gen/gen.ml[18,526+6]..[18,526+14])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (src/gen/gen.ml[18,526+15]..[18,526+43])
+                            Pexp_constant PConst_string("bad command line arguments",(src/gen/gen.ml[18,526+16]..[18,526+42]),None)
+                      ]
+                ]
+          ]
+          expression (src/gen/gen.ml[21,576+2]..[30,840+66])
+            Pexp_let Nonrec
+            [
+              <def>
+                pattern (src/gen/gen.ml[21,576+6]..[21,576+11])
+                  Ppat_var "units" (src/gen/gen.ml[21,576+6]..[21,576+11])
+                expression (src/gen/gen.ml[21,576+14]..[21,576+39])
+                  Pexp_apply
+                  expression (src/gen/gen.ml[21,576+14]..[21,576+28])
+                    Pexp_ident "Read_cma.units" (src/gen/gen.ml[21,576+14]..[21,576+28])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (src/gen/gen.ml[21,576+29]..[21,576+39])
+                        Pexp_ident "archive_fn" (src/gen/gen.ml[21,576+29]..[21,576+39])
+                  ]
+            ]
+            expression (src/gen/gen.ml[23,620+2]..[30,840+66])
+              Pexp_let Nonrec
+              [
+                <def>
+                  pattern (src/gen/gen.ml[23,620+6]..[23,620+8])
+                    Ppat_var "pr" (src/gen/gen.ml[23,620+6]..[23,620+8])
+                  expression (src/gen/gen.ml[23,620+9]..[23,620+46]) ghost
+                    Pexp_function
+                    [
+                      Pparam_val (src/gen/gen.ml[23,620+9]..[23,620+12])
+                        Nolabel
+                        None
+                        pattern (src/gen/gen.ml[23,620+9]..[23,620+12])
+                          Ppat_var "fmt" (src/gen/gen.ml[23,620+9]..[23,620+12])
+                    ]
+                    None
+                    Pfunction_body
+                      expression (src/gen/gen.ml[23,620+15]..[23,620+46])
+                        Pexp_apply
+                        expression (src/gen/gen.ml[23,620+15]..[23,620+29])
+                          Pexp_ident "Printf.fprintf" (src/gen/gen.ml[23,620+15]..[23,620+29])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (src/gen/gen.ml[23,620+30]..[23,620+32])
+                              Pexp_ident "oc" (src/gen/gen.ml[23,620+30]..[23,620+32])
+                          <arg>
+                          Nolabel
+                            expression (src/gen/gen.ml[23,620+33]..[23,620+46])
+                              Pexp_apply
+                              expression (src/gen/gen.ml[23,620+38]..[23,620+40])
+                                Pexp_ident "^^" (src/gen/gen.ml[23,620+38]..[23,620+40])
+                              [
+                                <arg>
+                                Nolabel
+                                  expression (src/gen/gen.ml[23,620+34]..[23,620+37])
+                                    Pexp_ident "fmt" (src/gen/gen.ml[23,620+34]..[23,620+37])
+                                <arg>
+                                Nolabel
+                                  expression (src/gen/gen.ml[23,620+41]..[23,620+45])
+                                    Pexp_constant PConst_string("\n",(src/gen/gen.ml[23,620+42]..[23,620+44]),None)
+                              ]
+                        ]
+              ]
+              expression (src/gen/gen.ml[24,670+2]..[30,840+66])
+                Pexp_sequence
+                expression (src/gen/gen.ml[24,670+2]..[24,670+49])
+                  Pexp_apply
+                  expression (src/gen/gen.ml[24,670+2]..[24,670+4])
+                    Pexp_ident "pr" (src/gen/gen.ml[24,670+2]..[24,670+4])
+                  [
+                    <arg>
+                    Nolabel
+                      expression (src/gen/gen.ml[24,670+5]..[24,670+49])
+                        Pexp_constant PConst_string("(* This file is automatically generated *)",(src/gen/gen.ml[24,670+6]..[24,670+48]),None)
+                  ]
+                expression (src/gen/gen.ml[25,721+2]..[30,840+66])
+                  Pexp_sequence
+                  expression (src/gen/gen.ml[25,721+2]..[25,721+7])
+                    Pexp_apply
+                    expression (src/gen/gen.ml[25,721+2]..[25,721+4])
+                      Pexp_ident "pr" (src/gen/gen.ml[25,721+2]..[25,721+4])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (src/gen/gen.ml[25,721+5]..[25,721+7])
+                          Pexp_constant PConst_string("",(src/gen/gen.ml[25,721+6]..[25,721+6]),None)
+                    ]
+                  expression (src/gen/gen.ml[26,730+2]..[30,840+66])
+                    Pexp_let Nonrec
+                    [
+                      <def>
+                        pattern (src/gen/gen.ml[26,730+6]..[26,730+13])
+                          Ppat_var "max_len" (src/gen/gen.ml[26,730+6]..[26,730+13])
+                        expression (src/gen/gen.ml[27,746+4]..[28,799+35])
+                          Pexp_apply
+                          expression (src/gen/gen.ml[27,746+4]..[27,746+18])
+                            Pexp_ident "List.fold_left" (src/gen/gen.ml[27,746+4]..[27,746+18])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/gen/gen.ml[27,746+19]..[27,746+24])
+                                Pexp_ident "units" (src/gen/gen.ml[27,746+19]..[27,746+24])
+                            <arg>
+                            Labelled "init"
+                              expression (src/gen/gen.ml[27,746+31]..[27,746+32])
+                                Pexp_constant PConst_int (0,None)
+                            <arg>
+                            Labelled "f"
+                              expression (src/gen/gen.ml[27,746+36]..[28,799+35])
+                                Pexp_function
+                                [
+                                  Pparam_val (src/gen/gen.ml[27,746+41]..[27,746+44])
+                                    Nolabel
+                                    None
+                                    pattern (src/gen/gen.ml[27,746+41]..[27,746+44])
+                                      Ppat_var "acc" (src/gen/gen.ml[27,746+41]..[27,746+44])
+                                  Pparam_val (src/gen/gen.ml[27,746+45]..[27,746+49])
+                                    Nolabel
+                                    None
+                                    pattern (src/gen/gen.ml[27,746+45]..[27,746+49])
+                                      Ppat_var "unit" (src/gen/gen.ml[27,746+45]..[27,746+49])
+                                ]
+                                None
+                                Pfunction_body
+                                  expression (src/gen/gen.ml[28,799+6]..[28,799+34])
+                                    Pexp_apply
+                                    expression (src/gen/gen.ml[28,799+6]..[28,799+9])
+                                      Pexp_ident "max" (src/gen/gen.ml[28,799+6]..[28,799+9])
+                                    [
+                                      <arg>
+                                      Nolabel
+                                        expression (src/gen/gen.ml[28,799+10]..[28,799+13])
+                                          Pexp_ident "acc" (src/gen/gen.ml[28,799+10]..[28,799+13])
+                                      <arg>
+                                      Nolabel
+                                        expression (src/gen/gen.ml[28,799+14]..[28,799+34])
+                                          Pexp_apply
+                                          expression (src/gen/gen.ml[28,799+15]..[28,799+28])
+                                            Pexp_ident "String.length" (src/gen/gen.ml[28,799+15]..[28,799+28])
+                                          [
+                                            <arg>
+                                            Nolabel
+                                              expression (src/gen/gen.ml[28,799+29]..[28,799+33])
+                                                Pexp_ident "unit" (src/gen/gen.ml[28,799+29]..[28,799+33])
+                                          ]
+                                    ]
+                          ]
+                    ]
+                    expression (src/gen/gen.ml[30,840+2]..[30,840+65])
+                      Pexp_apply
+                      expression (src/gen/gen.ml[30,840+2]..[30,840+11])
+                        Pexp_ident "List.iter" (src/gen/gen.ml[30,840+2]..[30,840+11])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (src/gen/gen.ml[30,840+12]..[30,840+17])
+                            Pexp_ident "units" (src/gen/gen.ml[30,840+12]..[30,840+17])
+                        <arg>
+                        Labelled "f"
+                          expression (src/gen/gen.ml[30,840+21]..[30,840+65])
+                            Pexp_function
+                            [
+                              Pparam_val (src/gen/gen.ml[30,840+26]..[30,840+27])
+                                Nolabel
+                                None
+                                pattern (src/gen/gen.ml[30,840+26]..[30,840+27])
+                                  Ppat_var "u" (src/gen/gen.ml[30,840+26]..[30,840+27])
+                            ]
+                            None
+                            Pfunction_body
+                              expression (src/gen/gen.ml[30,840+31]..[30,840+64])
+                                Pexp_apply
+                                expression (src/gen/gen.ml[30,840+31]..[30,840+33])
+                                  Pexp_ident "pr" (src/gen/gen.ml[30,840+31]..[30,840+33])
+                                [
+                                  <arg>
+                                  Nolabel
+                                    expression (src/gen/gen.ml[30,840+34]..[30,840+52])
+                                      Pexp_constant PConst_string("module %-*s = %s",(src/gen/gen.ml[30,840+35]..[30,840+51]),None)
+                                  <arg>
+                                  Nolabel
+                                    expression (src/gen/gen.ml[30,840+53]..[30,840+60])
+                                      Pexp_ident "max_len" (src/gen/gen.ml[30,840+53]..[30,840+60])
+                                  <arg>
+                                  Nolabel
+                                    expression (src/gen/gen.ml[30,840+61]..[30,840+62])
+                                      Pexp_ident "u" (src/gen/gen.ml[30,840+61]..[30,840+62])
+                                  <arg>
+                                  Nolabel
+                                    expression (src/gen/gen.ml[30,840+63]..[30,840+64])
+                                      Pexp_ident "u" (src/gen/gen.ml[30,840+63]..[30,840+64])
+                                ]
+                      ]
+    ]
+]
+
+open StdLabels
+let () =
+  let (archive_fn, oc) =
+    match Sys.argv with
+    | [|_;"-archive";archive_fn;"-o";fn|] -> (archive_fn, (open_out fn))
+    | _ -> failwith "bad command line arguments" in
+  let units = Read_cma.units archive_fn in
+  let pr fmt = Printf.fprintf oc (fmt ^^ "\n") in
+  pr "(* This file is automatically generated *)";
+  pr "";
+  (let max_len =
+     List.fold_left units ~init:0
+       ~f:(fun acc unit -> max acc (String.length unit)) in
+   List.iter units ~f:(fun u -> pr "module %-*s = %s" max_len u u))
+[
+  structure_item (src/gen/gen.ml[10,362+0]..src/gen/gen.ml[10,362+14])
+    Tstr_open Fresh
+    module_expr (src/gen/gen.ml[10,362+5]..src/gen/gen.ml[10,362+14])
+      Tmod_ident "Stdlib!.StdLabels"
+  structure_item (src/gen/gen.ml[12,378+0]..src/gen/gen.ml[30,840+66])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (src/gen/gen.ml[12,378+4]..src/gen/gen.ml[12,378+6])
+          Tpat_construct "()"
+          []
+          None
+        expression (src/gen/gen.ml[13,387+2]..src/gen/gen.ml[30,840+66])
+          Texp_let Nonrec
+          [
+            <def>
+              pattern (src/gen/gen.ml[13,387+6]..src/gen/gen.ml[13,387+20])
+                Tpat_tuple
+                [
+                  pattern (src/gen/gen.ml[13,387+6]..src/gen/gen.ml[13,387+16])
+                    Tpat_var "archive_fn/274"
+                  pattern (src/gen/gen.ml[13,387+18]..src/gen/gen.ml[13,387+20])
+                    Tpat_var "oc/275"
+                ]
+              expression (src/gen/gen.ml[14,410+4]..src/gen/gen.ml[18,526+43])
+                Texp_match
+                expression (src/gen/gen.ml[14,410+10]..src/gen/gen.ml[14,410+18])
+                  Texp_ident "Stdlib!.Sys.argv"
+                [
+                  <case>
+                    pattern (src/gen/gen.ml[15,434+6]..src/gen/gen.ml[15,434+45])
+                      Tpat_value
+                      pattern (src/gen/gen.ml[15,434+6]..src/gen/gen.ml[15,434+45])
+                        Tpat_array
+                        [
+                          pattern (src/gen/gen.ml[15,434+8]..src/gen/gen.ml[15,434+9])
+                            Tpat_any
+                          pattern (src/gen/gen.ml[15,434+11]..src/gen/gen.ml[15,434+21])
+                            Tpat_constant Const_string("-archive",(src/gen/gen.ml[15,434+12]..src/gen/gen.ml[15,434+20]),None)
+                          pattern (src/gen/gen.ml[15,434+23]..src/gen/gen.ml[15,434+33])
+                            Tpat_var "archive_fn/350"
+                          pattern (src/gen/gen.ml[15,434+35]..src/gen/gen.ml[15,434+39])
+                            Tpat_constant Const_string("-o",(src/gen/gen.ml[15,434+36]..src/gen/gen.ml[15,434+38]),None)
+                          pattern (src/gen/gen.ml[15,434+41]..src/gen/gen.ml[15,434+43])
+                            Tpat_var "fn/351"
+                        ]
+                    expression (src/gen/gen.ml[16,483+6]..src/gen/gen.ml[16,483+31])
+                      Texp_tuple
+                      [
+                        expression (src/gen/gen.ml[16,483+7]..src/gen/gen.ml[16,483+17])
+                          Texp_ident "archive_fn/350"
+                        expression (src/gen/gen.ml[16,483+19]..src/gen/gen.ml[16,483+30])
+                          Texp_apply
+                          expression (src/gen/gen.ml[16,483+19]..src/gen/gen.ml[16,483+27])
+                            Texp_ident "Stdlib!.open_out"
+                          [
+                            <arg>
+                              Nolabel
+                              expression (src/gen/gen.ml[16,483+28]..src/gen/gen.ml[16,483+30])
+                                Texp_ident "fn/351"
+                          ]
+                      ]
+                  <case>
+                    pattern (src/gen/gen.ml[17,515+6]..src/gen/gen.ml[17,515+7])
+                      Tpat_value
+                      pattern (src/gen/gen.ml[17,515+6]..src/gen/gen.ml[17,515+7])
+                        Tpat_any
+                    expression (src/gen/gen.ml[18,526+6]..src/gen/gen.ml[18,526+43])
+                      Texp_apply
+                      expression (src/gen/gen.ml[18,526+6]..src/gen/gen.ml[18,526+14])
+                        Texp_ident "Stdlib!.failwith"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (src/gen/gen.ml[18,526+15]..src/gen/gen.ml[18,526+43])
+                            Texp_constant Const_string("bad command line arguments",(src/gen/gen.ml[18,526+16]..src/gen/gen.ml[18,526+42]),None)
+                      ]
+                ]
+          ]
+          expression (src/gen/gen.ml[21,576+2]..src/gen/gen.ml[30,840+66])
+            Texp_let Nonrec
+            [
+              <def>
+                pattern (src/gen/gen.ml[21,576+6]..src/gen/gen.ml[21,576+11])
+                  Tpat_var "units/352"
+                expression (src/gen/gen.ml[21,576+14]..src/gen/gen.ml[21,576+39])
+                  Texp_apply
+                  expression (src/gen/gen.ml[21,576+14]..src/gen/gen.ml[21,576+28])
+                    Texp_ident "Read_cma!.units"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (src/gen/gen.ml[21,576+29]..src/gen/gen.ml[21,576+39])
+                        Texp_ident "archive_fn/274"
+                  ]
+            ]
+            expression (src/gen/gen.ml[23,620+2]..src/gen/gen.ml[30,840+66])
+              Texp_let Nonrec
+              [
+                <def>
+                  pattern (src/gen/gen.ml[23,620+6]..src/gen/gen.ml[23,620+8])
+                    Tpat_var "pr/354"
+                  expression (src/gen/gen.ml[23,620+9]..src/gen/gen.ml[23,620+46]) ghost
+                    Texp_function
+                    [
+                      Nolabel
+                      Param_pat
+                        pattern (src/gen/gen.ml[23,620+9]..src/gen/gen.ml[23,620+12])
+                          Tpat_var "fmt/356"
+                    ]
+                    Tfunction_body
+                      expression (src/gen/gen.ml[23,620+15]..src/gen/gen.ml[23,620+46])
+                        Texp_apply
+                        expression (src/gen/gen.ml[23,620+15]..src/gen/gen.ml[23,620+29])
+                          Texp_ident "Stdlib!.Printf.fprintf"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (src/gen/gen.ml[23,620+30]..src/gen/gen.ml[23,620+32])
+                              Texp_ident "oc/275"
+                          <arg>
+                            Nolabel
+                            expression (src/gen/gen.ml[23,620+33]..src/gen/gen.ml[23,620+46])
+                              Texp_apply
+                              expression (src/gen/gen.ml[23,620+38]..src/gen/gen.ml[23,620+40])
+                                Texp_ident "Stdlib!.^^"
+                              [
+                                <arg>
+                                  Nolabel
+                                  expression (src/gen/gen.ml[23,620+34]..src/gen/gen.ml[23,620+37])
+                                    Texp_ident "fmt/356"
+                                <arg>
+                                  Nolabel
+                                  expression (src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45])
+                                    Texp_construct "CamlinternalFormatBasics.Format"
+                                    [
+                                      expression (src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45]) ghost
+                                        Texp_construct "CamlinternalFormatBasics.Char_literal"
+                                        [
+                                          expression (src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45]) ghost
+                                            Texp_constant Const_char 0a
+                                          expression (src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45]) ghost
+                                            Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                            []
+                                        ]
+                                      expression (src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45]) ghost
+                                        Texp_constant Const_string("\n",(src/gen/gen.ml[23,620+41]..src/gen/gen.ml[23,620+45]) ghost,None)
+                                    ]
+                              ]
+                        ]
+              ]
+              expression (src/gen/gen.ml[24,670+2]..src/gen/gen.ml[30,840+66])
+                Texp_sequence
+                expression (src/gen/gen.ml[24,670+2]..src/gen/gen.ml[24,670+49])
+                  Texp_apply
+                  expression (src/gen/gen.ml[24,670+2]..src/gen/gen.ml[24,670+4])
+                    Texp_ident "pr/354"
+                  [
+                    <arg>
+                      Nolabel
+                      expression (src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49])
+                        Texp_construct "CamlinternalFormatBasics.Format"
+                        [
+                          expression (src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost
+                            Texp_construct "CamlinternalFormatBasics.String_literal"
+                            [
+                              expression (src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost
+                                Texp_constant Const_string("(* This file is automatically generated *)",(src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost,None)
+                              expression (src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost
+                                Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                []
+                            ]
+                          expression (src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost
+                            Texp_constant Const_string("(* This file is automatically generated *)",(src/gen/gen.ml[24,670+5]..src/gen/gen.ml[24,670+49]) ghost,None)
+                        ]
+                  ]
+                expression (src/gen/gen.ml[25,721+2]..src/gen/gen.ml[30,840+66])
+                  Texp_sequence
+                  expression (src/gen/gen.ml[25,721+2]..src/gen/gen.ml[25,721+7])
+                    Texp_apply
+                    expression (src/gen/gen.ml[25,721+2]..src/gen/gen.ml[25,721+4])
+                      Texp_ident "pr/354"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (src/gen/gen.ml[25,721+5]..src/gen/gen.ml[25,721+7])
+                          Texp_construct "CamlinternalFormatBasics.Format"
+                          [
+                            expression (src/gen/gen.ml[25,721+5]..src/gen/gen.ml[25,721+7]) ghost
+                              Texp_construct "CamlinternalFormatBasics.End_of_format"
+                              []
+                            expression (src/gen/gen.ml[25,721+5]..src/gen/gen.ml[25,721+7]) ghost
+                              Texp_constant Const_string("",(src/gen/gen.ml[25,721+5]..src/gen/gen.ml[25,721+7]) ghost,None)
+                          ]
+                    ]
+                  expression (src/gen/gen.ml[26,730+2]..src/gen/gen.ml[30,840+66])
+                    Texp_let Nonrec
+                    [
+                      <def>
+                        pattern (src/gen/gen.ml[26,730+6]..src/gen/gen.ml[26,730+13])
+                          Tpat_var "max_len/393"
+                        expression (src/gen/gen.ml[27,746+4]..src/gen/gen.ml[28,799+35])
+                          Texp_apply
+                          expression (src/gen/gen.ml[27,746+4]..src/gen/gen.ml[27,746+18])
+                            Texp_ident "Stdlib!.StdLabels.List.fold_left"
+                          [
+                            <arg>
+                              Labelled "f"
+                              expression (src/gen/gen.ml[27,746+36]..src/gen/gen.ml[28,799+35])
+                                Texp_function
+                                [
+                                  Nolabel
+                                  Param_pat
+                                    pattern (src/gen/gen.ml[27,746+41]..src/gen/gen.ml[27,746+44])
+                                      Tpat_var "acc/460"
+                                  Nolabel
+                                  Param_pat
+                                    pattern (src/gen/gen.ml[27,746+45]..src/gen/gen.ml[27,746+49])
+                                      Tpat_var "unit/461"
+                                ]
+                                Tfunction_body
+                                  expression (src/gen/gen.ml[28,799+6]..src/gen/gen.ml[28,799+34])
+                                    Texp_apply
+                                    expression (src/gen/gen.ml[28,799+6]..src/gen/gen.ml[28,799+9])
+                                      Texp_ident "Stdlib!.max"
+                                    [
+                                      <arg>
+                                        Nolabel
+                                        expression (src/gen/gen.ml[28,799+10]..src/gen/gen.ml[28,799+13])
+                                          Texp_ident "acc/460"
+                                      <arg>
+                                        Nolabel
+                                        expression (src/gen/gen.ml[28,799+14]..src/gen/gen.ml[28,799+34])
+                                          Texp_apply
+                                          expression (src/gen/gen.ml[28,799+15]..src/gen/gen.ml[28,799+28])
+                                            Texp_ident "Stdlib!.StdLabels.String.length"
+                                          [
+                                            <arg>
+                                              Nolabel
+                                              expression (src/gen/gen.ml[28,799+29]..src/gen/gen.ml[28,799+33])
+                                                Texp_ident "unit/461"
+                                          ]
+                                    ]
+                            <arg>
+                              Labelled "init"
+                              expression (src/gen/gen.ml[27,746+31]..src/gen/gen.ml[27,746+32])
+                                Texp_constant Const_int 0
+                            <arg>
+                              Nolabel
+                              expression (src/gen/gen.ml[27,746+19]..src/gen/gen.ml[27,746+24])
+                                Texp_ident "units/352"
+                          ]
+                    ]
+                    expression (src/gen/gen.ml[30,840+2]..src/gen/gen.ml[30,840+65])
+                      Texp_apply
+                      expression (src/gen/gen.ml[30,840+2]..src/gen/gen.ml[30,840+11])
+                        Texp_ident "Stdlib!.StdLabels.List.iter"
+                      [
+                        <arg>
+                          Labelled "f"
+                          expression (src/gen/gen.ml[30,840+21]..src/gen/gen.ml[30,840+65])
+                            Texp_function
+                            [
+                              Nolabel
+                              Param_pat
+                                pattern (src/gen/gen.ml[30,840+26]..src/gen/gen.ml[30,840+27])
+                                  Tpat_var "u/531"
+                            ]
+                            Tfunction_body
+                              expression (src/gen/gen.ml[30,840+31]..src/gen/gen.ml[30,840+64])
+                                Texp_apply
+                                expression (src/gen/gen.ml[30,840+31]..src/gen/gen.ml[30,840+33])
+                                  Texp_ident "pr/354"
+                                [
+                                  <arg>
+                                    Nolabel
+                                    expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52])
+                                      Texp_construct "CamlinternalFormatBasics.Format"
+                                      [
+                                        expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                          Texp_construct "CamlinternalFormatBasics.String_literal"
+                                          [
+                                            expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                              Texp_constant Const_string("module ",(src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost,None)
+                                            expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                              Texp_construct "CamlinternalFormatBasics.String"
+                                              [
+                                                expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                  Texp_construct "CamlinternalFormatBasics.Arg_padding"
+                                                  [
+                                                    expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                      Texp_construct "CamlinternalFormatBasics.Left"
+                                                      []
+                                                  ]
+                                                expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                  Texp_construct "CamlinternalFormatBasics.String_literal"
+                                                  [
+                                                    expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                      Texp_constant Const_string(" = ",(src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost,None)
+                                                    expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                      Texp_construct "CamlinternalFormatBasics.String"
+                                                      [
+                                                        expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                          Texp_construct "CamlinternalFormatBasics.No_padding"
+                                                          []
+                                                        expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                                          Texp_construct "CamlinternalFormatBasics.End_of_format"
+                                                          []
+                                                      ]
+                                                  ]
+                                              ]
+                                          ]
+                                        expression (src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost
+                                          Texp_constant Const_string("module %-*s = %s",(src/gen/gen.ml[30,840+34]..src/gen/gen.ml[30,840+52]) ghost,None)
+                                      ]
+                                  <arg>
+                                    Nolabel
+                                    expression (src/gen/gen.ml[30,840+53]..src/gen/gen.ml[30,840+60])
+                                      Texp_ident "max_len/393"
+                                  <arg>
+                                    Nolabel
+                                    expression (src/gen/gen.ml[30,840+61]..src/gen/gen.ml[30,840+62])
+                                      Texp_ident "u/531"
+                                  <arg>
+                                    Nolabel
+                                    expression (src/gen/gen.ml[30,840+63]..src/gen/gen.ml[30,840+64])
+                                      Texp_ident "u/531"
+                                ]
+                        <arg>
+                          Nolabel
+                          expression (src/gen/gen.ml[30,840+12]..src/gen/gen.ml[30,840+17])
+                            Texp_ident "units/352"
+                      ]
+    ]
+]
+
+{<Gen>
+ }
+
+(seq
+  (let
+    (*match*/618 =
+       (catch
+         (let (*match*/607 = (caml_sys_argv 0))
+           (catch
+             (let (len/611 =a (array.length[addr] *match*/607))
+               (if (!= len/611 5) (exit 1)
+                 (let
+                   (*match*/608 =o (array.unsafe_get[addr] *match*/607 0)
+                    *match*/609 =o (array.unsafe_get[addr] *match*/607 1))
+                   (stringswitch *match*/609
+                    case "-archive":
+                     (let
+                       (archive_fn/350 =o
+                          (array.unsafe_get[addr] *match*/607 2)
+                        *match*/610 =o (array.unsafe_get[addr] *match*/607 3))
+                       (stringswitch *match*/610
+                        case "-o":
+                         (let
+                           (fn/351 =o (array.unsafe_get[addr] *match*/607 4)
+                            oc/616 =
+                              (apply (field_imm 59 (global Stdlib!)) fn/351)
+                            archive_fn/615 =a archive_fn/350)
+                           (exit 2 archive_fn/615 oc/616))
+                        default: (exit 1)))
+                    default: (exit 1)))))
+            with (1)
+             (let
+               (*match*/614 =
+                  (apply (field_imm 1 (global Stdlib!))
+                    "bad command line arguments")
+                oc/613 =a (field_imm 1 *match*/614)
+                archive_fn/612 =a (field_imm 0 *match*/614))
+               (exit 2 archive_fn/612 oc/613))))
+        with (2 archive_fn/274 oc/275)
+         (let
+           (units/352 =
+              (apply (field_imm 0 (global Read_cma!)) archive_fn/274)
+            pr/354 =
+              (function fmt/356
+                (apply (field_imm 0 (global Stdlib__Printf!)) oc/275
+                  (apply (field_imm 97 (global Stdlib!)) fmt/356
+                    [0: [12: '\n' 0] "\n"]))))
+           (seq
+             (apply pr/354
+               [0:
+                [11: "(* This file is automatically generated *)" 0]
+                "(* This file is automatically generated *)"])
+             (apply pr/354 [0: 0 ""])
+             (let
+               (max_len/393 =[int]
+                  (apply (field_imm 25 (global Stdlib__ListLabels!))
+                    (function acc/460[int] unit/461 : int
+                      (apply (field_imm 16 (global Stdlib!)) acc/460
+                        (string.length unit/461)))
+                    0 units/352))
+               (apply (field_imm 17 (global Stdlib__ListLabels!))
+                 (function u/531 : int
+                   (apply pr/354
+                     [0:
+                      [11: "module " [2: [1: 0] [11: " = " [2: 0 0]]]]
+                      "module %-*s = %s"]
+                     max_len/393 u/531 u/531))
+                 units/352))))))
+    0)
+  0)
+(seq
+  (let
+    (*match*/618 =
+       (catch
+         (let (*match*/607 = (caml_sys_argv 0))
+           (catch
+             (if (!= (array.length[addr] *match*/607) 5) (exit 1)
+               (let (*match*/609 =o (array.unsafe_get[addr] *match*/607 1))
+                 (stringswitch *match*/609
+                  case "-archive":
+                   (let
+                     (archive_fn/350 =o
+                        (array.unsafe_get[addr] *match*/607 2)
+                      *match*/610 =o (array.unsafe_get[addr] *match*/607 3))
+                     (stringswitch *match*/610
+                      case "-o":
+                       (let
+                         (fn/351 =o (array.unsafe_get[addr] *match*/607 4)
+                          oc/616 =
+                            (apply (field_imm 59 (global Stdlib!)) fn/351))
+                         (exit 2 archive_fn/350 oc/616))
+                      default: (exit 1)))
+                  default: (exit 1))))
+            with (1)
+             (let
+               (*match*/614 =
+                  (apply (field_imm 1 (global Stdlib!))
+                    "bad command line arguments"))
+               (exit 2 (field_imm 0 *match*/614) (field_imm 1 *match*/614)))))
+        with (2 archive_fn/274 oc/275)
+         (let
+           (units/352 =
+              (apply (field_imm 0 (global Read_cma!)) archive_fn/274)
+            pr/354 =
+              (function fmt/356
+                (apply (field_imm 0 (global Stdlib__Printf!)) oc/275
+                  (apply (field_imm 97 (global Stdlib!)) fmt/356
+                    [0: [12: '\n' 0] "\n"]))))
+           (seq
+             (apply pr/354
+               [0:
+                [11: "(* This file is automatically generated *)" 0]
+                "(* This file is automatically generated *)"])
+             (apply pr/354 [0: 0 ""])
+             (let
+               (max_len/393 =[int]
+                  (apply (field_imm 25 (global Stdlib__ListLabels!))
+                    (function acc/460[int] unit/461 : int
+                      (apply (field_imm 16 (global Stdlib!)) acc/460
+                        (string.length unit/461)))
+                    0 units/352))
+               (apply (field_imm 17 (global Stdlib__ListLabels!))
+                 (function u/531 : int
+                   (apply pr/354
+                     [0:
+                      [11: "module " [2: [1: 0] [11: " = " [2: 0 0]]]]
+                      "module %-*s = %s"]
+                     max_len/393 u/531 u/531))
+                 units/352))))))
+    0)
+  0)

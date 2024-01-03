@@ -1,0 +1,4 @@
+0.003s ------ ------ - src/ocaml_bytecomp/ocaml_bytecomp.ml
+  0.002s ------ ------ - generate
+    0.002s ------ ------ - assemble
+0.007s 3.11MB 1.83MB - other

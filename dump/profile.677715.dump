@@ -1,0 +1,13 @@
+0.232s 52.8MB 6.33MB 6.33MB src/shadow/gen/gen.exe
+  0.001s 0.48MB ------ ------ selection
+  0.001s 0.15MB ------ ------ cse
+  0.001s 3.18MB 0.09MB 0.09MB liveness
+  0.002s 6.24MB 0.43MB 0.53MB spill
+  0.001s 0.12MB ------ ------ split
+  0.009s 20.8MB 1.87MB 2.40MB regalloc
+  ------ 2.00MB 0.15MB 2.56MB linearize
+  0.001s 7.39MB 0.53MB 3.09MB emit
+  0.005s ------ ------ ------ assemble
+  0.201s ------ ------ ------ c-linker
+  0.010s 12.4MB 3.24MB 6.33MB other
+0.007s ------ ------ ------ other

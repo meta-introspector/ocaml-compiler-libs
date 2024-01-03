@@ -1,0 +1,9 @@
+0.007s 8.18MB 1.34MB 3.17MB src/gen/gen.ml
+  0.002s 3.98MB 0.93MB 2.77MB typing
+  0.003s 2.20MB 0.18MB 2.95MB generate
+    ------ 2.00MB 0.18MB 2.95MB compile_phrases
+      ------ 2.00MB 0.18MB 2.95MB spill
+    0.002s ------ ------ ------ assemble
+    0.001s 0.20MB ------ ------ other
+  0.001s 2.00MB 0.21MB 3.17MB other
+0.006s 3.11MB 1.83MB ------ other

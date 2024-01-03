@@ -1,0 +1,41 @@
+[
+  signature_item (src/read_cma/read_cma.mli[1,0+0]..[1,0+33])
+    Psig_value
+    value_description "units" (src/read_cma/read_cma.mli[1,0+4]..[1,0+9]) (src/read_cma/read_cma.mli[1,0+0]..[1,0+33])
+      core_type (src/read_cma/read_cma.mli[1,0+12]..[1,0+33])
+        Ptyp_arrow
+        Nolabel
+        core_type (src/read_cma/read_cma.mli[1,0+12]..[1,0+18])
+          Ptyp_constr "string" (src/read_cma/read_cma.mli[1,0+12]..[1,0+18])
+          []
+        core_type (src/read_cma/read_cma.mli[1,0+22]..[1,0+33])
+          Ptyp_constr "list" (src/read_cma/read_cma.mli[1,0+29]..[1,0+33])
+          [
+            core_type (src/read_cma/read_cma.mli[1,0+22]..[1,0+28])
+              Ptyp_constr "string" (src/read_cma/read_cma.mli[1,0+22]..[1,0+28])
+              []
+          ]
+      []
+]
+
+val units : string -> string list
+[
+  signature_item (src/read_cma/read_cma.mli[1,0+0]..src/read_cma/read_cma.mli[1,0+33])
+    Tsig_value
+    value_description units/270 (src/read_cma/read_cma.mli[1,0+0]..src/read_cma/read_cma.mli[1,0+33])
+      core_type (src/read_cma/read_cma.mli[1,0+12]..src/read_cma/read_cma.mli[1,0+33])
+        Ttyp_arrow
+        Nolabel
+        core_type (src/read_cma/read_cma.mli[1,0+12]..src/read_cma/read_cma.mli[1,0+18])
+          Ttyp_constr "string/15!"
+          []
+        core_type (src/read_cma/read_cma.mli[1,0+22]..src/read_cma/read_cma.mli[1,0+33])
+          Ttyp_constr "list/9!"
+          [
+            core_type (src/read_cma/read_cma.mli[1,0+22]..src/read_cma/read_cma.mli[1,0+28])
+              Ttyp_constr "string/15!"
+              []
+          ]
+      []
+]
+

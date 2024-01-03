@@ -1,0 +1,1574 @@
+[
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+0]..[3,44+56])
+    Pstr_module
+    "Afl_instrument" (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+7]..[3,44+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+42]..[3,44+56])
+        Pmod_ident "Afl_instrument" (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+42]..[3,44+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+0]..[4,101+56])
+    Pstr_module
+    "Alias_analysis" (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+7]..[4,101+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+42]..[4,101+56])
+        Pmod_ident "Alias_analysis" (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+42]..[4,101+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+0]..[5,158+57])
+    Pstr_module
+    "Allocated_const" (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+7]..[5,158+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+42]..[5,158+57])
+        Pmod_ident "Allocated_const" (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+42]..[5,158+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+0]..[6,216+46])
+    Pstr_module
+    "Arch" (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+7]..[6,216+11])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+42]..[6,216+46])
+        Pmod_ident "Arch" (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+42]..[6,216+46])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+0]..[7,263+48])
+    Pstr_module
+    "Asmgen" (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+7]..[7,263+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+42]..[7,263+48])
+        Pmod_ident "Asmgen" (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+42]..[7,263+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+0]..[8,312+54])
+    Pstr_module
+    "Asmlibrarian" (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+7]..[8,312+19])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+42]..[8,312+54])
+        Pmod_ident "Asmlibrarian" (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+42]..[8,312+54])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+0]..[9,367+49])
+    Pstr_module
+    "Asmlink" (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+7]..[9,367+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+42]..[9,367+49])
+        Pmod_ident "Asmlink" (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+42]..[9,367+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+0]..[10,417+53])
+    Pstr_module
+    "Asmpackager" (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+7]..[10,417+18])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+42]..[10,417+53])
+        Pmod_ident "Asmpackager" (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+42]..[10,417+53])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+0]..[11,471+66])
+    Pstr_module
+    "Augment_specialised_args" (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+7]..[11,471+31])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+42]..[11,471+66])
+        Pmod_ident "Augment_specialised_args" (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+42]..[11,471+66])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+0]..[12,538+53])
+    Pstr_module
+    "Backend_var" (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+7]..[12,538+18])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+42]..[12,538+53])
+        Pmod_ident "Backend_var" (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+42]..[12,538+53])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+0]..[13,592+59])
+    Pstr_module
+    "Branch_relaxation" (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+7]..[13,592+24])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+42]..[13,592+59])
+        Pmod_ident "Branch_relaxation" (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+42]..[13,592+59])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+0]..[14,652+59])
+    Pstr_module
+    "Build_export_info" (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+7]..[14,652+24])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+42]..[14,652+59])
+        Pmod_ident "Build_export_info" (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+42]..[14,652+59])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+0]..[15,712+45])
+    Pstr_module
+    "CSE" (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+7]..[15,712+10])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+42]..[15,712+45])
+        Pmod_ident "CSE" (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+42]..[15,712+45])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+0]..[16,758+48])
+    Pstr_module
+    "CSEgen" (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+7]..[16,758+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+42]..[16,758+48])
+        Pmod_ident "CSEgen" (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+42]..[16,758+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+0]..[17,807+49])
+    Pstr_module
+    "Clambda" (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+7]..[17,807+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+42]..[17,807+49])
+        Pmod_ident "Clambda" (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+42]..[17,807+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+0]..[18,857+60])
+    Pstr_module
+    "Clambda_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+7]..[18,857+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+42]..[18,857+60])
+        Pmod_ident "Clambda_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+42]..[18,857+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+0]..[19,918+49])
+    Pstr_module
+    "Closure" (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+7]..[19,918+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+42]..[19,918+49])
+        Pmod_ident "Closure" (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+42]..[19,918+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+0]..[20,968+60])
+    Pstr_module
+    "Closure_conversion" (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+7]..[20,968+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+42]..[20,968+60])
+        Pmod_ident "Closure_conversion" (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+42]..[20,968+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+0]..[21,1029+64])
+    Pstr_module
+    "Closure_conversion_aux" (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+7]..[21,1029+29])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+42]..[21,1029+64])
+        Pmod_ident "Closure_conversion_aux" (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+42]..[21,1029+64])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+0]..[22,1094+57])
+    Pstr_module
+    "Closure_element" (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+7]..[22,1094+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+42]..[22,1094+57])
+        Pmod_ident "Closure_element" (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+42]..[22,1094+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+0]..[23,1152+52])
+    Pstr_module
+    "Closure_id" (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+7]..[23,1152+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+42]..[23,1152+52])
+        Pmod_ident "Closure_id" (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+42]..[23,1152+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+0]..[24,1205+60])
+    Pstr_module
+    "Closure_middle_end" (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+7]..[24,1205+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+42]..[24,1205+60])
+        Pmod_ident "Closure_middle_end" (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+42]..[24,1205+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+0]..[25,1266+57])
+    Pstr_module
+    "Closure_offsets" (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+7]..[25,1266+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+42]..[25,1266+57])
+        Pmod_ident "Closure_offsets" (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+42]..[25,1266+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+0]..[26,1324+56])
+    Pstr_module
+    "Closure_origin" (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+7]..[26,1324+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+42]..[26,1324+56])
+        Pmod_ident "Closure_origin" (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+42]..[26,1324+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+0]..[27,1381+45])
+    Pstr_module
+    "Cmm" (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+7]..[27,1381+10])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+42]..[27,1381+45])
+        Pmod_ident "Cmm" (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+42]..[27,1381+45])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+0]..[28,1427+53])
+    Pstr_module
+    "Cmm_helpers" (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+7]..[28,1427+18])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+42]..[28,1427+53])
+        Pmod_ident "Cmm_helpers" (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+42]..[28,1427+53])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+0]..[29,1481+56])
+    Pstr_module
+    "Cmm_invariants" (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+7]..[29,1481+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+42]..[29,1481+56])
+        Pmod_ident "Cmm_invariants" (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+42]..[29,1481+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+0]..[30,1538+48])
+    Pstr_module
+    "Cmmgen" (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+7]..[30,1538+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+42]..[30,1538+48])
+        Pmod_ident "Cmmgen" (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+42]..[30,1538+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+0]..[31,1587+54])
+    Pstr_module
+    "Cmmgen_state" (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+7]..[31,1587+19])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+42]..[31,1587+54])
+        Pmod_ident "Cmmgen_state" (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+42]..[31,1587+54])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+0]..[32,1642+50])
+    Pstr_module
+    "Coloring" (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+7]..[32,1642+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+42]..[32,1642+50])
+        Pmod_ident "Coloring" (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+42]..[32,1642+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+0]..[33,1693+51])
+    Pstr_module
+    "Comballoc" (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+7]..[33,1693+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+42]..[33,1693+51])
+        Pmod_ident "Comballoc" (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+42]..[33,1693+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+0]..[34,1745+58])
+    Pstr_module
+    "Compilation_unit" (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+7]..[34,1745+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+42]..[34,1745+58])
+        Pmod_ident "Compilation_unit" (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+42]..[34,1745+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+0]..[35,1804+51])
+    Pstr_module
+    "Compilenv" (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+7]..[35,1804+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+42]..[35,1804+51])
+        Pmod_ident "Compilenv" (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+42]..[35,1804+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+0]..[36,1856+60])
+    Pstr_module
+    "Convert_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+7]..[36,1856+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+42]..[36,1856+60])
+        Pmod_ident "Convert_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+42]..[36,1856+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+0]..[37,1917+50])
+    Pstr_module
+    "Dataflow" (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+7]..[37,1917+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+42]..[37,1917+50])
+        Pmod_ident "Dataflow" (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+42]..[37,1917+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+0]..[38,1968+50])
+    Pstr_module
+    "Deadcode" (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+7]..[38,1968+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+42]..[38,1968+50])
+        Pmod_ident "Deadcode" (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+42]..[38,1968+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+0]..[39,2019+57])
+    Pstr_module
+    "Effect_analysis" (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+7]..[39,2019+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+42]..[39,2019+57])
+        Pmod_ident "Effect_analysis" (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+42]..[39,2019+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+0]..[40,2077+46])
+    Pstr_module
+    "Emit" (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+7]..[40,2077+11])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+42]..[40,2077+46])
+        Pmod_ident "Emit" (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+42]..[40,2077+46])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+0]..[41,2124+49])
+    Pstr_module
+    "Emitaux" (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+7]..[41,2124+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+42]..[41,2124+49])
+        Pmod_ident "Emitaux" (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+42]..[41,2124+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+0]..[42,2174+51])
+    Pstr_module
+    "Export_id" (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+7]..[42,2174+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+42]..[42,2174+51])
+        Pmod_ident "Export_id" (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+42]..[42,2174+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+0]..[43,2226+53])
+    Pstr_module
+    "Export_info" (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+7]..[43,2226+18])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+42]..[43,2226+53])
+        Pmod_ident "Export_info" (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+42]..[43,2226+53])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+0]..[44,2280+62])
+    Pstr_module
+    "Export_info_for_pack" (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+7]..[44,2280+27])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+42]..[44,2280+62])
+        Pmod_ident "Export_info_for_pack" (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+42]..[44,2280+62])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+0]..[45,2343+61])
+    Pstr_module
+    "Extract_projections" (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+7]..[45,2343+26])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+42]..[45,2343+61])
+        Pmod_ident "Extract_projections" (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+42]..[45,2343+61])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+0]..[46,2405+66])
+    Pstr_module
+    "Find_recursive_functions" (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+7]..[46,2405+31])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+42]..[46,2405+66])
+        Pmod_ident "Find_recursive_functions" (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+42]..[46,2405+66])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+0]..[47,2472+49])
+    Pstr_module
+    "Flambda" (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+7]..[47,2472+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+42]..[47,2472+49])
+        Pmod_ident "Flambda" (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+42]..[47,2472+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+0]..[48,2522+60])
+    Pstr_module
+    "Flambda_invariants" (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+7]..[48,2522+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+42]..[48,2522+60])
+        Pmod_ident "Flambda_invariants" (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+42]..[48,2522+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+0]..[49,2583+59])
+    Pstr_module
+    "Flambda_iterators" (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+7]..[49,2583+24])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+42]..[49,2583+59])
+        Pmod_ident "Flambda_iterators" (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+42]..[49,2583+59])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+0]..[50,2643+60])
+    Pstr_module
+    "Flambda_middle_end" (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+7]..[50,2643+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+42]..[50,2643+60])
+        Pmod_ident "Flambda_middle_end" (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+42]..[50,2643+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+0]..[51,2704+60])
+    Pstr_module
+    "Flambda_to_clambda" (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+7]..[51,2704+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+42]..[51,2704+60])
+        Pmod_ident "Flambda_to_clambda" (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+42]..[51,2704+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+0]..[52,2765+55])
+    Pstr_module
+    "Flambda_utils" (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+7]..[52,2765+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+42]..[52,2765+55])
+        Pmod_ident "Flambda_utils" (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+42]..[52,2765+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+0]..[53,2821+52])
+    Pstr_module
+    "Freshening" (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+7]..[53,2821+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+42]..[53,2821+52])
+        Pmod_ident "Freshening" (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+42]..[53,2821+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+0]..[54,2874+50])
+    Pstr_module
+    "Id_types" (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+7]..[54,2874+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+42]..[54,2874+50])
+        Pmod_ident "Id_types" (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+42]..[54,2874+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+0]..[55,2925+55])
+    Pstr_module
+    "Import_approx" (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+7]..[55,2925+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+42]..[55,2925+55])
+        Pmod_ident "Import_approx" (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+42]..[55,2925+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+0]..[56,2981+59])
+    Pstr_module
+    "Inconstant_idents" (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+7]..[56,2981+24])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+42]..[56,2981+59])
+        Pmod_ident "Inconstant_idents" (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+42]..[56,2981+59])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+0]..[57,3041+73])
+    Pstr_module
+    "Initialize_symbol_to_let_symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+7]..[57,3041+38])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+42]..[57,3041+73])
+        Pmod_ident "Initialize_symbol_to_let_symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+42]..[57,3041+73])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+0]..[58,3115+61])
+    Pstr_module
+    "Inline_and_simplify" (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+7]..[58,3115+26])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+42]..[58,3115+61])
+        Pmod_ident "Inline_and_simplify" (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+42]..[58,3115+61])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+0]..[59,3177+65])
+    Pstr_module
+    "Inline_and_simplify_aux" (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+7]..[59,3177+30])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+42]..[59,3177+65])
+        Pmod_ident "Inline_and_simplify_aux" (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+42]..[59,3177+65])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+0]..[60,3243+55])
+    Pstr_module
+    "Inlining_cost" (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+7]..[60,3243+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+42]..[60,3243+55])
+        Pmod_ident "Inlining_cost" (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+42]..[60,3243+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+0]..[61,3299+59])
+    Pstr_module
+    "Inlining_decision" (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+7]..[61,3299+24])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+42]..[61,3299+59])
+        Pmod_ident "Inlining_decision" (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+42]..[61,3299+59])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+0]..[62,3359+56])
+    Pstr_module
+    "Inlining_stats" (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+7]..[62,3359+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+42]..[62,3359+56])
+        Pmod_ident "Inlining_stats" (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+42]..[62,3359+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+0]..[63,3416+62])
+    Pstr_module
+    "Inlining_stats_types" (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+7]..[63,3416+27])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+42]..[63,3416+62])
+        Pmod_ident "Inlining_stats_types" (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+42]..[63,3416+62])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+0]..[64,3479+61])
+    Pstr_module
+    "Inlining_transforms" (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+7]..[64,3479+26])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+42]..[64,3479+61])
+        Pmod_ident "Inlining_transforms" (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+42]..[64,3479+61])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+0]..[65,3541+48])
+    Pstr_module
+    "Interf" (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+7]..[65,3541+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+42]..[65,3541+48])
+        Pmod_ident "Interf" (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+42]..[65,3541+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+0]..[66,3590+65])
+    Pstr_module
+    "Internal_variable_names" (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+7]..[66,3590+30])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+42]..[66,3590+65])
+        Pmod_ident "Internal_variable_names" (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+42]..[66,3590+65])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+0]..[67,3656+50])
+    Pstr_module
+    "Interval" (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+7]..[67,3656+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+42]..[67,3656+50])
+        Pmod_ident "Interval" (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+42]..[67,3656+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+0]..[68,3707+58])
+    Pstr_module
+    "Invariant_params" (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+7]..[68,3707+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+42]..[68,3707+58])
+        Pmod_ident "Invariant_params" (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+42]..[68,3707+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+0]..[69,3766+51])
+    Pstr_module
+    "Lift_code" (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+7]..[69,3766+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+42]..[69,3766+51])
+        Pmod_ident "Lift_code" (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+42]..[69,3766+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+0]..[70,3818+56])
+    Pstr_module
+    "Lift_constants" (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+7]..[70,3818+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+42]..[70,3818+56])
+        Pmod_ident "Lift_constants" (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+42]..[70,3818+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+0]..[71,3875+71])
+    Pstr_module
+    "Lift_let_to_initialize_symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+7]..[71,3875+36])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+42]..[71,3875+71])
+        Pmod_ident "Lift_let_to_initialize_symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+42]..[71,3875+71])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+0]..[72,3947+48])
+    Pstr_module
+    "Linear" (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+7]..[72,3947+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+42]..[72,3947+48])
+        Pmod_ident "Linear" (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+42]..[72,3947+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+0]..[73,3996+55])
+    Pstr_module
+    "Linear_format" (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+7]..[73,3996+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+42]..[73,3996+55])
+        Pmod_ident "Linear_format" (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+42]..[73,3996+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+0]..[74,4052+51])
+    Pstr_module
+    "Linearize" (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+7]..[74,4052+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+42]..[74,4052+51])
+        Pmod_ident "Linearize" (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+42]..[74,4052+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+0]..[75,4104+54])
+    Pstr_module
+    "Linkage_name" (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+7]..[75,4104+19])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+42]..[75,4104+54])
+        Pmod_ident "Linkage_name" (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+42]..[75,4104+54])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+0]..[76,4159+49])
+    Pstr_module
+    "Linscan" (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+7]..[76,4159+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+42]..[76,4159+49])
+        Pmod_ident "Linscan" (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+42]..[76,4159+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+0]..[77,4209+50])
+    Pstr_module
+    "Liveness" (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+7]..[77,4209+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+42]..[77,4209+50])
+        Pmod_ident "Liveness" (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+42]..[77,4209+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+0]..[78,4260+46])
+    Pstr_module
+    "Mach" (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+7]..[78,4260+11])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+42]..[78,4260+46])
+        Pmod_ident "Mach" (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+42]..[78,4260+46])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+0]..[79,4307+58])
+    Pstr_module
+    "Mutable_variable" (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+7]..[79,4307+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+42]..[79,4307+58])
+        Pmod_ident "Mutable_variable" (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+42]..[79,4307+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+0]..[80,4366+52])
+    Pstr_module
+    "Optcompile" (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+7]..[80,4366+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+42]..[80,4366+52])
+        Pmod_ident "Optcompile" (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+42]..[80,4366+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+0]..[81,4419+51])
+    Pstr_module
+    "Opterrors" (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+7]..[81,4419+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+42]..[81,4419+51])
+        Pmod_ident "Opterrors" (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+42]..[81,4419+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+0]..[82,4471+55])
+    Pstr_module
+    "Optmaindriver" (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+7]..[82,4471+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+42]..[82,4471+55])
+        Pmod_ident "Optmaindriver" (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+42]..[82,4471+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+0]..[83,4527+51])
+    Pstr_module
+    "Parameter" (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+7]..[83,4527+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+42]..[83,4527+51])
+        Pmod_ident "Parameter" (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+42]..[83,4527+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+0]..[84,4579+54])
+    Pstr_module
+    "Pass_wrapper" (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+7]..[84,4579+19])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+42]..[84,4579+54])
+        Pmod_ident "Pass_wrapper" (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+42]..[84,4579+54])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+0]..[85,4634+49])
+    Pstr_module
+    "Polling" (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+7]..[85,4634+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+42]..[85,4634+49])
+        Pmod_ident "Polling" (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+42]..[85,4634+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+0]..[86,4684+54])
+    Pstr_module
+    "Printclambda" (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+7]..[86,4684+19])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+42]..[86,4684+54])
+        Pmod_ident "Printclambda" (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+42]..[86,4684+54])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+0]..[87,4739+65])
+    Pstr_module
+    "Printclambda_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+7]..[87,4739+30])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+42]..[87,4739+65])
+        Pmod_ident "Printclambda_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+42]..[87,4739+65])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+0]..[88,4805+50])
+    Pstr_module
+    "Printcmm" (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+7]..[88,4805+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+42]..[88,4805+50])
+        Pmod_ident "Printcmm" (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+42]..[88,4805+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+0]..[89,4856+53])
+    Pstr_module
+    "Printlinear" (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+7]..[89,4856+18])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+42]..[89,4856+53])
+        Pmod_ident "Printlinear" (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+42]..[89,4856+53])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+0]..[90,4910+51])
+    Pstr_module
+    "Printmach" (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+7]..[90,4910+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+42]..[90,4910+51])
+        Pmod_ident "Printmach" (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+42]..[90,4910+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+0]..[91,4962+46])
+    Pstr_module
+    "Proc" (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+7]..[91,4962+11])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+42]..[91,4962+46])
+        Pmod_ident "Proc" (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+42]..[91,4962+46])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+0]..[92,5009+52])
+    Pstr_module
+    "Projection" (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+7]..[92,5009+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+42]..[92,5009+52])
+        Pmod_ident "Projection" (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+42]..[92,5009+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+0]..[93,5062+58])
+    Pstr_module
+    "Ref_to_variables" (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+7]..[93,5062+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+42]..[93,5062+58])
+        Pmod_ident "Ref_to_variables" (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+42]..[93,5062+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+0]..[94,5121+45])
+    Pstr_module
+    "Reg" (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+7]..[94,5121+10])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+42]..[94,5121+45])
+        Pmod_ident "Reg" (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+42]..[94,5121+45])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+0]..[95,5167+48])
+    Pstr_module
+    "Reload" (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+7]..[95,5167+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+42]..[95,5167+48])
+        Pmod_ident "Reload" (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+42]..[95,5167+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+0]..[96,5216+51])
+    Pstr_module
+    "Reloadgen" (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+7]..[96,5216+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+42]..[96,5216+51])
+        Pmod_ident "Reloadgen" (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+42]..[96,5216+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+0]..[97,5268+72])
+    Pstr_module
+    "Remove_free_vars_equal_to_args" (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+7]..[97,5268+37])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+42]..[97,5268+72])
+        Pmod_ident "Remove_free_vars_equal_to_args" (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+42]..[97,5268+72])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+0]..[98,5341+65])
+    Pstr_module
+    "Remove_unused_arguments" (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+7]..[98,5341+30])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+42]..[98,5341+65])
+        Pmod_ident "Remove_unused_arguments" (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+42]..[98,5341+65])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+0]..[99,5407+68])
+    Pstr_module
+    "Remove_unused_closure_vars" (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+7]..[99,5407+33])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+42]..[99,5407+68])
+        Pmod_ident "Remove_unused_closure_vars" (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+42]..[99,5407+68])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+0]..[100,5476+74])
+    Pstr_module
+    "Remove_unused_program_constructs" (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+7]..[100,5476+39])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+42]..[100,5476+74])
+        Pmod_ident "Remove_unused_program_constructs" (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+42]..[100,5476+74])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+0]..[101,5551+50])
+    Pstr_module
+    "Schedgen" (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+7]..[101,5551+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+42]..[101,5551+50])
+        Pmod_ident "Schedgen" (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+42]..[101,5551+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+0]..[102,5602+52])
+    Pstr_module
+    "Scheduling" (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+7]..[102,5602+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+42]..[102,5602+52])
+        Pmod_ident "Scheduling" (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+42]..[102,5602+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+0]..[103,5655+51])
+    Pstr_module
+    "Selectgen" (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+7]..[103,5655+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+42]..[103,5655+51])
+        Pmod_ident "Selectgen" (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+42]..[103,5655+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+0]..[104,5707+51])
+    Pstr_module
+    "Selection" (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+7]..[104,5707+16])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+42]..[104,5707+51])
+        Pmod_ident "Selection" (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+42]..[104,5707+51])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+0]..[105,5759+65])
+    Pstr_module
+    "Semantics_of_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+7]..[105,5759+30])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+42]..[105,5759+65])
+        Pmod_ident "Semantics_of_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+42]..[105,5759+65])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+0]..[106,5825+60])
+    Pstr_module
+    "Set_of_closures_id" (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+7]..[106,5825+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+42]..[106,5825+60])
+        Pmod_ident "Set_of_closures_id" (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+42]..[106,5825+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+0]..[107,5886+64])
+    Pstr_module
+    "Set_of_closures_origin" (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+7]..[107,5886+29])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+42]..[107,5886+64])
+        Pmod_ident "Set_of_closures_origin" (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+42]..[107,5886+64])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+0]..[108,5951+57])
+    Pstr_module
+    "Share_constants" (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+7]..[108,5951+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+42]..[108,5951+57])
+        Pmod_ident "Share_constants" (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+42]..[108,5951+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+0]..[109,6009+61])
+    Pstr_module
+    "Simple_value_approx" (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+7]..[109,6009+26])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+42]..[109,6009+61])
+        Pmod_ident "Simple_value_approx" (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+42]..[109,6009+61])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+0]..[110,6071+68])
+    Pstr_module
+    "Simplify_boxed_integer_ops" (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+7]..[110,6071+33])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+42]..[110,6071+68])
+        Pmod_ident "Simplify_boxed_integer_ops" (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+42]..[110,6071+68])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+0]..[111,6140+57])
+    Pstr_module
+    "Simplify_common" (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+7]..[111,6140+22])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+42]..[111,6140+57])
+        Pmod_ident "Simplify_common" (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+42]..[111,6140+57])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+0]..[112,6198+61])
+    Pstr_module
+    "Simplify_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+7]..[112,6198+26])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+42]..[112,6198+61])
+        Pmod_ident "Simplify_primitives" (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+42]..[112,6198+61])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+0]..[113,6260+47])
+    Pstr_module
+    "Spill" (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+7]..[113,6260+12])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+42]..[113,6260+47])
+        Pmod_ident "Spill" (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+42]..[113,6260+47])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+0]..[114,6308+47])
+    Pstr_module
+    "Split" (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+7]..[114,6308+12])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+42]..[114,6308+47])
+        Pmod_ident "Split" (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+42]..[114,6308+47])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+0]..[115,6356+52])
+    Pstr_module
+    "Stackframe" (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+7]..[115,6356+17])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+42]..[115,6356+52])
+        Pmod_ident "Stackframe" (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+42]..[115,6356+52])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+0]..[116,6409+55])
+    Pstr_module
+    "Stackframegen" (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+7]..[116,6409+20])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+42]..[116,6409+55])
+        Pmod_ident "Stackframegen" (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+42]..[116,6409+55])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+0]..[117,6465+58])
+    Pstr_module
+    "Static_exception" (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+7]..[117,6465+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+42]..[117,6465+58])
+        Pmod_ident "Static_exception" (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+42]..[117,6465+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+0]..[118,6524+50])
+    Pstr_module
+    "Strmatch" (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+7]..[118,6524+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+42]..[118,6524+50])
+        Pmod_ident "Strmatch" (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+42]..[118,6524+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+0]..[119,6575+48])
+    Pstr_module
+    "Symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+7]..[119,6575+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+42]..[119,6575+48])
+        Pmod_ident "Symbol" (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+42]..[119,6575+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+0]..[120,6624+45])
+    Pstr_module
+    "Tag" (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+7]..[120,6624+10])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+42]..[120,6624+45])
+        Pmod_ident "Tag" (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+42]..[120,6624+45])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+0]..[121,6670+58])
+    Pstr_module
+    "Thread_sanitizer" (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+7]..[121,6670+23])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+42]..[121,6670+58])
+        Pmod_ident "Thread_sanitizer" (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+42]..[121,6670+58])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+0]..[122,6729+71])
+    Pstr_module
+    "Traverse_for_exported_symbols" (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+7]..[122,6729+36])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+42]..[122,6729+71])
+        Pmod_ident "Traverse_for_exported_symbols" (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+42]..[122,6729+71])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+0]..[123,6801+48])
+    Pstr_module
+    "Un_anf" (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+7]..[123,6801+13])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+42]..[123,6801+48])
+        Pmod_ident "Un_anf" (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+42]..[123,6801+48])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+0]..[124,6850+56])
+    Pstr_module
+    "Unbox_closures" (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+7]..[124,6850+21])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+42]..[124,6850+56])
+        Pmod_ident "Unbox_closures" (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+42]..[124,6850+56])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+0]..[125,6907+69])
+    Pstr_module
+    "Unbox_free_vars_of_closures" (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+7]..[125,6907+34])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+42]..[125,6907+69])
+        Pmod_ident "Unbox_free_vars_of_closures" (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+42]..[125,6907+69])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+0]..[126,6977+64])
+    Pstr_module
+    "Unbox_specialised_args" (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+7]..[126,6977+29])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+42]..[126,6977+64])
+        Pmod_ident "Unbox_specialised_args" (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+42]..[126,6977+64])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+0]..[127,7042+60])
+    Pstr_module
+    "Var_within_closure" (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+7]..[127,7042+25])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+42]..[127,7042+60])
+        Pmod_ident "Var_within_closure" (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+42]..[127,7042+60])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+0]..[128,7103+50])
+    Pstr_module
+    "Variable" (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+7]..[128,7103+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+42]..[128,7103+50])
+        Pmod_ident "Variable" (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+42]..[128,7103+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+0]..[129,7154+49])
+    Pstr_module
+    "X86_dsl" (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+7]..[129,7154+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+42]..[129,7154+49])
+        Pmod_ident "X86_dsl" (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+42]..[129,7154+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+0]..[130,7204+49])
+    Pstr_module
+    "X86_gas" (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+7]..[130,7204+14])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+42]..[130,7204+49])
+        Pmod_ident "X86_gas" (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+42]..[130,7204+49])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+0]..[131,7254+50])
+    Pstr_module
+    "X86_masm" (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+7]..[131,7254+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+42]..[131,7254+50])
+        Pmod_ident "X86_masm" (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+42]..[131,7254+50])
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+0]..[132,7305+50])
+    Pstr_module
+    "X86_proc" (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+7]..[132,7305+15])
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+42]..[132,7305+50])
+        Pmod_ident "X86_proc" (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+42]..[132,7305+50])
+]
+
+module Afl_instrument = Afl_instrument
+module Alias_analysis = Alias_analysis
+module Allocated_const = Allocated_const
+module Arch = Arch
+module Asmgen = Asmgen
+module Asmlibrarian = Asmlibrarian
+module Asmlink = Asmlink
+module Asmpackager = Asmpackager
+module Augment_specialised_args = Augment_specialised_args
+module Backend_var = Backend_var
+module Branch_relaxation = Branch_relaxation
+module Build_export_info = Build_export_info
+module CSE = CSE
+module CSEgen = CSEgen
+module Clambda = Clambda
+module Clambda_primitives = Clambda_primitives
+module Closure = Closure
+module Closure_conversion = Closure_conversion
+module Closure_conversion_aux = Closure_conversion_aux
+module Closure_element = Closure_element
+module Closure_id = Closure_id
+module Closure_middle_end = Closure_middle_end
+module Closure_offsets = Closure_offsets
+module Closure_origin = Closure_origin
+module Cmm = Cmm
+module Cmm_helpers = Cmm_helpers
+module Cmm_invariants = Cmm_invariants
+module Cmmgen = Cmmgen
+module Cmmgen_state = Cmmgen_state
+module Coloring = Coloring
+module Comballoc = Comballoc
+module Compilation_unit = Compilation_unit
+module Compilenv = Compilenv
+module Convert_primitives = Convert_primitives
+module Dataflow = Dataflow
+module Deadcode = Deadcode
+module Effect_analysis = Effect_analysis
+module Emit = Emit
+module Emitaux = Emitaux
+module Export_id = Export_id
+module Export_info = Export_info
+module Export_info_for_pack = Export_info_for_pack
+module Extract_projections = Extract_projections
+module Find_recursive_functions = Find_recursive_functions
+module Flambda = Flambda
+module Flambda_invariants = Flambda_invariants
+module Flambda_iterators = Flambda_iterators
+module Flambda_middle_end = Flambda_middle_end
+module Flambda_to_clambda = Flambda_to_clambda
+module Flambda_utils = Flambda_utils
+module Freshening = Freshening
+module Id_types = Id_types
+module Import_approx = Import_approx
+module Inconstant_idents = Inconstant_idents
+module Initialize_symbol_to_let_symbol = Initialize_symbol_to_let_symbol
+module Inline_and_simplify = Inline_and_simplify
+module Inline_and_simplify_aux = Inline_and_simplify_aux
+module Inlining_cost = Inlining_cost
+module Inlining_decision = Inlining_decision
+module Inlining_stats = Inlining_stats
+module Inlining_stats_types = Inlining_stats_types
+module Inlining_transforms = Inlining_transforms
+module Interf = Interf
+module Internal_variable_names = Internal_variable_names
+module Interval = Interval
+module Invariant_params = Invariant_params
+module Lift_code = Lift_code
+module Lift_constants = Lift_constants
+module Lift_let_to_initialize_symbol = Lift_let_to_initialize_symbol
+module Linear = Linear
+module Linear_format = Linear_format
+module Linearize = Linearize
+module Linkage_name = Linkage_name
+module Linscan = Linscan
+module Liveness = Liveness
+module Mach = Mach
+module Mutable_variable = Mutable_variable
+module Optcompile = Optcompile
+module Opterrors = Opterrors
+module Optmaindriver = Optmaindriver
+module Parameter = Parameter
+module Pass_wrapper = Pass_wrapper
+module Polling = Polling
+module Printclambda = Printclambda
+module Printclambda_primitives = Printclambda_primitives
+module Printcmm = Printcmm
+module Printlinear = Printlinear
+module Printmach = Printmach
+module Proc = Proc
+module Projection = Projection
+module Ref_to_variables = Ref_to_variables
+module Reg = Reg
+module Reload = Reload
+module Reloadgen = Reloadgen
+module Remove_free_vars_equal_to_args = Remove_free_vars_equal_to_args
+module Remove_unused_arguments = Remove_unused_arguments
+module Remove_unused_closure_vars = Remove_unused_closure_vars
+module Remove_unused_program_constructs = Remove_unused_program_constructs
+module Schedgen = Schedgen
+module Scheduling = Scheduling
+module Selectgen = Selectgen
+module Selection = Selection
+module Semantics_of_primitives = Semantics_of_primitives
+module Set_of_closures_id = Set_of_closures_id
+module Set_of_closures_origin = Set_of_closures_origin
+module Share_constants = Share_constants
+module Simple_value_approx = Simple_value_approx
+module Simplify_boxed_integer_ops = Simplify_boxed_integer_ops
+module Simplify_common = Simplify_common
+module Simplify_primitives = Simplify_primitives
+module Spill = Spill
+module Split = Split
+module Stackframe = Stackframe
+module Stackframegen = Stackframegen
+module Static_exception = Static_exception
+module Strmatch = Strmatch
+module Symbol = Symbol
+module Tag = Tag
+module Thread_sanitizer = Thread_sanitizer
+module Traverse_for_exported_symbols = Traverse_for_exported_symbols
+module Un_anf = Un_anf
+module Unbox_closures = Unbox_closures
+module Unbox_free_vars_of_closures = Unbox_free_vars_of_closures
+module Unbox_specialised_args = Unbox_specialised_args
+module Var_within_closure = Var_within_closure
+module Variable = Variable
+module X86_dsl = X86_dsl
+module X86_gas = X86_gas
+module X86_masm = X86_masm
+module X86_proc = X86_proc
+[
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+0]..src/ocaml_optcomp/ocaml_optcomp.ml[3,44+56])
+    Tstr_module
+    Afl_instrument/270
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[3,44+42]..src/ocaml_optcomp/ocaml_optcomp.ml[3,44+56])
+        Tmod_ident "Afl_instrument!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+0]..src/ocaml_optcomp/ocaml_optcomp.ml[4,101+56])
+    Tstr_module
+    Alias_analysis/271
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[4,101+42]..src/ocaml_optcomp/ocaml_optcomp.ml[4,101+56])
+        Tmod_ident "Alias_analysis!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+0]..src/ocaml_optcomp/ocaml_optcomp.ml[5,158+57])
+    Tstr_module
+    Allocated_const/272
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[5,158+42]..src/ocaml_optcomp/ocaml_optcomp.ml[5,158+57])
+        Tmod_ident "Allocated_const!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+0]..src/ocaml_optcomp/ocaml_optcomp.ml[6,216+46])
+    Tstr_module
+    Arch/273
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[6,216+42]..src/ocaml_optcomp/ocaml_optcomp.ml[6,216+46])
+        Tmod_ident "Arch!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+0]..src/ocaml_optcomp/ocaml_optcomp.ml[7,263+48])
+    Tstr_module
+    Asmgen/274
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[7,263+42]..src/ocaml_optcomp/ocaml_optcomp.ml[7,263+48])
+        Tmod_ident "Asmgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+0]..src/ocaml_optcomp/ocaml_optcomp.ml[8,312+54])
+    Tstr_module
+    Asmlibrarian/275
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[8,312+42]..src/ocaml_optcomp/ocaml_optcomp.ml[8,312+54])
+        Tmod_ident "Asmlibrarian!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+0]..src/ocaml_optcomp/ocaml_optcomp.ml[9,367+49])
+    Tstr_module
+    Asmlink/276
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[9,367+42]..src/ocaml_optcomp/ocaml_optcomp.ml[9,367+49])
+        Tmod_ident "Asmlink!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+0]..src/ocaml_optcomp/ocaml_optcomp.ml[10,417+53])
+    Tstr_module
+    Asmpackager/277
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[10,417+42]..src/ocaml_optcomp/ocaml_optcomp.ml[10,417+53])
+        Tmod_ident "Asmpackager!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+0]..src/ocaml_optcomp/ocaml_optcomp.ml[11,471+66])
+    Tstr_module
+    Augment_specialised_args/278
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[11,471+42]..src/ocaml_optcomp/ocaml_optcomp.ml[11,471+66])
+        Tmod_ident "Augment_specialised_args!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+0]..src/ocaml_optcomp/ocaml_optcomp.ml[12,538+53])
+    Tstr_module
+    Backend_var/279
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[12,538+42]..src/ocaml_optcomp/ocaml_optcomp.ml[12,538+53])
+        Tmod_ident "Backend_var!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+0]..src/ocaml_optcomp/ocaml_optcomp.ml[13,592+59])
+    Tstr_module
+    Branch_relaxation/280
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[13,592+42]..src/ocaml_optcomp/ocaml_optcomp.ml[13,592+59])
+        Tmod_ident "Branch_relaxation!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+0]..src/ocaml_optcomp/ocaml_optcomp.ml[14,652+59])
+    Tstr_module
+    Build_export_info/281
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[14,652+42]..src/ocaml_optcomp/ocaml_optcomp.ml[14,652+59])
+        Tmod_ident "Build_export_info!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+0]..src/ocaml_optcomp/ocaml_optcomp.ml[15,712+45])
+    Tstr_module
+    CSE/282
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[15,712+42]..src/ocaml_optcomp/ocaml_optcomp.ml[15,712+45])
+        Tmod_ident "CSE!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+0]..src/ocaml_optcomp/ocaml_optcomp.ml[16,758+48])
+    Tstr_module
+    CSEgen/283
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[16,758+42]..src/ocaml_optcomp/ocaml_optcomp.ml[16,758+48])
+        Tmod_ident "CSEgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+0]..src/ocaml_optcomp/ocaml_optcomp.ml[17,807+49])
+    Tstr_module
+    Clambda/284
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[17,807+42]..src/ocaml_optcomp/ocaml_optcomp.ml[17,807+49])
+        Tmod_ident "Clambda!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+0]..src/ocaml_optcomp/ocaml_optcomp.ml[18,857+60])
+    Tstr_module
+    Clambda_primitives/285
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[18,857+42]..src/ocaml_optcomp/ocaml_optcomp.ml[18,857+60])
+        Tmod_ident "Clambda_primitives!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+0]..src/ocaml_optcomp/ocaml_optcomp.ml[19,918+49])
+    Tstr_module
+    Closure/286
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[19,918+42]..src/ocaml_optcomp/ocaml_optcomp.ml[19,918+49])
+        Tmod_ident "Closure!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+0]..src/ocaml_optcomp/ocaml_optcomp.ml[20,968+60])
+    Tstr_module
+    Closure_conversion/287
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[20,968+42]..src/ocaml_optcomp/ocaml_optcomp.ml[20,968+60])
+        Tmod_ident "Closure_conversion!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+0]..src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+64])
+    Tstr_module
+    Closure_conversion_aux/288
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+42]..src/ocaml_optcomp/ocaml_optcomp.ml[21,1029+64])
+        Tmod_ident "Closure_conversion_aux!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+0]..src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+57])
+    Tstr_module
+    Closure_element/289
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+42]..src/ocaml_optcomp/ocaml_optcomp.ml[22,1094+57])
+        Tmod_ident "Closure_element!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+0]..src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+52])
+    Tstr_module
+    Closure_id/290
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+42]..src/ocaml_optcomp/ocaml_optcomp.ml[23,1152+52])
+        Tmod_ident "Closure_id!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+0]..src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+60])
+    Tstr_module
+    Closure_middle_end/291
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+42]..src/ocaml_optcomp/ocaml_optcomp.ml[24,1205+60])
+        Tmod_ident "Closure_middle_end!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+0]..src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+57])
+    Tstr_module
+    Closure_offsets/292
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+42]..src/ocaml_optcomp/ocaml_optcomp.ml[25,1266+57])
+        Tmod_ident "Closure_offsets!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+0]..src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+56])
+    Tstr_module
+    Closure_origin/293
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+42]..src/ocaml_optcomp/ocaml_optcomp.ml[26,1324+56])
+        Tmod_ident "Closure_origin!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+0]..src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+45])
+    Tstr_module
+    Cmm/294
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+42]..src/ocaml_optcomp/ocaml_optcomp.ml[27,1381+45])
+        Tmod_ident "Cmm!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+0]..src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+53])
+    Tstr_module
+    Cmm_helpers/295
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+42]..src/ocaml_optcomp/ocaml_optcomp.ml[28,1427+53])
+        Tmod_ident "Cmm_helpers!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+0]..src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+56])
+    Tstr_module
+    Cmm_invariants/296
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+42]..src/ocaml_optcomp/ocaml_optcomp.ml[29,1481+56])
+        Tmod_ident "Cmm_invariants!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+0]..src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+48])
+    Tstr_module
+    Cmmgen/297
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+42]..src/ocaml_optcomp/ocaml_optcomp.ml[30,1538+48])
+        Tmod_ident "Cmmgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+0]..src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+54])
+    Tstr_module
+    Cmmgen_state/298
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+42]..src/ocaml_optcomp/ocaml_optcomp.ml[31,1587+54])
+        Tmod_ident "Cmmgen_state!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+0]..src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+50])
+    Tstr_module
+    Coloring/299
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+42]..src/ocaml_optcomp/ocaml_optcomp.ml[32,1642+50])
+        Tmod_ident "Coloring!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+0]..src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+51])
+    Tstr_module
+    Comballoc/300
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+42]..src/ocaml_optcomp/ocaml_optcomp.ml[33,1693+51])
+        Tmod_ident "Comballoc!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+0]..src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+58])
+    Tstr_module
+    Compilation_unit/301
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+42]..src/ocaml_optcomp/ocaml_optcomp.ml[34,1745+58])
+        Tmod_ident "Compilation_unit!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+0]..src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+51])
+    Tstr_module
+    Compilenv/302
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+42]..src/ocaml_optcomp/ocaml_optcomp.ml[35,1804+51])
+        Tmod_ident "Compilenv!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+0]..src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+60])
+    Tstr_module
+    Convert_primitives/303
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+42]..src/ocaml_optcomp/ocaml_optcomp.ml[36,1856+60])
+        Tmod_ident "Convert_primitives!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+0]..src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+50])
+    Tstr_module
+    Dataflow/304
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+42]..src/ocaml_optcomp/ocaml_optcomp.ml[37,1917+50])
+        Tmod_ident "Dataflow!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+0]..src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+50])
+    Tstr_module
+    Deadcode/305
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+42]..src/ocaml_optcomp/ocaml_optcomp.ml[38,1968+50])
+        Tmod_ident "Deadcode!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+0]..src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+57])
+    Tstr_module
+    Effect_analysis/306
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+42]..src/ocaml_optcomp/ocaml_optcomp.ml[39,2019+57])
+        Tmod_ident "Effect_analysis!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+0]..src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+46])
+    Tstr_module
+    Emit/307
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+42]..src/ocaml_optcomp/ocaml_optcomp.ml[40,2077+46])
+        Tmod_ident "Emit!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+0]..src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+49])
+    Tstr_module
+    Emitaux/308
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+42]..src/ocaml_optcomp/ocaml_optcomp.ml[41,2124+49])
+        Tmod_ident "Emitaux!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+0]..src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+51])
+    Tstr_module
+    Export_id/309
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+42]..src/ocaml_optcomp/ocaml_optcomp.ml[42,2174+51])
+        Tmod_ident "Export_id!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+0]..src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+53])
+    Tstr_module
+    Export_info/310
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+42]..src/ocaml_optcomp/ocaml_optcomp.ml[43,2226+53])
+        Tmod_ident "Export_info!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+0]..src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+62])
+    Tstr_module
+    Export_info_for_pack/311
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+42]..src/ocaml_optcomp/ocaml_optcomp.ml[44,2280+62])
+        Tmod_ident "Export_info_for_pack!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+0]..src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+61])
+    Tstr_module
+    Extract_projections/312
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+42]..src/ocaml_optcomp/ocaml_optcomp.ml[45,2343+61])
+        Tmod_ident "Extract_projections!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+0]..src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+66])
+    Tstr_module
+    Find_recursive_functions/313
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+42]..src/ocaml_optcomp/ocaml_optcomp.ml[46,2405+66])
+        Tmod_ident "Find_recursive_functions!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+0]..src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+49])
+    Tstr_module
+    Flambda/314
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+42]..src/ocaml_optcomp/ocaml_optcomp.ml[47,2472+49])
+        Tmod_ident "Flambda!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+0]..src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+60])
+    Tstr_module
+    Flambda_invariants/315
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+42]..src/ocaml_optcomp/ocaml_optcomp.ml[48,2522+60])
+        Tmod_ident "Flambda_invariants!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+0]..src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+59])
+    Tstr_module
+    Flambda_iterators/316
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+42]..src/ocaml_optcomp/ocaml_optcomp.ml[49,2583+59])
+        Tmod_ident "Flambda_iterators!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+0]..src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+60])
+    Tstr_module
+    Flambda_middle_end/317
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+42]..src/ocaml_optcomp/ocaml_optcomp.ml[50,2643+60])
+        Tmod_ident "Flambda_middle_end!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+0]..src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+60])
+    Tstr_module
+    Flambda_to_clambda/318
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+42]..src/ocaml_optcomp/ocaml_optcomp.ml[51,2704+60])
+        Tmod_ident "Flambda_to_clambda!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+0]..src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+55])
+    Tstr_module
+    Flambda_utils/319
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+42]..src/ocaml_optcomp/ocaml_optcomp.ml[52,2765+55])
+        Tmod_ident "Flambda_utils!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+0]..src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+52])
+    Tstr_module
+    Freshening/320
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+42]..src/ocaml_optcomp/ocaml_optcomp.ml[53,2821+52])
+        Tmod_ident "Freshening!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+0]..src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+50])
+    Tstr_module
+    Id_types/321
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+42]..src/ocaml_optcomp/ocaml_optcomp.ml[54,2874+50])
+        Tmod_ident "Id_types!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+0]..src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+55])
+    Tstr_module
+    Import_approx/322
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+42]..src/ocaml_optcomp/ocaml_optcomp.ml[55,2925+55])
+        Tmod_ident "Import_approx!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+0]..src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+59])
+    Tstr_module
+    Inconstant_idents/323
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+42]..src/ocaml_optcomp/ocaml_optcomp.ml[56,2981+59])
+        Tmod_ident "Inconstant_idents!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+0]..src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+73])
+    Tstr_module
+    Initialize_symbol_to_let_symbol/324
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+42]..src/ocaml_optcomp/ocaml_optcomp.ml[57,3041+73])
+        Tmod_ident "Initialize_symbol_to_let_symbol!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+0]..src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+61])
+    Tstr_module
+    Inline_and_simplify/325
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+42]..src/ocaml_optcomp/ocaml_optcomp.ml[58,3115+61])
+        Tmod_ident "Inline_and_simplify!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+0]..src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+65])
+    Tstr_module
+    Inline_and_simplify_aux/326
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+42]..src/ocaml_optcomp/ocaml_optcomp.ml[59,3177+65])
+        Tmod_ident "Inline_and_simplify_aux!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+0]..src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+55])
+    Tstr_module
+    Inlining_cost/327
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+42]..src/ocaml_optcomp/ocaml_optcomp.ml[60,3243+55])
+        Tmod_ident "Inlining_cost!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+0]..src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+59])
+    Tstr_module
+    Inlining_decision/328
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+42]..src/ocaml_optcomp/ocaml_optcomp.ml[61,3299+59])
+        Tmod_ident "Inlining_decision!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+0]..src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+56])
+    Tstr_module
+    Inlining_stats/329
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+42]..src/ocaml_optcomp/ocaml_optcomp.ml[62,3359+56])
+        Tmod_ident "Inlining_stats!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+0]..src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+62])
+    Tstr_module
+    Inlining_stats_types/330
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+42]..src/ocaml_optcomp/ocaml_optcomp.ml[63,3416+62])
+        Tmod_ident "Inlining_stats_types!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+0]..src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+61])
+    Tstr_module
+    Inlining_transforms/331
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+42]..src/ocaml_optcomp/ocaml_optcomp.ml[64,3479+61])
+        Tmod_ident "Inlining_transforms!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+0]..src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+48])
+    Tstr_module
+    Interf/332
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+42]..src/ocaml_optcomp/ocaml_optcomp.ml[65,3541+48])
+        Tmod_ident "Interf!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+0]..src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+65])
+    Tstr_module
+    Internal_variable_names/333
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+42]..src/ocaml_optcomp/ocaml_optcomp.ml[66,3590+65])
+        Tmod_ident "Internal_variable_names!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+0]..src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+50])
+    Tstr_module
+    Interval/334
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+42]..src/ocaml_optcomp/ocaml_optcomp.ml[67,3656+50])
+        Tmod_ident "Interval!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+0]..src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+58])
+    Tstr_module
+    Invariant_params/335
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+42]..src/ocaml_optcomp/ocaml_optcomp.ml[68,3707+58])
+        Tmod_ident "Invariant_params!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+0]..src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+51])
+    Tstr_module
+    Lift_code/336
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+42]..src/ocaml_optcomp/ocaml_optcomp.ml[69,3766+51])
+        Tmod_ident "Lift_code!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+0]..src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+56])
+    Tstr_module
+    Lift_constants/337
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+42]..src/ocaml_optcomp/ocaml_optcomp.ml[70,3818+56])
+        Tmod_ident "Lift_constants!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+0]..src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+71])
+    Tstr_module
+    Lift_let_to_initialize_symbol/338
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+42]..src/ocaml_optcomp/ocaml_optcomp.ml[71,3875+71])
+        Tmod_ident "Lift_let_to_initialize_symbol!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+0]..src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+48])
+    Tstr_module
+    Linear/339
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+42]..src/ocaml_optcomp/ocaml_optcomp.ml[72,3947+48])
+        Tmod_ident "Linear!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+0]..src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+55])
+    Tstr_module
+    Linear_format/340
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+42]..src/ocaml_optcomp/ocaml_optcomp.ml[73,3996+55])
+        Tmod_ident "Linear_format!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+0]..src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+51])
+    Tstr_module
+    Linearize/341
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+42]..src/ocaml_optcomp/ocaml_optcomp.ml[74,4052+51])
+        Tmod_ident "Linearize!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+0]..src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+54])
+    Tstr_module
+    Linkage_name/342
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+42]..src/ocaml_optcomp/ocaml_optcomp.ml[75,4104+54])
+        Tmod_ident "Linkage_name!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+0]..src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+49])
+    Tstr_module
+    Linscan/343
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+42]..src/ocaml_optcomp/ocaml_optcomp.ml[76,4159+49])
+        Tmod_ident "Linscan!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+0]..src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+50])
+    Tstr_module
+    Liveness/344
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+42]..src/ocaml_optcomp/ocaml_optcomp.ml[77,4209+50])
+        Tmod_ident "Liveness!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+0]..src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+46])
+    Tstr_module
+    Mach/345
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+42]..src/ocaml_optcomp/ocaml_optcomp.ml[78,4260+46])
+        Tmod_ident "Mach!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+0]..src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+58])
+    Tstr_module
+    Mutable_variable/346
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+42]..src/ocaml_optcomp/ocaml_optcomp.ml[79,4307+58])
+        Tmod_ident "Mutable_variable!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+0]..src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+52])
+    Tstr_module
+    Optcompile/347
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+42]..src/ocaml_optcomp/ocaml_optcomp.ml[80,4366+52])
+        Tmod_ident "Optcompile!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+0]..src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+51])
+    Tstr_module
+    Opterrors/348
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+42]..src/ocaml_optcomp/ocaml_optcomp.ml[81,4419+51])
+        Tmod_ident "Opterrors!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+0]..src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+55])
+    Tstr_module
+    Optmaindriver/349
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+42]..src/ocaml_optcomp/ocaml_optcomp.ml[82,4471+55])
+        Tmod_ident "Optmaindriver!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+0]..src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+51])
+    Tstr_module
+    Parameter/350
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+42]..src/ocaml_optcomp/ocaml_optcomp.ml[83,4527+51])
+        Tmod_ident "Parameter!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+0]..src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+54])
+    Tstr_module
+    Pass_wrapper/351
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+42]..src/ocaml_optcomp/ocaml_optcomp.ml[84,4579+54])
+        Tmod_ident "Pass_wrapper!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+0]..src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+49])
+    Tstr_module
+    Polling/352
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+42]..src/ocaml_optcomp/ocaml_optcomp.ml[85,4634+49])
+        Tmod_ident "Polling!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+0]..src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+54])
+    Tstr_module
+    Printclambda/353
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+42]..src/ocaml_optcomp/ocaml_optcomp.ml[86,4684+54])
+        Tmod_ident "Printclambda!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+0]..src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+65])
+    Tstr_module
+    Printclambda_primitives/354
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+42]..src/ocaml_optcomp/ocaml_optcomp.ml[87,4739+65])
+        Tmod_ident "Printclambda_primitives!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+0]..src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+50])
+    Tstr_module
+    Printcmm/355
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+42]..src/ocaml_optcomp/ocaml_optcomp.ml[88,4805+50])
+        Tmod_ident "Printcmm!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+0]..src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+53])
+    Tstr_module
+    Printlinear/356
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+42]..src/ocaml_optcomp/ocaml_optcomp.ml[89,4856+53])
+        Tmod_ident "Printlinear!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+0]..src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+51])
+    Tstr_module
+    Printmach/357
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+42]..src/ocaml_optcomp/ocaml_optcomp.ml[90,4910+51])
+        Tmod_ident "Printmach!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+0]..src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+46])
+    Tstr_module
+    Proc/358
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+42]..src/ocaml_optcomp/ocaml_optcomp.ml[91,4962+46])
+        Tmod_ident "Proc!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+0]..src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+52])
+    Tstr_module
+    Projection/359
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+42]..src/ocaml_optcomp/ocaml_optcomp.ml[92,5009+52])
+        Tmod_ident "Projection!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+0]..src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+58])
+    Tstr_module
+    Ref_to_variables/360
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+42]..src/ocaml_optcomp/ocaml_optcomp.ml[93,5062+58])
+        Tmod_ident "Ref_to_variables!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+0]..src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+45])
+    Tstr_module
+    Reg/361
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+42]..src/ocaml_optcomp/ocaml_optcomp.ml[94,5121+45])
+        Tmod_ident "Reg!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+0]..src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+48])
+    Tstr_module
+    Reload/362
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+42]..src/ocaml_optcomp/ocaml_optcomp.ml[95,5167+48])
+        Tmod_ident "Reload!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+0]..src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+51])
+    Tstr_module
+    Reloadgen/363
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+42]..src/ocaml_optcomp/ocaml_optcomp.ml[96,5216+51])
+        Tmod_ident "Reloadgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+0]..src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+72])
+    Tstr_module
+    Remove_free_vars_equal_to_args/364
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+42]..src/ocaml_optcomp/ocaml_optcomp.ml[97,5268+72])
+        Tmod_ident "Remove_free_vars_equal_to_args!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+0]..src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+65])
+    Tstr_module
+    Remove_unused_arguments/365
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+42]..src/ocaml_optcomp/ocaml_optcomp.ml[98,5341+65])
+        Tmod_ident "Remove_unused_arguments!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+0]..src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+68])
+    Tstr_module
+    Remove_unused_closure_vars/366
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+42]..src/ocaml_optcomp/ocaml_optcomp.ml[99,5407+68])
+        Tmod_ident "Remove_unused_closure_vars!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+0]..src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+74])
+    Tstr_module
+    Remove_unused_program_constructs/367
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+42]..src/ocaml_optcomp/ocaml_optcomp.ml[100,5476+74])
+        Tmod_ident "Remove_unused_program_constructs!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+0]..src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+50])
+    Tstr_module
+    Schedgen/368
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+42]..src/ocaml_optcomp/ocaml_optcomp.ml[101,5551+50])
+        Tmod_ident "Schedgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+0]..src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+52])
+    Tstr_module
+    Scheduling/369
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+42]..src/ocaml_optcomp/ocaml_optcomp.ml[102,5602+52])
+        Tmod_ident "Scheduling!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+0]..src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+51])
+    Tstr_module
+    Selectgen/370
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+42]..src/ocaml_optcomp/ocaml_optcomp.ml[103,5655+51])
+        Tmod_ident "Selectgen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+0]..src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+51])
+    Tstr_module
+    Selection/371
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+42]..src/ocaml_optcomp/ocaml_optcomp.ml[104,5707+51])
+        Tmod_ident "Selection!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+0]..src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+65])
+    Tstr_module
+    Semantics_of_primitives/372
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+42]..src/ocaml_optcomp/ocaml_optcomp.ml[105,5759+65])
+        Tmod_ident "Semantics_of_primitives!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+0]..src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+60])
+    Tstr_module
+    Set_of_closures_id/373
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+42]..src/ocaml_optcomp/ocaml_optcomp.ml[106,5825+60])
+        Tmod_ident "Set_of_closures_id!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+0]..src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+64])
+    Tstr_module
+    Set_of_closures_origin/374
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+42]..src/ocaml_optcomp/ocaml_optcomp.ml[107,5886+64])
+        Tmod_ident "Set_of_closures_origin!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+0]..src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+57])
+    Tstr_module
+    Share_constants/375
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+42]..src/ocaml_optcomp/ocaml_optcomp.ml[108,5951+57])
+        Tmod_ident "Share_constants!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+0]..src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+61])
+    Tstr_module
+    Simple_value_approx/376
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+42]..src/ocaml_optcomp/ocaml_optcomp.ml[109,6009+61])
+        Tmod_ident "Simple_value_approx!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+0]..src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+68])
+    Tstr_module
+    Simplify_boxed_integer_ops/377
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+42]..src/ocaml_optcomp/ocaml_optcomp.ml[110,6071+68])
+        Tmod_ident "Simplify_boxed_integer_ops!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+0]..src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+57])
+    Tstr_module
+    Simplify_common/378
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+42]..src/ocaml_optcomp/ocaml_optcomp.ml[111,6140+57])
+        Tmod_ident "Simplify_common!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+0]..src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+61])
+    Tstr_module
+    Simplify_primitives/379
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+42]..src/ocaml_optcomp/ocaml_optcomp.ml[112,6198+61])
+        Tmod_ident "Simplify_primitives!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+0]..src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+47])
+    Tstr_module
+    Spill/380
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+42]..src/ocaml_optcomp/ocaml_optcomp.ml[113,6260+47])
+        Tmod_ident "Spill!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+0]..src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+47])
+    Tstr_module
+    Split/381
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+42]..src/ocaml_optcomp/ocaml_optcomp.ml[114,6308+47])
+        Tmod_ident "Split!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+0]..src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+52])
+    Tstr_module
+    Stackframe/382
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+42]..src/ocaml_optcomp/ocaml_optcomp.ml[115,6356+52])
+        Tmod_ident "Stackframe!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+0]..src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+55])
+    Tstr_module
+    Stackframegen/383
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+42]..src/ocaml_optcomp/ocaml_optcomp.ml[116,6409+55])
+        Tmod_ident "Stackframegen!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+0]..src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+58])
+    Tstr_module
+    Static_exception/384
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+42]..src/ocaml_optcomp/ocaml_optcomp.ml[117,6465+58])
+        Tmod_ident "Static_exception!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+0]..src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+50])
+    Tstr_module
+    Strmatch/385
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+42]..src/ocaml_optcomp/ocaml_optcomp.ml[118,6524+50])
+        Tmod_ident "Strmatch!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+0]..src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+48])
+    Tstr_module
+    Symbol/386
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+42]..src/ocaml_optcomp/ocaml_optcomp.ml[119,6575+48])
+        Tmod_ident "Symbol!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+0]..src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+45])
+    Tstr_module
+    Tag/387
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+42]..src/ocaml_optcomp/ocaml_optcomp.ml[120,6624+45])
+        Tmod_ident "Tag!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+0]..src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+58])
+    Tstr_module
+    Thread_sanitizer/388
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+42]..src/ocaml_optcomp/ocaml_optcomp.ml[121,6670+58])
+        Tmod_ident "Thread_sanitizer!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+0]..src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+71])
+    Tstr_module
+    Traverse_for_exported_symbols/389
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+42]..src/ocaml_optcomp/ocaml_optcomp.ml[122,6729+71])
+        Tmod_ident "Traverse_for_exported_symbols!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+0]..src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+48])
+    Tstr_module
+    Un_anf/390
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+42]..src/ocaml_optcomp/ocaml_optcomp.ml[123,6801+48])
+        Tmod_ident "Un_anf!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+0]..src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+56])
+    Tstr_module
+    Unbox_closures/391
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+42]..src/ocaml_optcomp/ocaml_optcomp.ml[124,6850+56])
+        Tmod_ident "Unbox_closures!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+0]..src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+69])
+    Tstr_module
+    Unbox_free_vars_of_closures/392
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+42]..src/ocaml_optcomp/ocaml_optcomp.ml[125,6907+69])
+        Tmod_ident "Unbox_free_vars_of_closures!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+0]..src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+64])
+    Tstr_module
+    Unbox_specialised_args/393
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+42]..src/ocaml_optcomp/ocaml_optcomp.ml[126,6977+64])
+        Tmod_ident "Unbox_specialised_args!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+0]..src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+60])
+    Tstr_module
+    Var_within_closure/394
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+42]..src/ocaml_optcomp/ocaml_optcomp.ml[127,7042+60])
+        Tmod_ident "Var_within_closure!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+0]..src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+50])
+    Tstr_module
+    Variable/395
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+42]..src/ocaml_optcomp/ocaml_optcomp.ml[128,7103+50])
+        Tmod_ident "Variable!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+0]..src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+49])
+    Tstr_module
+    X86_dsl/396
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+42]..src/ocaml_optcomp/ocaml_optcomp.ml[129,7154+49])
+        Tmod_ident "X86_dsl!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+0]..src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+49])
+    Tstr_module
+    X86_gas/397
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+42]..src/ocaml_optcomp/ocaml_optcomp.ml[130,7204+49])
+        Tmod_ident "X86_gas!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+0]..src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+50])
+    Tstr_module
+    X86_masm/398
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+42]..src/ocaml_optcomp/ocaml_optcomp.ml[131,7254+50])
+        Tmod_ident "X86_masm!"
+  structure_item (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+0]..src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+50])
+    Tstr_module
+    X86_proc/399
+      module_expr (src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+42]..src/ocaml_optcomp/ocaml_optcomp.ml[132,7305+50])
+        Tmod_ident "X86_proc!"
+]
+
+{<Ocaml_optcomp>
+ "Afl_instrument"[module] -> CU Afl_instrument;
+ "Alias_analysis"[module] -> CU Alias_analysis;
+ "Allocated_const"[module] -> CU Allocated_const;
+ "Arch"[module] -> CU Arch;
+ "Asmgen"[module] -> CU Asmgen;
+ "Asmlibrarian"[module] -> CU Asmlibrarian;
+ "Asmlink"[module] -> CU Asmlink;
+ "Asmpackager"[module] -> CU Asmpackager;
+ "Augment_specialised_args"[module] -> CU Augment_specialised_args;
+ "Backend_var"[module] -> CU Backend_var;
+ "Branch_relaxation"[module] -> CU Branch_relaxation;
+ "Build_export_info"[module] -> CU Build_export_info;
+ "CSE"[module] -> CU CSE;
+ "CSEgen"[module] -> CU CSEgen;
+ "Clambda"[module] -> CU Clambda;
+ "Clambda_primitives"[module] -> CU Clambda_primitives;
+ "Closure"[module] -> CU Closure;
+ "Closure_conversion"[module] -> CU Closure_conversion;
+ "Closure_conversion_aux"[module] -> CU Closure_conversion_aux;
+ "Closure_element"[module] -> CU Closure_element;
+ "Closure_id"[module] -> CU Closure_id;
+ "Closure_middle_end"[module] -> CU Closure_middle_end;
+ "Closure_offsets"[module] -> CU Closure_offsets;
+ "Closure_origin"[module] -> CU Closure_origin;
+ "Cmm"[module] -> CU Cmm;
+ "Cmm_helpers"[module] -> CU Cmm_helpers;
+ "Cmm_invariants"[module] -> CU Cmm_invariants;
+ "Cmmgen"[module] -> CU Cmmgen;
+ "Cmmgen_state"[module] -> CU Cmmgen_state;
+ "Coloring"[module] -> CU Coloring;
+ "Comballoc"[module] -> CU Comballoc;
+ "Compilation_unit"[module] -> CU Compilation_unit;
+ "Compilenv"[module] -> CU Compilenv;
+ "Convert_primitives"[module] -> CU Convert_primitives;
+ "Dataflow"[module] -> CU Dataflow;
+ "Deadcode"[module] -> CU Deadcode;
+ "Effect_analysis"[module] -> CU Effect_analysis;
+ "Emit"[module] -> CU Emit;
+ "Emitaux"[module] -> CU Emitaux;
+ "Export_id"[module] -> CU Export_id;
+ "Export_info"[module] -> CU Export_info;
+ "Export_info_for_pack"[module] -> CU Export_info_for_pack;
+ "Extract_projections"[module] -> CU Extract_projections;
+ "Find_recursive_functions"[module] -> CU Find_recursive_functions;
+ "Flambda"[module] -> CU Flambda;
+ "Flambda_invariants"[module] -> CU Flambda_invariants;
+ "Flambda_iterators"[module] -> CU Flambda_iterators;
+ "Flambda_middle_end"[module] -> CU Flambda_middle_end;
+ "Flambda_to_clambda"[module] -> CU Flambda_to_clambda;
+ "Flambda_utils"[module] -> CU Flambda_utils;
+ "Freshening"[module] -> CU Freshening;
+ "Id_types"[module] -> CU Id_types;
+ "Import_approx"[module] -> CU Import_approx;
+ "Inconstant_idents"[module] -> CU Inconstant_idents;
+ "Initialize_symbol_to_let_symbol"[module] ->
+   CU Initialize_symbol_to_let_symbol;
+ "Inline_and_simplify"[module] -> CU Inline_and_simplify;
+ "Inline_and_simplify_aux"[module] -> CU Inline_and_simplify_aux;
+ "Inlining_cost"[module] -> CU Inlining_cost;
+ "Inlining_decision"[module] -> CU Inlining_decision;
+ "Inlining_stats"[module] -> CU Inlining_stats;
+ "Inlining_stats_types"[module] -> CU Inlining_stats_types;
+ "Inlining_transforms"[module] -> CU Inlining_transforms;
+ "Interf"[module] -> CU Interf;
+ "Internal_variable_names"[module] -> CU Internal_variable_names;
+ "Interval"[module] -> CU Interval;
+ "Invariant_params"[module] -> CU Invariant_params;
+ "Lift_code"[module] -> CU Lift_code;
+ "Lift_constants"[module] -> CU Lift_constants;
+ "Lift_let_to_initialize_symbol"[module] -> CU Lift_let_to_initialize_symbol;
+ "Linear"[module] -> CU Linear;
+ "Linear_format"[module] -> CU Linear_format;
+ "Linearize"[module] -> CU Linearize;
+ "Linkage_name"[module] -> CU Linkage_name;
+ "Linscan"[module] -> CU Linscan;
+ "Liveness"[module] -> CU Liveness;
+ "Mach"[module] -> CU Mach;
+ "Mutable_variable"[module] -> CU Mutable_variable;
+ "Optcompile"[module] -> CU Optcompile;
+ "Opterrors"[module] -> CU Opterrors;
+ "Optmaindriver"[module] -> CU Optmaindriver;
+ "Parameter"[module] -> CU Parameter;
+ "Pass_wrapper"[module] -> CU Pass_wrapper;
+ "Polling"[module] -> CU Polling;
+ "Printclambda"[module] -> CU Printclambda;
+ "Printclambda_primitives"[module] -> CU Printclambda_primitives;
+ "Printcmm"[module] -> CU Printcmm;
+ "Printlinear"[module] -> CU Printlinear;
+ "Printmach"[module] -> CU Printmach;
+ "Proc"[module] -> CU Proc;
+ "Projection"[module] -> CU Projection;
+ "Ref_to_variables"[module] -> CU Ref_to_variables;
+ "Reg"[module] -> CU Reg;
+ "Reload"[module] -> CU Reload;
+ "Reloadgen"[module] -> CU Reloadgen;
+ "Remove_free_vars_equal_to_args"[module] ->
+   CU Remove_free_vars_equal_to_args;
+ "Remove_unused_arguments"[module] -> CU Remove_unused_arguments;
+ "Remove_unused_closure_vars"[module] -> CU Remove_unused_closure_vars;
+ "Remove_unused_program_constructs"[module] ->
+   CU Remove_unused_program_constructs;
+ "Schedgen"[module] -> CU Schedgen;
+ "Scheduling"[module] -> CU Scheduling;
+ "Selectgen"[module] -> CU Selectgen;
+ "Selection"[module] -> CU Selection;
+ "Semantics_of_primitives"[module] -> CU Semantics_of_primitives;
+ "Set_of_closures_id"[module] -> CU Set_of_closures_id;
+ "Set_of_closures_origin"[module] -> CU Set_of_closures_origin;
+ "Share_constants"[module] -> CU Share_constants;
+ "Simple_value_approx"[module] -> CU Simple_value_approx;
+ "Simplify_boxed_integer_ops"[module] -> CU Simplify_boxed_integer_ops;
+ "Simplify_common"[module] -> CU Simplify_common;
+ "Simplify_primitives"[module] -> CU Simplify_primitives;
+ "Spill"[module] -> CU Spill;
+ "Split"[module] -> CU Split;
+ "Stackframe"[module] -> CU Stackframe;
+ "Stackframegen"[module] -> CU Stackframegen;
+ "Static_exception"[module] -> CU Static_exception;
+ "Strmatch"[module] -> CU Strmatch;
+ "Symbol"[module] -> CU Symbol;
+ "Tag"[module] -> CU Tag;
+ "Thread_sanitizer"[module] -> CU Thread_sanitizer;
+ "Traverse_for_exported_symbols"[module] -> CU Traverse_for_exported_symbols;
+ "Un_anf"[module] -> CU Un_anf;
+ "Unbox_closures"[module] -> CU Unbox_closures;
+ "Unbox_free_vars_of_closures"[module] -> CU Unbox_free_vars_of_closures;
+ "Unbox_specialised_args"[module] -> CU Unbox_specialised_args;
+ "Var_within_closure"[module] -> CU Var_within_closure;
+ "Variable"[module] -> CU Variable;
+ "X86_dsl"[module] -> CU X86_dsl;
+ "X86_gas"[module] -> CU X86_gas;
+ "X86_masm"[module] -> CU X86_masm;
+ "X86_proc"[module] -> CU X86_proc;
+ }
+
+0
+0

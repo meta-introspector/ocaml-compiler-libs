@@ -1,0 +1,562 @@
+[
+  structure_item (src/read_cma/read_cma.ml[1,0+0]..[1,0+14])
+    Pstr_open Fresh
+    module_expr (src/read_cma/read_cma.ml[1,0+5]..[1,0+14])
+      Pmod_ident "StdLabels" (src/read_cma/read_cma.ml[1,0+5]..[1,0+14])
+  structure_item (src/read_cma/read_cma.ml[3,16+0]..[3,16+67])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (src/read_cma/read_cma.ml[3,16+4]..[3,16+17])
+          Ppat_var "compunit_name" (src/read_cma/read_cma.ml[3,16+4]..[3,16+17])
+        expression (src/read_cma/read_cma.ml[3,16+18]..[3,16+67]) ghost
+          Pexp_function
+          [
+            Pparam_val (src/read_cma/read_cma.ml[3,16+18]..[3,16+60])
+              Nolabel
+              None
+              pattern (src/read_cma/read_cma.ml[3,16+18]..[3,16+60])
+                Ppat_open ""Cmo_format" (src/read_cma/read_cma.ml[3,16+18]..[3,16+28])"
+                pattern (src/read_cma/read_cma.ml[3,16+29]..[3,16+60])
+                  Ppat_record Open
+                  [
+                    "cu_name" (src/read_cma/read_cma.ml[3,16+31]..[3,16+38])
+                      pattern (src/read_cma/read_cma.ml[3,16+41]..[3,16+54])
+                        Ppat_construct "Compunit" (src/read_cma/read_cma.ml[3,16+41]..[3,16+49])
+                        Some
+                          []
+                          pattern (src/read_cma/read_cma.ml[3,16+50]..[3,16+54])
+                            Ppat_var "name" (src/read_cma/read_cma.ml[3,16+50]..[3,16+54])
+                  ]
+          ]
+          None
+          Pfunction_body
+            expression (src/read_cma/read_cma.ml[3,16+63]..[3,16+67])
+              Pexp_ident "name" (src/read_cma/read_cma.ml[3,16+63]..[3,16+67])
+    ]
+  structure_item (src/read_cma/read_cma.ml[5,85+0]..[17,568+34])
+    Pstr_value Nonrec
+    [
+      <def>
+        pattern (src/read_cma/read_cma.ml[5,85+4]..[5,85+9])
+          Ppat_var "units" (src/read_cma/read_cma.ml[5,85+4]..[5,85+9])
+        expression (src/read_cma/read_cma.ml[5,85+10]..[17,568+34]) ghost
+          Pexp_function
+          [
+            Pparam_val (src/read_cma/read_cma.ml[5,85+10]..[5,85+12])
+              Nolabel
+              None
+              pattern (src/read_cma/read_cma.ml[5,85+10]..[5,85+12])
+                Ppat_var "fn" (src/read_cma/read_cma.ml[5,85+10]..[5,85+12])
+          ]
+          None
+          Pfunction_body
+            expression (src/read_cma/read_cma.ml[7,186+2]..[17,568+34])
+              Pexp_let Nonrec
+              [
+                <def>
+                  pattern (src/read_cma/read_cma.ml[7,186+6]..[7,186+8])
+                    Ppat_var "ic" (src/read_cma/read_cma.ml[7,186+6]..[7,186+8])
+                  expression (src/read_cma/read_cma.ml[7,186+11]..[7,186+25])
+                    Pexp_apply
+                    expression (src/read_cma/read_cma.ml[7,186+11]..[7,186+22])
+                      Pexp_ident "open_in_bin" (src/read_cma/read_cma.ml[7,186+11]..[7,186+22])
+                    [
+                      <arg>
+                      Nolabel
+                        expression (src/read_cma/read_cma.ml[7,186+23]..[7,186+25])
+                          Pexp_ident "fn" (src/read_cma/read_cma.ml[7,186+23]..[7,186+25])
+                    ]
+              ]
+              expression (src/read_cma/read_cma.ml[8,215+2]..[17,568+34])
+                Pexp_let Nonrec
+                [
+                  <def>
+                    pattern (src/read_cma/read_cma.ml[8,215+6]..[8,215+22])
+                      Ppat_var "len_magic_number" (src/read_cma/read_cma.ml[8,215+6]..[8,215+22])
+                    expression (src/read_cma/read_cma.ml[8,215+25]..[8,215+62])
+                      Pexp_apply
+                      expression (src/read_cma/read_cma.ml[8,215+25]..[8,215+38])
+                        Pexp_ident "String.length" (src/read_cma/read_cma.ml[8,215+25]..[8,215+38])
+                      [
+                        <arg>
+                        Nolabel
+                          expression (src/read_cma/read_cma.ml[8,215+39]..[8,215+62])
+                            Pexp_ident "Config.cma_magic_number" (src/read_cma/read_cma.ml[8,215+39]..[8,215+62])
+                      ]
+                ]
+                expression (src/read_cma/read_cma.ml[9,281+2]..[17,568+34])
+                  Pexp_let Nonrec
+                  [
+                    <def>
+                      pattern (src/read_cma/read_cma.ml[9,281+6]..[9,281+18])
+                        Ppat_var "magic_number" (src/read_cma/read_cma.ml[9,281+6]..[9,281+18])
+                      expression (src/read_cma/read_cma.ml[9,281+21]..[9,281+60])
+                        Pexp_apply
+                        expression (src/read_cma/read_cma.ml[9,281+21]..[9,281+40])
+                          Pexp_ident "really_input_string" (src/read_cma/read_cma.ml[9,281+21]..[9,281+40])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (src/read_cma/read_cma.ml[9,281+41]..[9,281+43])
+                              Pexp_ident "ic" (src/read_cma/read_cma.ml[9,281+41]..[9,281+43])
+                          <arg>
+                          Nolabel
+                            expression (src/read_cma/read_cma.ml[9,281+44]..[9,281+60])
+                              Pexp_ident "len_magic_number" (src/read_cma/read_cma.ml[9,281+44]..[9,281+60])
+                        ]
+                  ]
+                  expression (src/read_cma/read_cma.ml[10,345+2]..[17,568+34])
+                    Pexp_sequence
+                    expression (src/read_cma/read_cma.ml[10,345+2]..[10,345+49])
+                      Pexp_assert
+                      expression (src/read_cma/read_cma.ml[10,345+9]..[10,345+49])
+                        Pexp_apply
+                        expression (src/read_cma/read_cma.ml[10,345+23]..[10,345+24])
+                          Pexp_ident "=" (src/read_cma/read_cma.ml[10,345+23]..[10,345+24])
+                        [
+                          <arg>
+                          Nolabel
+                            expression (src/read_cma/read_cma.ml[10,345+10]..[10,345+22])
+                              Pexp_ident "magic_number" (src/read_cma/read_cma.ml[10,345+10]..[10,345+22])
+                          <arg>
+                          Nolabel
+                            expression (src/read_cma/read_cma.ml[10,345+25]..[10,345+48])
+                              Pexp_ident "Config.cma_magic_number" (src/read_cma/read_cma.ml[10,345+25]..[10,345+48])
+                        ]
+                    expression (src/read_cma/read_cma.ml[11,396+2]..[17,568+34])
+                      Pexp_let Nonrec
+                      [
+                        <def>
+                          pattern (src/read_cma/read_cma.ml[11,396+6]..[11,396+13])
+                            Ppat_var "toc_pos" (src/read_cma/read_cma.ml[11,396+6]..[11,396+13])
+                          expression (src/read_cma/read_cma.ml[11,396+16]..[11,396+35])
+                            Pexp_apply
+                            expression (src/read_cma/read_cma.ml[11,396+16]..[11,396+32])
+                              Pexp_ident "input_binary_int" (src/read_cma/read_cma.ml[11,396+16]..[11,396+32])
+                            [
+                              <arg>
+                              Nolabel
+                                expression (src/read_cma/read_cma.ml[11,396+33]..[11,396+35])
+                                  Pexp_ident "ic" (src/read_cma/read_cma.ml[11,396+33]..[11,396+35])
+                            ]
+                      ]
+                      expression (src/read_cma/read_cma.ml[12,435+2]..[17,568+34])
+                        Pexp_sequence
+                        expression (src/read_cma/read_cma.ml[12,435+2]..[12,435+20])
+                          Pexp_apply
+                          expression (src/read_cma/read_cma.ml[12,435+2]..[12,435+9])
+                            Pexp_ident "seek_in" (src/read_cma/read_cma.ml[12,435+2]..[12,435+9])
+                          [
+                            <arg>
+                            Nolabel
+                              expression (src/read_cma/read_cma.ml[12,435+10]..[12,435+12])
+                                Pexp_ident "ic" (src/read_cma/read_cma.ml[12,435+10]..[12,435+12])
+                            <arg>
+                            Nolabel
+                              expression (src/read_cma/read_cma.ml[12,435+13]..[12,435+20])
+                                Pexp_ident "toc_pos" (src/read_cma/read_cma.ml[12,435+13]..[12,435+20])
+                          ]
+                        expression (src/read_cma/read_cma.ml[13,457+2]..[17,568+34])
+                          Pexp_let Nonrec
+                          [
+                            <def>
+                              pattern (src/read_cma/read_cma.ml[13,457+6]..[13,457+9])
+                                Ppat_var "toc" (src/read_cma/read_cma.ml[13,457+6]..[13,457+9])
+                              expression (src/read_cma/read_cma.ml[13,457+12]..[13,457+49])
+                                Pexp_constraint
+                                expression (src/read_cma/read_cma.ml[13,457+13]..[13,457+27])
+                                  Pexp_apply
+                                  expression (src/read_cma/read_cma.ml[13,457+13]..[13,457+24])
+                                    Pexp_ident "input_value" (src/read_cma/read_cma.ml[13,457+13]..[13,457+24])
+                                  [
+                                    <arg>
+                                    Nolabel
+                                      expression (src/read_cma/read_cma.ml[13,457+25]..[13,457+27])
+                                        Pexp_ident "ic" (src/read_cma/read_cma.ml[13,457+25]..[13,457+27])
+                                  ]
+                                core_type (src/read_cma/read_cma.ml[13,457+30]..[13,457+48])
+                                  Ptyp_constr "Cmo_format.library" (src/read_cma/read_cma.ml[13,457+30]..[13,457+48])
+                                  []
+                          ]
+                          expression (src/read_cma/read_cma.ml[14,510+2]..[17,568+34])
+                            Pexp_sequence
+                            expression (src/read_cma/read_cma.ml[14,510+2]..[14,510+13])
+                              Pexp_apply
+                              expression (src/read_cma/read_cma.ml[14,510+2]..[14,510+10])
+                                Pexp_ident "close_in" (src/read_cma/read_cma.ml[14,510+2]..[14,510+10])
+                              [
+                                <arg>
+                                Nolabel
+                                  expression (src/read_cma/read_cma.ml[14,510+11]..[14,510+13])
+                                    Pexp_ident "ic" (src/read_cma/read_cma.ml[14,510+11]..[14,510+13])
+                              ]
+                            expression (src/read_cma/read_cma.ml[16,526+2]..[17,568+34])
+                              Pexp_apply
+                              expression (src/read_cma/read_cma.ml[17,568+2]..[17,568+4])
+                                Pexp_ident "|>" (src/read_cma/read_cma.ml[17,568+2]..[17,568+4])
+                              [
+                                <arg>
+                                Nolabel
+                                  expression (src/read_cma/read_cma.ml[16,526+2]..[16,526+41])
+                                    Pexp_apply
+                                    expression (src/read_cma/read_cma.ml[16,526+2]..[16,526+10])
+                                      Pexp_ident "List.map" (src/read_cma/read_cma.ml[16,526+2]..[16,526+10])
+                                    [
+                                      <arg>
+                                      Nolabel
+                                        expression (src/read_cma/read_cma.ml[16,526+11]..[16,526+24])
+                                          Pexp_field
+                                          expression (src/read_cma/read_cma.ml[16,526+11]..[16,526+14])
+                                            Pexp_ident "toc" (src/read_cma/read_cma.ml[16,526+11]..[16,526+14])
+                                          "lib_units" (src/read_cma/read_cma.ml[16,526+15]..[16,526+24])
+                                      <arg>
+                                      Labelled "f"
+                                        expression (src/read_cma/read_cma.ml[16,526+28]..[16,526+41])
+                                          Pexp_ident "compunit_name" (src/read_cma/read_cma.ml[16,526+28]..[16,526+41])
+                                    ]
+                                <arg>
+                                Nolabel
+                                  expression (src/read_cma/read_cma.ml[17,568+5]..[17,568+34])
+                                    Pexp_apply
+                                    expression (src/read_cma/read_cma.ml[17,568+5]..[17,568+14])
+                                      Pexp_ident "List.sort" (src/read_cma/read_cma.ml[17,568+5]..[17,568+14])
+                                    [
+                                      <arg>
+                                      Labelled "cmp"
+                                        expression (src/read_cma/read_cma.ml[17,568+20]..[17,568+34])
+                                          Pexp_ident "String.compare" (src/read_cma/read_cma.ml[17,568+20]..[17,568+34])
+                                    ]
+                              ]
+    ]
+]
+
+open StdLabels
+let compunit_name Cmo_format.{ cu_name = Compunit name;_}  = name
+let units fn =
+  let ic = open_in_bin fn in
+  let len_magic_number = String.length Config.cma_magic_number in
+  let magic_number = really_input_string ic len_magic_number in
+  assert (magic_number = Config.cma_magic_number);
+  (let toc_pos = input_binary_int ic in
+   seek_in ic toc_pos;
+   (let toc = (input_value ic : Cmo_format.library) in
+    close_in ic;
+    (List.map toc.lib_units ~f:compunit_name) |>
+      (List.sort ~cmp:String.compare)))
+[
+  structure_item (src/read_cma/read_cma.ml[1,0+0]..src/read_cma/read_cma.ml[1,0+14])
+    Tstr_open Fresh
+    module_expr (src/read_cma/read_cma.ml[1,0+5]..src/read_cma/read_cma.ml[1,0+14])
+      Tmod_ident "Stdlib!.StdLabels"
+  structure_item (src/read_cma/read_cma.ml[3,16+0]..src/read_cma/read_cma.ml[3,16+67])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (src/read_cma/read_cma.ml[3,16+4]..src/read_cma/read_cma.ml[3,16+17])
+          Tpat_var "compunit_name/274"
+        expression (src/read_cma/read_cma.ml[3,16+18]..src/read_cma/read_cma.ml[3,16+67]) ghost
+          Texp_function
+          [
+            Nolabel
+            Param_pat
+              pattern (src/read_cma/read_cma.ml[3,16+29]..src/read_cma/read_cma.ml[3,16+60])
+                extra
+                  Tpat_extra_open "Cmo_format!"
+                Tpat_record
+                [
+                  "cu_name"
+                    pattern (src/read_cma/read_cma.ml[3,16+41]..src/read_cma/read_cma.ml[3,16+54])
+                      Tpat_construct "Compunit"
+                      [
+                        pattern (src/read_cma/read_cma.ml[3,16+50]..src/read_cma/read_cma.ml[3,16+54])
+                          Tpat_var "name/283"
+                      ]
+                      None
+                ]
+          ]
+          Tfunction_body
+            expression (src/read_cma/read_cma.ml[3,16+63]..src/read_cma/read_cma.ml[3,16+67])
+              Texp_ident "name/283"
+    ]
+  structure_item (src/read_cma/read_cma.ml[5,85+0]..src/read_cma/read_cma.ml[17,568+34])
+    Tstr_value Nonrec
+    [
+      <def>
+        pattern (src/read_cma/read_cma.ml[5,85+4]..src/read_cma/read_cma.ml[5,85+9])
+          Tpat_var "units/285"
+        expression (src/read_cma/read_cma.ml[5,85+10]..src/read_cma/read_cma.ml[17,568+34]) ghost
+          Texp_function
+          [
+            Nolabel
+            Param_pat
+              pattern (src/read_cma/read_cma.ml[5,85+10]..src/read_cma/read_cma.ml[5,85+12])
+                Tpat_var "fn/287"
+          ]
+          Tfunction_body
+            expression (src/read_cma/read_cma.ml[7,186+2]..src/read_cma/read_cma.ml[17,568+34])
+              Texp_let Nonrec
+              [
+                <def>
+                  pattern (src/read_cma/read_cma.ml[7,186+6]..src/read_cma/read_cma.ml[7,186+8])
+                    Tpat_var "ic/288"
+                  expression (src/read_cma/read_cma.ml[7,186+11]..src/read_cma/read_cma.ml[7,186+25])
+                    Texp_apply
+                    expression (src/read_cma/read_cma.ml[7,186+11]..src/read_cma/read_cma.ml[7,186+22])
+                      Texp_ident "Stdlib!.open_in_bin"
+                    [
+                      <arg>
+                        Nolabel
+                        expression (src/read_cma/read_cma.ml[7,186+23]..src/read_cma/read_cma.ml[7,186+25])
+                          Texp_ident "fn/287"
+                    ]
+              ]
+              expression (src/read_cma/read_cma.ml[8,215+2]..src/read_cma/read_cma.ml[17,568+34])
+                Texp_let Nonrec
+                [
+                  <def>
+                    pattern (src/read_cma/read_cma.ml[8,215+6]..src/read_cma/read_cma.ml[8,215+22])
+                      Tpat_var "len_magic_number/289"
+                    expression (src/read_cma/read_cma.ml[8,215+25]..src/read_cma/read_cma.ml[8,215+62])
+                      Texp_apply
+                      expression (src/read_cma/read_cma.ml[8,215+25]..src/read_cma/read_cma.ml[8,215+38])
+                        Texp_ident "Stdlib!.StdLabels.String.length"
+                      [
+                        <arg>
+                          Nolabel
+                          expression (src/read_cma/read_cma.ml[8,215+39]..src/read_cma/read_cma.ml[8,215+62])
+                            Texp_ident "Config!.cma_magic_number"
+                      ]
+                ]
+                expression (src/read_cma/read_cma.ml[9,281+2]..src/read_cma/read_cma.ml[17,568+34])
+                  Texp_let Nonrec
+                  [
+                    <def>
+                      pattern (src/read_cma/read_cma.ml[9,281+6]..src/read_cma/read_cma.ml[9,281+18])
+                        Tpat_var "magic_number/431"
+                      expression (src/read_cma/read_cma.ml[9,281+21]..src/read_cma/read_cma.ml[9,281+60])
+                        Texp_apply
+                        expression (src/read_cma/read_cma.ml[9,281+21]..src/read_cma/read_cma.ml[9,281+40])
+                          Texp_ident "Stdlib!.really_input_string"
+                        [
+                          <arg>
+                            Nolabel
+                            expression (src/read_cma/read_cma.ml[9,281+41]..src/read_cma/read_cma.ml[9,281+43])
+                              Texp_ident "ic/288"
+                          <arg>
+                            Nolabel
+                            expression (src/read_cma/read_cma.ml[9,281+44]..src/read_cma/read_cma.ml[9,281+60])
+                              Texp_ident "len_magic_number/289"
+                        ]
+                  ]
+                  expression (src/read_cma/read_cma.ml[10,345+2]..src/read_cma/read_cma.ml[17,568+34])
+                    Texp_sequence
+                    expression (src/read_cma/read_cma.ml[10,345+2]..src/read_cma/read_cma.ml[10,345+49])
+                      Texp_assert                      expression (src/read_cma/read_cma.ml[10,345+9]..src/read_cma/read_cma.ml[10,345+49])
+                        Texp_apply
+                        expression (src/read_cma/read_cma.ml[10,345+23]..src/read_cma/read_cma.ml[10,345+24])
+                          Texp_ident "Stdlib!.="
+                        [
+                          <arg>
+                            Nolabel
+                            expression (src/read_cma/read_cma.ml[10,345+10]..src/read_cma/read_cma.ml[10,345+22])
+                              Texp_ident "magic_number/431"
+                          <arg>
+                            Nolabel
+                            expression (src/read_cma/read_cma.ml[10,345+25]..src/read_cma/read_cma.ml[10,345+48])
+                              Texp_ident "Config!.cma_magic_number"
+                        ]
+                    expression (src/read_cma/read_cma.ml[11,396+2]..src/read_cma/read_cma.ml[17,568+34])
+                      Texp_let Nonrec
+                      [
+                        <def>
+                          pattern (src/read_cma/read_cma.ml[11,396+6]..src/read_cma/read_cma.ml[11,396+13])
+                            Tpat_var "toc_pos/432"
+                          expression (src/read_cma/read_cma.ml[11,396+16]..src/read_cma/read_cma.ml[11,396+35])
+                            Texp_apply
+                            expression (src/read_cma/read_cma.ml[11,396+16]..src/read_cma/read_cma.ml[11,396+32])
+                              Texp_ident "Stdlib!.input_binary_int"
+                            [
+                              <arg>
+                                Nolabel
+                                expression (src/read_cma/read_cma.ml[11,396+33]..src/read_cma/read_cma.ml[11,396+35])
+                                  Texp_ident "ic/288"
+                            ]
+                      ]
+                      expression (src/read_cma/read_cma.ml[12,435+2]..src/read_cma/read_cma.ml[17,568+34])
+                        Texp_sequence
+                        expression (src/read_cma/read_cma.ml[12,435+2]..src/read_cma/read_cma.ml[12,435+20])
+                          Texp_apply
+                          expression (src/read_cma/read_cma.ml[12,435+2]..src/read_cma/read_cma.ml[12,435+9])
+                            Texp_ident "Stdlib!.seek_in"
+                          [
+                            <arg>
+                              Nolabel
+                              expression (src/read_cma/read_cma.ml[12,435+10]..src/read_cma/read_cma.ml[12,435+12])
+                                Texp_ident "ic/288"
+                            <arg>
+                              Nolabel
+                              expression (src/read_cma/read_cma.ml[12,435+13]..src/read_cma/read_cma.ml[12,435+20])
+                                Texp_ident "toc_pos/432"
+                          ]
+                        expression (src/read_cma/read_cma.ml[13,457+2]..src/read_cma/read_cma.ml[17,568+34])
+                          Texp_let Nonrec
+                          [
+                            <def>
+                              pattern (src/read_cma/read_cma.ml[13,457+6]..src/read_cma/read_cma.ml[13,457+9])
+                                Tpat_var "toc/433"
+                              expression (src/read_cma/read_cma.ml[13,457+13]..src/read_cma/read_cma.ml[13,457+27])
+                                extra
+                                  Texp_constraint
+                                  core_type (src/read_cma/read_cma.ml[13,457+30]..src/read_cma/read_cma.ml[13,457+48])
+                                    Ttyp_constr "Cmo_format!.library"
+                                    []
+                                Texp_apply
+                                expression (src/read_cma/read_cma.ml[13,457+13]..src/read_cma/read_cma.ml[13,457+24])
+                                  Texp_ident "Stdlib!.input_value"
+                                [
+                                  <arg>
+                                    Nolabel
+                                    expression (src/read_cma/read_cma.ml[13,457+25]..src/read_cma/read_cma.ml[13,457+27])
+                                      Texp_ident "ic/288"
+                                ]
+                          ]
+                          expression (src/read_cma/read_cma.ml[14,510+2]..src/read_cma/read_cma.ml[17,568+34])
+                            Texp_sequence
+                            expression (src/read_cma/read_cma.ml[14,510+2]..src/read_cma/read_cma.ml[14,510+13])
+                              Texp_apply
+                              expression (src/read_cma/read_cma.ml[14,510+2]..src/read_cma/read_cma.ml[14,510+10])
+                                Texp_ident "Stdlib!.close_in"
+                              [
+                                <arg>
+                                  Nolabel
+                                  expression (src/read_cma/read_cma.ml[14,510+11]..src/read_cma/read_cma.ml[14,510+13])
+                                    Texp_ident "ic/288"
+                              ]
+                            expression (src/read_cma/read_cma.ml[16,526+2]..src/read_cma/read_cma.ml[17,568+34])
+                              Texp_apply
+                              expression (src/read_cma/read_cma.ml[17,568+5]..src/read_cma/read_cma.ml[17,568+34])
+                                Texp_apply
+                                expression (src/read_cma/read_cma.ml[17,568+5]..src/read_cma/read_cma.ml[17,568+14])
+                                  Texp_ident "Stdlib!.StdLabels.List.sort"
+                                [
+                                  <arg>
+                                    Labelled "cmp"
+                                    expression (src/read_cma/read_cma.ml[17,568+20]..src/read_cma/read_cma.ml[17,568+34])
+                                      Texp_ident "Stdlib!.StdLabels.String.compare"
+                                ]
+                              [
+                                <arg>
+                                  Nolabel
+                                  expression (src/read_cma/read_cma.ml[16,526+2]..src/read_cma/read_cma.ml[16,526+41])
+                                    Texp_apply
+                                    expression (src/read_cma/read_cma.ml[16,526+2]..src/read_cma/read_cma.ml[16,526+10])
+                                      Texp_ident "Stdlib!.StdLabels.List.map"
+                                    [
+                                      <arg>
+                                        Labelled "f"
+                                        expression (src/read_cma/read_cma.ml[16,526+28]..src/read_cma/read_cma.ml[16,526+41])
+                                          Texp_ident "compunit_name/274"
+                                      <arg>
+                                        Nolabel
+                                        expression (src/read_cma/read_cma.ml[16,526+11]..src/read_cma/read_cma.ml[16,526+24])
+                                          Texp_field
+                                          expression (src/read_cma/read_cma.ml[16,526+11]..src/read_cma/read_cma.ml[16,526+14])
+                                            Texp_ident "toc/433"
+                                          "lib_units"
+                                    ]
+                              ]
+    ]
+]
+
+{<Read_cma>
+ "units"[value] -> <Read_cma.2>;
+ }
+
+(seq
+  (let
+    (compunit_name/274 =
+       (function param/284
+         (let
+           (*match*/837 =a (field_imm 0 param/284)
+            *match*/838 =o (field_int 1 param/284)
+            *match*/843 =a (field_imm 6 param/284)
+            *match*/842 =a (field_imm 5 param/284)
+            *match*/841 =a (field_imm 4 param/284)
+            *match*/840 =a (field_imm 3 param/284)
+            *match*/839 =a (field_int 2 param/284)
+            *match*/844 =o (field_int 7 param/284)
+            *match*/845 =o (field_int 8 param/284)
+            name/283 =a *match*/837
+            *match*/846 =a (field_int 9 param/284))
+           name/283)))
+    (setfield_ptr(root-init) 1 (global Read_cma!) compunit_name/274))
+  (let
+    (units/285 =
+       (function fn/287
+         (let
+           (ic/288 = (apply (field_imm 79 (global Stdlib!)) fn/287)
+            len_magic_number/289 =[int]
+              (string.length (field_imm 26 (global Config!)))
+            magic_number/431 =
+              (apply (field_imm 85 (global Stdlib!)) ic/288
+                len_magic_number/289))
+           (seq
+             (if
+               (caml_string_equal magic_number/431
+                 (field_imm 26 (global Config!)))
+               0
+               (raise
+                 (makeblock 0 (global Assert_failure/28!)
+                   [0: "src/read_cma/read_cma.ml" 10 2])))
+             (let
+               (toc_pos/432 =[int]
+                  (apply (field_imm 87 (global Stdlib!)) ic/288))
+               (seq
+                 (apply (field_imm 89 (global Stdlib!)) ic/288 toc_pos/432)
+                 (let
+                   (toc/433 = (apply (field_imm 88 (global Stdlib!)) ic/288))
+                   (seq (apply (field_imm 92 (global Stdlib!)) ic/288)
+                     (apply (field_imm 58 (global Stdlib__ListLabels!))
+                       (field_imm 9 (global Stdlib__StringLabels!))
+                       (apply (field_imm 19 (global Stdlib__ListLabels!))
+                         (field_imm 1 (global Read_cma!))
+                         (field_imm 0 toc/433)))))))))))
+    (setfield_ptr(root-init) 0 (global Read_cma!) units/285))
+  0)
+(seq
+  (let (compunit_name/274 = (function param/284 (field_imm 0 param/284)))
+    (setfield_ptr(root-init) 1 (global Read_cma!) compunit_name/274))
+  (let
+    (units/285 =
+       (function fn/287
+         (let
+           (ic/288 = (apply (field_imm 79 (global Stdlib!)) fn/287)
+            len_magic_number/289 =[int]
+              (string.length (field_imm 26 (global Config!)))
+            magic_number/431 =
+              (apply (field_imm 85 (global Stdlib!)) ic/288
+                len_magic_number/289))
+           (seq
+             (if
+               (caml_string_equal magic_number/431
+                 (field_imm 26 (global Config!)))
+               0
+               (raise
+                 (makeblock 0 (global Assert_failure/28!)
+                   [0: "src/read_cma/read_cma.ml" 10 2])))
+             (let
+               (toc_pos/432 =[int]
+                  (apply (field_imm 87 (global Stdlib!)) ic/288))
+               (seq
+                 (apply (field_imm 89 (global Stdlib!)) ic/288 toc_pos/432)
+                 (let
+                   (toc/433 = (apply (field_imm 88 (global Stdlib!)) ic/288))
+                   (seq (apply (field_imm 92 (global Stdlib!)) ic/288)
+                     (apply (field_imm 58 (global Stdlib__ListLabels!))
+                       (field_imm 9 (global Stdlib__StringLabels!))
+                       (apply (field_imm 19 (global Stdlib__ListLabels!))
+                         (field_imm 1 (global Read_cma!))
+                         (field_imm 0 toc/433)))))))))))
+    (setfield_ptr(root-init) 0 (global Read_cma!) units/285))
+  0)

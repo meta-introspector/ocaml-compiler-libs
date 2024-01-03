@@ -1,0 +1,8 @@
+0.014s 12.6MB 5.04MB 6.87MB src/ocaml_optcomp/ocaml_optcomp.ml
+  ------ 0.01MB ------ ------ parsing
+    ------ 0.01MB ------ ------ parser
+  0.009s 7.29MB 4.65MB 6.48MB typing
+  0.002s ------ ------ ------ generate
+    0.002s ------ ------ ------ assemble
+  0.003s 5.38MB 0.38MB 6.87MB other
+0.007s 3.11MB 1.83MB ------ other

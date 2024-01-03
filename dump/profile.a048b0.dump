@@ -1,0 +1,13 @@
+0.235s 52.8MB 6.35MB 6.35MB src/gen/gen.exe
+  0.002s 7.78MB 0.56MB 0.56MB selection
+  ------ 0.11MB ------ ------ comballoc
+  0.001s 1.30MB 0.03MB 0.59MB liveness
+  0.002s 6.31MB 0.50MB 1.09MB spill
+  0.001s ------ ------ ------ split
+  0.010s 20.8MB 1.68MB 2.78MB regalloc
+  ------ 0.08MB ------ ------ linearize
+  0.001s 2.00MB 0.15MB 2.93MB emit
+  0.005s ------ ------ ------ assemble
+  0.201s ------ ------ ------ c-linker
+  0.011s 14.4MB 3.41MB 6.35MB other
+0.007s ------ ------ ------ other

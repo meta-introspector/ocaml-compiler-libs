@@ -1,0 +1,11 @@
+0.015s 23.2MB 3.93MB 5.77MB src/shadow/gen/gen.ml
+  0.008s 13.0MB 3.09MB 4.92MB typing
+  ------ 2.00MB ------ ------ transl
+  0.005s 4.51MB 0.50MB 5.42MB generate
+    0.001s 2.36MB 0.50MB 5.42MB compile_phrases
+      ------ 0.36MB ------ ------ spill
+      ------ 2.00MB 0.50MB 5.42MB regalloc
+    0.002s ------ ------ ------ assemble
+    0.001s 2.15MB ------ ------ other
+  0.002s 3.71MB 0.34MB 5.77MB other
+0.006s 3.11MB 1.83MB ------ other

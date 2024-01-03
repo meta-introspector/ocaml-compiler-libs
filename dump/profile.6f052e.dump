@@ -1,0 +1,5 @@
+0.003s 0.23MB ------ - src/ocaml_toplevel/ocaml_toplevel.ml
+  0.001s 0.23MB ------ - typing
+  0.002s ------ ------ - generate
+    0.002s ------ ------ - assemble
+0.008s 3.11MB 1.83MB - other

@@ -1,0 +1,131 @@
+[
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+0]..[3,44+30])
+    Pstr_module
+    "Bytegen" (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+7]..[3,44+14])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+23]..[3,44+30])
+        Pmod_ident "Bytegen" (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+23]..[3,44+30])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+0]..[4,75+36])
+    Pstr_module
+    "Bytelibrarian" (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+7]..[4,75+20])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+23]..[4,75+36])
+        Pmod_ident "Bytelibrarian" (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+23]..[4,75+36])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+0]..[5,112+31])
+    Pstr_module
+    "Bytelink" (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+7]..[5,112+15])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+23]..[5,112+31])
+        Pmod_ident "Bytelink" (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+23]..[5,112+31])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+0]..[6,144+35])
+    Pstr_module
+    "Bytepackager" (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+7]..[6,144+19])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+23]..[6,144+35])
+        Pmod_ident "Bytepackager" (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+23]..[6,144+35])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+0]..[7,180+30])
+    Pstr_module
+    "Compile" (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+7]..[7,180+14])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+23]..[7,180+30])
+        Pmod_ident "Compile" (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+23]..[7,180+30])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+0]..[8,211+31])
+    Pstr_module
+    "Emitcode" (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+7]..[8,211+15])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+23]..[8,211+31])
+        Pmod_ident "Emitcode" (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+23]..[8,211+31])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+0]..[9,243+29])
+    Pstr_module
+    "Errors" (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+7]..[9,243+13])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+23]..[9,243+29])
+        Pmod_ident "Errors" (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+23]..[9,243+29])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+0]..[10,273+31])
+    Pstr_module
+    "Instruct" (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+7]..[10,273+15])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+23]..[10,273+31])
+        Pmod_ident "Instruct" (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+23]..[10,273+31])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+0]..[11,305+33])
+    Pstr_module
+    "Maindriver" (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+7]..[11,305+17])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+23]..[11,305+33])
+        Pmod_ident "Maindriver" (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+23]..[11,305+33])
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+0]..[12,339+33])
+    Pstr_module
+    "Printinstr" (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+7]..[12,339+17])
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+23]..[12,339+33])
+        Pmod_ident "Printinstr" (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+23]..[12,339+33])
+]
+
+module Bytegen = Bytegen
+module Bytelibrarian = Bytelibrarian
+module Bytelink = Bytelink
+module Bytepackager = Bytepackager
+module Compile = Compile
+module Emitcode = Emitcode
+module Errors = Errors
+module Instruct = Instruct
+module Maindriver = Maindriver
+module Printinstr = Printinstr
+[
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+30])
+    Tstr_module
+    Bytegen/270
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[3,44+30])
+        Tmod_ident "Bytegen!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+36])
+    Tstr_module
+    Bytelibrarian/271
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[4,75+36])
+        Tmod_ident "Bytelibrarian!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+31])
+    Tstr_module
+    Bytelink/272
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[5,112+31])
+        Tmod_ident "Bytelink!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+35])
+    Tstr_module
+    Bytepackager/273
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[6,144+35])
+        Tmod_ident "Bytepackager!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+30])
+    Tstr_module
+    Compile/274
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[7,180+30])
+        Tmod_ident "Compile!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+31])
+    Tstr_module
+    Emitcode/275
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[8,211+31])
+        Tmod_ident "Emitcode!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+29])
+    Tstr_module
+    Errors/276
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[9,243+29])
+        Tmod_ident "Errors!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+31])
+    Tstr_module
+    Instruct/277
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[10,273+31])
+        Tmod_ident "Instruct!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+33])
+    Tstr_module
+    Maindriver/278
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[11,305+33])
+        Tmod_ident "Maindriver!"
+  structure_item (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+0]..src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+33])
+    Tstr_module
+    Printinstr/279
+      module_expr (src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+23]..src/ocaml_bytecomp/ocaml_bytecomp.ml[12,339+33])
+        Tmod_ident "Printinstr!"
+]
+
+{<Ocaml_bytecomp>
+ "Bytegen"[module] -> CU Bytegen;
+ "Bytelibrarian"[module] -> CU Bytelibrarian;
+ "Bytelink"[module] -> CU Bytelink;
+ "Bytepackager"[module] -> CU Bytepackager;
+ "Compile"[module] -> CU Compile;
+ "Emitcode"[module] -> CU Emitcode;
+ "Errors"[module] -> CU Errors;
+ "Instruct"[module] -> CU Instruct;
+ "Maindriver"[module] -> CU Maindriver;
+ "Printinstr"[module] -> CU Printinstr;
+ }
+
+(setglobal Ocaml_bytecomp! (pseudo <unknown location> (makeblock 0)))
+(setglobal Ocaml_bytecomp! (pseudo <unknown location> (makeblock 0)))
